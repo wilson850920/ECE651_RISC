@@ -1,0 +1,31 @@
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.scene.control.Button;
+import javafx.scene.control.PasswordField;
+import javafx.scene.control.TextField;
+
+public class switch_loginTostart_Controller {
+
+    @FXML
+    private TextField account_id;
+
+    @FXML
+    private Button login_id;
+
+    @FXML
+    private PasswordField password_id;
+
+    @FXML
+    private Button signup_id;
+
+    @FXML
+    void onclick_login(ActionEvent event) {
+
+    }
+
+    @FXML
+    void onclick_signup(ActionEvent event) {
+
+    }
+
+}

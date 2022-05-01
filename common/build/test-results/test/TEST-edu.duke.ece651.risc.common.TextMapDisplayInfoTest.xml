@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.duke.ece651.risc.common.TextMapDisplayInfoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-04-22T02:13:12" hostname="vcm-24503.vm.duke.edu" time="0.017">
+  <properties/>
+  <testcase name="test_displayMap()" classname="edu.duke.ece651.risc.common.TextMapDisplayInfoTest" time="0.017"/>
+  <system-out><![CDATA[
+----------------------------------
+{"Player": {
+    "Technology Level": "1",
+    "Resources": "0",
+    "Spies": [],
+    "Territories": [
+        {"Territory": {
+            "Cloaking Turn": 0,
+            "Neighbors": [
+                "Kamino",
+                "Coruscant",
+                "Hoth"
+            ],
+            "Cloaked": false,
+            "Units": [],
+            "Name": "Tatooine"
+        }},
+        {"Territory": {
+            "Cloaking Turn": 0,
+            "Neighbors": [
+                "Kamino",
+                "Coruscant"
+            ],
+            "Cloaked": false,
+            "Units": [],
+            "Name": "Hoth"
+        }}
+    ],
+    "Name": "Vader"
+}}
+----------------------------------
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

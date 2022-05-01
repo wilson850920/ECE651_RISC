@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.duke.ece651.risc.common.AttackOrderTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-04-22T02:13:12" hostname="vcm-24503.vm.duke.edu" time="0.089">
+  <properties/>
+  <testcase name="test_rollDice()" classname="edu.duke.ece651.risc.common.AttackOrderTest" time="0.04"/>
+  <testcase name="test_toString()" classname="edu.duke.ece651.risc.common.AttackOrderTest" time="0.014"/>
+  <testcase name="test_orderAction()" classname="edu.duke.ece651.risc.common.AttackOrderTest" time="0.031"/>
+  <system-out><![CDATA[Vader attacked from Hoth into Tatooine but the defense held strong
+	Attacking Units Lost: A A A A A 
+	Defending Units Lost: 
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

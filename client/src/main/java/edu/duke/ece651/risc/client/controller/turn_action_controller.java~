@@ -1,0 +1,423 @@
+package edu.duke.ece651.risc.client.controller;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.HashMap;
+
+import edu.duke.ece651.risc.client.Client;
+import edu.duke.ece651.risc.common.BasicPlayer;
+import edu.duke.ece651.risc.common.Player;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.control.TextArea;
+import javafx.scene.control.TextField;
+import javafx.scene.layout.BorderPane;
+import javafx.scene.text.Text;
+import javafx.stage.Stage;
+
+public class turn_action_controller {
+
+  public Client client;
+  public int np;
+  private Stage stage;
+  
+    @FXML
+    private TextField TargetU_id;
+
+    @FXML
+    private Button abcd_id;
+
+    @FXML
+    private Text abcd_size;
+
+    @FXML
+    private Text abcd_unit;
+
+    @FXML
+    private TextField action_id;
+
+    @FXML
+    private Button bagel_id;
+
+    @FXML
+    private Text bagel_size;
+
+    @FXML
+    private Text bagel_unit;
+
+    @FXML
+    private TextArea broadcast_id;
+
+    @FXML
+    private Button coffeeland_id;
+
+    @FXML
+    private Text coffeeland_size;
+
+    @FXML
+    private Text coffeeland_unit;
+
+    @FXML
+    private Button done_id;
+
+    @FXML
+    private Button duke_id;
+
+    @FXML
+    private Text duke_size;
+
+    @FXML
+    private Text duke_unit;
+
+    @FXML
+    private Button elantris_id;
+
+    @FXML
+    private Text elantris_size;
+
+    @FXML
+    private Text elantris_unit;
+
+    @FXML
+    private Button exit_game_id;
+
+    @FXML
+    private Text food_id;
+
+    @FXML
+    private Button gondor_id;
+
+    @FXML
+    private Text gondor_size;
+
+    @FXML
+    private Text gondor_unit;
+
+    @FXML
+    private Button hogwarts_id1;
+
+    @FXML
+    private Text hogwarts_size;
+
+    @FXML
+    private Text hogwarts_unit;
+
+    @FXML
+    private Text level_id;
+
+    @FXML
+    private Button lookout_id;
+
+    @FXML
+    private Text lookout_size;
+
+    @FXML
+    private Text lookout_unit;
+
+    @FXML
+    private Button midkemia_id;
+
+    @FXML
+    private Text midkemia_size;
+
+    @FXML
+    private Text midkemia_unit;
+
+    @FXML
+    private Button mordor_id;
+
+    @FXML
+    private Text mordor_size;
+
+    @FXML
+    private Text mordor_unit;
+
+    @FXML
+    private Button more_action_id;
+
+    @FXML
+    private Button more_unit_id;
+
+    @FXML
+    private Button narnia_id;
+
+    @FXML
+    private Text narnia_size;
+
+    @FXML
+    private Text narnia_unit;
+
+    @FXML
+    private Button outlook_id;
+
+    @FXML
+    private Text outlook_size;
+
+    @FXML
+    private Text outlook_unit;
+
+    @FXML
+    private Button oz_id;
+
+    @FXML
+    private Text oz_size;
+
+    @FXML
+    private Text oz_unit;
+
+    @FXML
+    private Text player_id;
+
+    @FXML
+    private Button roshar_id;
+
+    @FXML
+    private Text roshar_size;
+
+    @FXML
+    private Text roshar_unit;
+
+    @FXML
+    private Button scadrial_id;
+
+    @FXML
+    private Text scadrial_size;
+
+    @FXML
+    private Text scadrial_unit;
+
+    @FXML
+    private Text server_id;
+
+    @FXML
+    private TextField sourceT_id;
+
+    @FXML
+    private TextField sourceT_id1;
+
+    @FXML
+    private TextField sourceU_id;
+
+    @FXML
+    private Button switch_game_id;
+
+    @FXML
+    private TextField unit_num_id;
+
+  public void invisible_whiteT() {
+    lookout_id.setVisible(false);
+    lookout_unit.setVisible(false);
+    lookout_unit.setVisible(false);
+    outlook_id.setVisible(false);
+    outlook_unit.setVisible(false);
+    outlook_size.setVisible(false);
+    abcd_id.setVisible(false);
+    abcd_unit.setVisible(false);
+    abcd_size.setVisible(false);
+  }
+
+  public void invisible_orangeT() {
+    duke_id.setVisible(false);
+    duke_size.setVisible(false);
+    duke_unit.setVisible(false);
+    coffeeland_id.setVisible(false);
+    coffeeland_size.setVisible(false);
+    coffeeland_size.setVisible(false);
+    bagel_id.setVisible(false);
+    bagel_size.setVisible(false);
+    bagel_unit.setVisible(false);
+  }
+  public void invisible_greenT() {
+    gondor_id.setVisible(false);
+    gondor_size.setVisible(false);
+    gondor_unit.setVisible(false);
+    mordor_id.setVisible(false);
+    mordor_size.setVisible(false);
+    mordor_unit.setVisible(false);
+    hogwarts_id1.setVisible(false);
+    hogwarts_size.setVisible(false);
+    hogwarts_unit.setVisible(false);   
+  }
+
+  @FXML
+  public void initialize() {
+    if (np == 2) {
+      invisible_whiteT();
+      invisible_orangeT();
+      invisible_greenT();
+    }
+    else if (np == 3) {
+      invisible_whiteT();
+      invisible_orangeT();
+    }
+    else if (np == 4) {
+      invisible_whiteT();
+    }
+  }
+  
+  public turn_action_controller(Client client, int np) throws IOException, ClassNotFoundException {
+    this.client = client;
+    this.np = np;
+  }
+    @FXML
+    void click_abcd(ActionEvent event) {
+
+    }
+
+    @FXML
+    void click_bagel(ActionEvent event) {
+
+    }
+
+    @FXML
+    void click_coffeeland(ActionEvent event) {
+
+    }
+
+    @FXML
+    void click_duke(ActionEvent event) {
+
+    }
+
+    @FXML
+    void click_elantris(ActionEvent event) {
+
+    }
+
+    @FXML
+    void click_gondor(ActionEvent event) {
+
+    }
+
+    @FXML
+    void click_hogwarts(ActionEvent event) {
+
+    }
+
+    @FXML
+    void click_lookout(ActionEvent event) {
+
+    }
+
+    @FXML
+    void click_midkemia(ActionEvent event) {
+
+    }
+
+    @FXML
+    void click_mordor(ActionEvent event) {
+
+    }
+
+    @FXML
+    void click_narnia(ActionEvent event) {
+
+    }
+
+    @FXML
+    void click_outlook(ActionEvent event) {
+
+    }
+
+    @FXML
+    void click_oz(ActionEvent event) {
+
+    }
+
+    @FXML
+    void click_roshar(ActionEvent event) {
+
+    }
+
+    @FXML
+    void click_scadrial(ActionEvent event) {
+
+    }
+
+    @FXML
+    void onclick_done(ActionEvent event) {
+
+    }
+
+    @FXML
+    void onclick_exit(ActionEvent event) {
+
+    }
+
+    @FXML
+    void onclick_more_action(ActionEvent event) {
+      //TO DO METHOD 
+      //send the current action to client and create a order??
+
+      action_id.clear();
+      sourceT_id.clear();
+      sourceT_id1.clear();
+      sourceU_id.clear();
+      TargetU_id.clear();
+      unit_num_id.clear();
+      
+    }
+
+    @FXML
+    void onclick_more_unit(ActionEvent event) {
+      //TO DO METHOD 
+      //send the current action to client and create a order??
+
+      String action = action_id.getText();
+      if (action.equals("M") || action.equals("A")) {
+        TargetU_id.setDisable(true);
+        sourceT_id.clear();
+        unit_num_id.clear();
+      }
+      else if (action.equals("UU")) {
+        sourceT_id1.setDisable(true);
+        sourceU_id.clear();
+        TargetU_id.clear();
+        unit_num_id.clear();
+      }
+    }
+
+    @FXML
+    void onclick_ok(ActionEvent event) {
+      String action = action_id.getText();
+      if (action.equals("M") || action.equals("A")) {
+        TargetU_id.setDisable(true);
+      }
+      else if (action.equals("UU")) {
+        sourceT_id1.setDisable(true);
+      }
+      else if (action.equals("TU")) {
+        sourceT_id.setDisable(true);
+        sourceT_id1.setDisable(true);
+        sourceU_id.setDisable(true);
+        TargetU_id.setDisable(true);
+        unit_num_id.setDisable(true);
+        more_unit_id.setDisable(true);
+      }      
+    }
+
+    @FXML
+    void onclick_switchgame(ActionEvent event) throws IOException, ClassNotFoundException {
+      FXMLLoader loader = new FXMLLoader(getClass().getResource("/ui/pickroom.fxml"));
+      Player testPlayer = new BasicPlayer("clientPlayer");
+      InputStreamReader inputStreamReader = new InputStreamReader(System.in);
+      BufferedReader inputReader = new BufferedReader(inputStreamReader);
+      String hostname = "vcm-24503.vm.duke.edu";
+      int portNum = 1641;
+      Client client = new Client(testPlayer, inputReader, System.out, hostname, portNum, null, null, null);
+
+      HashMap<Class<?>, Object> controllers = new HashMap<>();
+      controllers.put(choose_game_room.class, new choose_game_room(client));
+      loader.setControllerFactory(c -> {return controllers.get(c);});
+      BorderPane bp = loader.load();
+      stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+      Scene scene = new Scene(bp, 600, 400);
+      stage.setScene(scene);
+      stage.show();
+    }
+
+}

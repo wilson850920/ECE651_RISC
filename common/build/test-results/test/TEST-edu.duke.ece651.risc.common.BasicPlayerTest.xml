@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.duke.ece651.risc.common.BasicPlayerTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2022-04-22T02:13:12" hostname="vcm-24503.vm.duke.edu" time="0.022">
+  <properties/>
+  <testcase name="test_SpyList()" classname="edu.duke.ece651.risc.common.BasicPlayerTest" time="0.001"/>
+  <testcase name="test_getName()" classname="edu.duke.ece651.risc.common.BasicPlayerTest" time="0.001"/>
+  <testcase name="test_fib()" classname="edu.duke.ece651.risc.common.BasicPlayerTest" time="0.001"/>
+  <testcase name="test_spendResources()" classname="edu.duke.ece651.risc.common.BasicPlayerTest" time="0.001"/>
+  <testcase name="test_upgradeMaxTechLevel()" classname="edu.duke.ece651.risc.common.BasicPlayerTest" time="0.001"/>
+  <testcase name="test_getTerritories()" classname="edu.duke.ece651.risc.common.BasicPlayerTest" time="0.001"/>
+  <testcase name="test_getMaxTechLevel()" classname="edu.duke.ece651.risc.common.BasicPlayerTest" time="0.0"/>
+  <testcase name="test_setName()" classname="edu.duke.ece651.risc.common.BasicPlayerTest" time="0.001"/>
+  <testcase name="test_numberOfTerritories()" classname="edu.duke.ece651.risc.common.BasicPlayerTest" time="0.001"/>
+  <testcase name="test_getResources()" classname="edu.duke.ece651.risc.common.BasicPlayerTest" time="0.001"/>
+  <testcase name="test_ownsTerritory()" classname="edu.duke.ece651.risc.common.BasicPlayerTest" time="0.002"/>
+  <testcase name="test_cloak()" classname="edu.duke.ece651.risc.common.BasicPlayerTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

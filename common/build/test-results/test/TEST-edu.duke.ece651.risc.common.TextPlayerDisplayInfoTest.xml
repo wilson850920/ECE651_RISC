@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.duke.ece651.risc.common.TextPlayerDisplayInfoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-04-22T02:13:12" hostname="vcm-24503.vm.duke.edu" time="0.007">
+  <properties/>
+  <testcase name="test_displayPlayer()" classname="edu.duke.ece651.risc.common.TextPlayerDisplayInfoTest" time="0.007"/>
+  <system-out><![CDATA[Player: Yoda
+	Max Technology Level: 1
+	Current Resources: 1337
+Territories Owned:
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

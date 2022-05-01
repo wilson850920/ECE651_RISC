@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.duke.ece651.risc.server.BasicMapTest" tests="19" skipped="1" failures="0" errors="0" timestamp="2022-04-22T02:13:15" hostname="vcm-24503.vm.duke.edu" time="0.204">
+  <properties/>
+  <testcase name="test_executeTechUpgradeOrders()" classname="edu.duke.ece651.risc.server.BasicMapTest" time="0.039"/>
+  <testcase name="test_executeAttackOrders()" classname="edu.duke.ece651.risc.server.BasicMapTest" time="0.003"/>
+  <testcase name="test_removePlayer()" classname="edu.duke.ece651.risc.server.BasicMapTest" time="0.007"/>
+  <testcase name="test_combineAttacks()" classname="edu.duke.ece651.risc.server.BasicMapTest" time="0.001"/>
+  <testcase name="test_iterable_constructor()" classname="edu.duke.ece651.risc.server.BasicMapTest" time="0.003"/>
+  <testcase name="test_executeMoveOrders()" classname="edu.duke.ece651.risc.server.BasicMapTest" time="0.046"/>
+  <testcase name="test_checkRevolution()" classname="edu.duke.ece651.risc.server.BasicMapTest" time="0.002"/>
+  <testcase name="test_postTurnAddUnit()" classname="edu.duke.ece651.risc.server.BasicMapTest" time="0.002"/>
+  <testcase name="test_stopRevolution()" classname="edu.duke.ece651.risc.server.BasicMapTest" time="0.003"/>
+  <testcase name="test_hasPlayer()" classname="edu.duke.ece651.risc.server.BasicMapTest" time="0.001"/>
+  <testcase name="test_executeTurn()" classname="edu.duke.ece651.risc.server.BasicMapTest" time="0.014"/>
+  <testcase name="test_addPlayer()" classname="edu.duke.ece651.risc.server.BasicMapTest" time="0.002"/>
+  <testcase name="test_executeRevolution()" classname="edu.duke.ece651.risc.server.BasicMapTest" time="0.002"/>
+  <testcase name="test_returnMapDisplay()" classname="edu.duke.ece651.risc.server.BasicMapTest" time="0.006"/>
+  <testcase name="test_resolveRevolutions()" classname="edu.duke.ece651.risc.server.BasicMapTest" time="0.023"/>
+  <testcase name="test_concurrentAttacks()" classname="edu.duke.ece651.risc.server.BasicMapTest" time="0.001"/>
+  <testcase name="test_invalid_minPathCost()" classname="edu.duke.ece651.risc.server.BasicMapTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="test_BasicMap()" classname="edu.duke.ece651.risc.server.BasicMapTest" time="0.0"/>
+  <testcase name="test_executeUnitUpgradeOrders()" classname="edu.duke.ece651.risc.server.BasicMapTest" time="0.011"/>
+  <system-out><![CDATA[{"game_Map": [
+    {"Player": {
+        "Technology Level": "1",
+        "Resources": "100",
+        "Spies": [],
+        "Territories": [],
+        "Name": "Luke"
+    }},
+    {"Player": {
+        "Technology Level": "1",
+        "Resources": "980",
+        "Spies": [],
+        "Territories": [{"Territory": {
+            "Cloaking Turn": 0,
+            "Neighbors": [],
+            "Cloaked": false,
+            "Units": [],
+            "Name": "Hoth"
+        }}],
+        "Name": "Vader"
+    }}
+]}]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

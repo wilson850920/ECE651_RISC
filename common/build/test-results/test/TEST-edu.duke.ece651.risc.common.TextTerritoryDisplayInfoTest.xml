@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.duke.ece651.risc.common.TextTerritoryDisplayInfoTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-04-22T02:13:12" hostname="vcm-24503.vm.duke.edu" time="0.012">
+  <properties/>
+  <testcase name="test_new_displayTerritory()" classname="edu.duke.ece651.risc.common.TextTerritoryDisplayInfoTest" time="0.004"/>
+  <testcase name="test_displayTerritory()" classname="edu.duke.ece651.risc.common.TextTerritoryDisplayInfoTest" time="0.007"/>
+  <system-out><![CDATA[Tatooine (next to: Kamino, Coruscant, Hoth)
+	Size: 1
+	Resource Production (per-turn): 7
+	Units:
+		: 10
+		: 3
+		: 1
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

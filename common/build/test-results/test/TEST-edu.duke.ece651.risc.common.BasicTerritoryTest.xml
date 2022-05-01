@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.duke.ece651.risc.common.BasicTerritoryTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2022-04-22T02:13:12" hostname="vcm-24503.vm.duke.edu" time="0.015">
+  <properties/>
+  <testcase name="test_size_and_resource_prod()" classname="edu.duke.ece651.risc.common.BasicTerritoryTest" time="0.001"/>
+  <testcase name="test_getUnitCount()" classname="edu.duke.ece651.risc.common.BasicTerritoryTest" time="0.001"/>
+  <testcase name="test_getName()" classname="edu.duke.ece651.risc.common.BasicTerritoryTest" time="0.001"/>
+  <testcase name="test_add_remove_neighbor()" classname="edu.duke.ece651.risc.common.BasicTerritoryTest" time="0.0"/>
+  <testcase name="test_getUnitMap()" classname="edu.duke.ece651.risc.common.BasicTerritoryTest" time="0.002"/>
+  <testcase name="test_getNumberOfUnits()" classname="edu.duke.ece651.risc.common.BasicTerritoryTest" time="0.001"/>
+  <testcase name="test_removeUnit()" classname="edu.duke.ece651.risc.common.BasicTerritoryTest" time="0.0"/>
+  <testcase name="test_getUnits()" classname="edu.duke.ece651.risc.common.BasicTerritoryTest" time="0.002"/>
+  <testcase name="test_setNeighbors()" classname="edu.duke.ece651.risc.common.BasicTerritoryTest" time="0.001"/>
+  <testcase name="test_set_get_owner()" classname="edu.duke.ece651.risc.common.BasicTerritoryTest" time="0.0"/>
+  <testcase name="test_addUnit()" classname="edu.duke.ece651.risc.common.BasicTerritoryTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

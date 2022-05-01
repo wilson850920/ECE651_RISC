@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.duke.ece651.risc.common.MoveOrderTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-04-22T02:13:12" hostname="vcm-24503.vm.duke.edu" time="0.003">
+  <properties/>
+  <testcase name="test_valid_minPathCost()" classname="edu.duke.ece651.risc.common.MoveOrderTest" time="0.001"/>
+  <testcase name="test_invalid_minPathCost()" classname="edu.duke.ece651.risc.common.MoveOrderTest" time="0.001"/>
+  <testcase name="test_toString()" classname="edu.duke.ece651.risc.common.MoveOrderTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

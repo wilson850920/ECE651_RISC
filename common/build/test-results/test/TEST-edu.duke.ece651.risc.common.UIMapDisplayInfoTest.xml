@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.duke.ece651.risc.common.UIMapDisplayInfoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-04-22T02:13:12" hostname="vcm-24503.vm.duke.edu" time="0.013">
+  <properties/>
+  <testcase name="test_UIMapDisplayInfo()" classname="edu.duke.ece651.risc.common.UIMapDisplayInfoTest" time="0.013"/>
+  <system-out><![CDATA[{"game_Map": [
+    {"Player": {
+        "Technology Level": "1",
+        "Resources": "1337",
+        "Spies": [],
+        "Territories": [
+            {"Territory": {
+                "Cloaking Turn": 0,
+                "Neighbors": [
+                    "Alderaan",
+                    "Tatooine",
+                    "Mustafar"
+                ],
+                "Cloaked": false,
+                "Units": [
+                    {"A": 9},
+                    {"C": 6},
+                    {"F": 3}
+                ],
+                "Name": "Hoth"
+            }},
+            {"Territory": {
+                "Cloaking Turn": 0,
+                "Neighbors": ["Hoth"],
+                "Cloaked": false,
+                "Units": [
+                    {"A": 3},
+                    {"D": 3},
+                    {"E": 3}
+                ],
+                "Name": "Mustafar"
+            }}
+        ],
+        "Name": "Vader"
+    }},
+    {"Player": {
+        "Technology Level": "1",
+        "Resources": "1337",
+        "Spies": [],
+        "Territories": [{"Territory": {
+            "Cloaking Turn": 0,
+            "Neighbors": [
+                "Hoth",
+                "Tatooine"
+            ],
+            "Cloaked": false,
+            "Units": [
+                {"E": 3},
+                {"G": 3}
+            ],
+            "Name": "Alderaan"
+        }}],
+        "Name": "Vader"
+    }},
+    {"Player": {
+        "Technology Level": "1",
+        "Resources": "1337",
+        "Spies": [],
+        "Territories": [{"Territory": {
+            "Cloaking Turn": 0,
+            "Neighbors": [
+                "Hoth",
+                "Alderaan"
+            ],
+            "Cloaked": false,
+            "Units": [
+                {"C": 3},
+                {"D": 3}
+            ],
+            "Name": "Tatooine"
+        }}],
+        "Name": "Luke"
+    }}
+]}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

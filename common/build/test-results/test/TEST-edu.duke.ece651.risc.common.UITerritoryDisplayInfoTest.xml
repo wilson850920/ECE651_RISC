@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.duke.ece651.risc.common.UITerritoryDisplayInfoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-04-22T02:13:12" hostname="vcm-24503.vm.duke.edu" time="0.001">
+  <properties/>
+  <testcase name="test_UITerritoryDisplayInfo()" classname="edu.duke.ece651.risc.common.UITerritoryDisplayInfoTest" time="0.001"/>
+  <system-out><![CDATA[{"Territory": {
+    "Cloaking Turn": 0,
+    "Neighbors": [
+        "Alderaan",
+        "Tatooine"
+    ],
+    "Cloaked": false,
+    "Units": [
+        {"A": 9},
+        {"C": 6},
+        {"F": 3}
+    ],
+    "Name": "Hoth"
+}}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="each_turnController_4P">
+   <left>
+      <Pane BorderPane.alignment="CENTER">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c5ced7" height="312.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+            <Text layoutX="15.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Information" textAlignment="CENTER" underline="true">
+               <font>
+                  <Font name="Arial Bold Italic" size="13.0" />
+               </font>
+            </Text>
+            <TextField alignment="CENTER" blendMode="HARD_LIGHT" editable="false" layoutX="9.0" layoutY="51.0" prefHeight="26.0" prefWidth="83.0" style="-fx-background-color: darkgrey;" text="Player :              ">
+               <font>
+                  <Font name="Al Nile" size="13.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <effect>
+                  <Glow level="0.0" />
+               </effect>
+            </TextField>
+            <TextField alignment="CENTER" blendMode="HARD_LIGHT" editable="false" layoutX="8.0" layoutY="96.0" prefHeight="34.0" prefWidth="84.0" style="-fx-background-color: darkgrey;" text="Level :            ">
+               <font>
+                  <Font name="Al Nile" size="13.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <effect>
+                  <Glow level="0.0" />
+               </effect>
+            </TextField>
+            <TextField alignment="CENTER" blendMode="HARD_LIGHT" editable="false" layoutX="8.0" layoutY="141.0" prefHeight="36.0" prefWidth="84.0" style="-fx-background-color: darkgrey;" text="Food :              ">
+               <font>
+                  <Font name="STIXIntegralsD-Regular" size="13.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <effect>
+                  <Glow level="0.0" />
+               </effect>
+            </TextField>
+            <TextField alignment="CENTER" blendMode="HARD_LIGHT" editable="false" layoutX="8.0" layoutY="190.0" prefHeight="36.0" prefWidth="87.0" style="-fx-background-color: darkgrey;" text="Server :                 ">
+               <font>
+                  <Font name="STIXIntegralsD-Regular" size="13.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <effect>
+                  <Glow level="0.0" />
+               </effect>
+            </TextField>
+            <Text fx:id="food_id" layoutX="57.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="500" />
+            <Text fx:id="level_id" layoutX="65.0" layoutY="118.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1" />
+            <Text fx:id="food_id1" layoutX="61.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1641" />
+            <Text fx:id="player_id" layoutX="62.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Blue" />
+         </children>
+      </Pane>
+   </left>
+   <right>
+      <Pane BorderPane.alignment="CENTER">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c5ced7" height="313.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+            <Text fill="#dd350f" layoutX="26.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Actions" textAlignment="CENTER" underline="true">
+               <font>
+                  <Font name="Arial Bold Italic" size="13.0" />
+               </font>
+            </Text>
+            <Button fx:id="move_id" layoutX="21.0" layoutY="32.0" mnemonicParsing="false" onAction="#onclick_move" prefHeight="31.0" prefWidth="57.0" style="-fx-background-color: yellow; -fx-text-fill: black;" text="Move" textAlignment="CENTER" textOverrun="LEADING_ELLIPSIS" />
+            <Button fx:id="attack_id" layoutX="21.0" layoutY="72.0" mnemonicParsing="false" onAction="#onclick_attack" prefHeight="31.0" prefWidth="57.0" style="-fx-background-color: yellow; -fx-text-fill: black;" text="Attack" textAlignment="CENTER" textOverrun="LEADING_ELLIPSIS" />
+            <Button fx:id="update_tech_id" layoutX="12.0" layoutY="153.0" mnemonicParsing="false" onAction="#onclick_updatetech" style="-fx-background-color: yellow; -fx-text-fill: black; -fx-font-size: 10;" text="Update Tech" textAlignment="CENTER" textOverrun="LEADING_ELLIPSIS" />
+            <Button fx:id="done_id" layoutX="21.0" layoutY="193.0" mnemonicParsing="false" onAction="#onclick_done" prefHeight="31.0" prefWidth="57.0" style="-fx-background-color: yellow; -fx-text-fill: black;" text="Done" textAlignment="CENTER" textOverrun="LEADING_ELLIPSIS" />
+            <Button fx:id="exit_game_id" layoutX="12.0" layoutY="274.0" mnemonicParsing="false" onAction="#onclick_exit" prefHeight="31.0" prefWidth="72.0" style="-fx-background-color: d21404; -fx-text-fill: black; -fx-font-size: 10;" text="Exit Game" textAlignment="CENTER" textOverrun="LEADING_ELLIPSIS">
+               <font>
+                  <Font size="5.0" />
+               </font>
+            </Button>
+            <Button fx:id="switch_game_id" layoutX="11.0" layoutY="234.0" mnemonicParsing="false" onAction="#onclick_switchgame" prefHeight="31.0" prefWidth="74.0" style="-fx-background-color: d21404; -fx-text-fill: black; -fx-font-size: 10;" text="Switch Game" textAlignment="CENTER" textOverrun="LEADING_ELLIPSIS">
+               <font>
+                  <Font size="5.0" />
+               </font>
+            </Button>
+            <Button fx:id="update_units_id" layoutX="13.0" layoutY="113.0" mnemonicParsing="false" onAction="#onclick_updataunits" style="-fx-background-color: yellow; -fx-text-fill: black; -fx-font-size: 10;" text="Update Units" textAlignment="CENTER" textOverrun="LEADING_ELLIPSIS" />
+         </children>
+      </Pane>
+   </right>
+   <center>
+      <Pane BorderPane.alignment="CENTER">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8dd66f83" height="313.0" stroke="BLACK" strokeType="INSIDE" width="400.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9ea6ae" height="52.0" layoutX="13.0" layoutY="15.0" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+            <Text layoutX="16.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Units">
+               <font>
+                  <Font size="10.0" />
+               </font></Text>
+            <Text layoutX="42.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Size">
+               <font>
+                  <Font size="10.0" />
+               </font></Text>
+            <Button fx:id="narnia_id" layoutX="87.0" layoutY="42.0" minWidth="53.0" mnemonicParsing="false" onAction="#click_narnia" prefHeight="80.0" prefWidth="61.0" style="-fx-text-fill: Black; -fx-background-color: blue; -fx-font-size: 10; -fx-border-color: black;" text="Narnia">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Button>
+            <Button fx:id="midkemia_id" layoutX="147.0" layoutY="92.0" mnemonicParsing="false" onAction="#click_midkemia" prefHeight="40.0" prefWidth="69.0" style="-fx-text-fill: Black; -fx-background-color: blue; -fx-font-size: 10; -fx-border-color: black;" text="Midkemia" />
+            <Button fx:id="oz_id" layoutX="215.0" layoutY="74.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="33.0" mnemonicParsing="false" onAction="#click_oz" prefHeight="58.0" prefWidth="56.0" style="-fx-text-fill: Black; -fx-background-color: blue; -fx-font-size: 10; -fx-border-color: black;" text="Oz" />
+            <Button fx:id="elantris_id" layoutX="87.0" layoutY="121.0" minWidth="53.0" mnemonicParsing="false" onAction="#click_elantris" prefHeight="91.0" prefWidth="61.0" style="-fx-text-fill: Black; -fx-background-color: ffdb58; -fx-font-size: 10; -fx-border-color: black;" text="Elantris">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Button>
+            <Button fx:id="scadrial_id" layoutX="147.0" layoutY="131.0" minWidth="53.0" mnemonicParsing="false" onAction="#click_scadrial" prefHeight="41.0" prefWidth="81.0" style="-fx-text-fill: Black; -fx-background-color: ffdb58; -fx-font-size: 10; -fx-border-color: black;" text="Scadrial">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Button>
+            <Button fx:id="roshar_id" layoutX="147.0" layoutY="171.0" minWidth="53.0" mnemonicParsing="false" onAction="#click_roshar" prefHeight="41.0" prefWidth="58.0" style="-fx-text-fill: Black; -fx-background-color: ffdb58; -fx-font-size: 10; -fx-border-color: black;" text="Roshar">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Button>
+            <Button fx:id="gondor_id" layoutX="267.0" layoutY="74.0" minWidth="53.0" mnemonicParsing="false" onAction="#click_gondor" prefHeight="58.0" prefWidth="56.0" style="-fx-text-fill: Black; -fx-background-color: green; -fx-font-size: 10; -fx-border-color: black;" text="Gondor">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Button>
+            <Button fx:id="mordor_id" layoutX="227.0" layoutY="131.0" minWidth="53.0" mnemonicParsing="false" onAction="#click_mordor" prefHeight="41.0" prefWidth="96.0" style="-fx-text-fill: Black; -fx-background-color: green; -fx-font-size: 10; -fx-border-color: black;" text="Mordor">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Button>
+            <Button fx:id="hogwarts_id1" layoutX="204.0" layoutY="171.0" minWidth="53.0" mnemonicParsing="false" onAction="#click_hogwarts" prefHeight="41.0" prefWidth="96.0" style="-fx-text-fill: Black; -fx-background-color: green; -fx-font-size: 10; -fx-border-color: black;" text="Hogwarts">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Button>
+            <Text fx:id="hogwarts_size" layoutX="290.0" layoutY="209.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Text>
+            <Text fx:id="gondor_size" layoutX="313.0" layoutY="128.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Text>
+            <Text fx:id="mordor_size" layoutX="312.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Text>
+            <Text fx:id="roshar_size" layoutX="195.0" layoutY="209.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Text>
+            <Text fx:id="scadrial_size" layoutX="217.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Text>
+            <Text fx:id="elantris_size" layoutX="137.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Text>
+            <Text fx:id="oz_size" layoutX="258.0" layoutY="128.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Text>
+            <Text fx:id="midkemia_size" layoutX="206.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Text>
+            <Text fx:id="narnia_size" layoutX="138.0" layoutY="118.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Text>
+            <Text fx:id="narnia_unit" layoutX="92.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Text>
+            <Text fx:id="gondor_unit" layoutX="272.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Text>
+            <Text fx:id="hogwarts_unit" layoutX="207.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Text>
+            <Text fx:id="mordor_unit" layoutX="231.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Text>
+            <Text fx:id="roshar_unit" layoutX="150.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Text>
+            <Text fx:id="scadrial_unit" layoutX="151.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Text>
+            <Text fx:id="oz_unit" layoutX="218.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Text>
+            <Text fx:id="midkemia_unit" layoutX="150.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Text>
+            <Text fx:id="elantris_unit" layoutX="91.0" layoutY="133.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Text>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="34.0" layoutX="85.0" layoutY="257.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: gray;" width="290.0" />
+            <Text fx:id="assign_terri_message_id" layoutX="97.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Units for &lt;Terri&gt; :" wrappingWidth="120.2913589477539" />
+            <TextField fx:id="assignunit_id" layoutX="238.0" layoutY="261.0" onAction="#onEnter_assignunit" prefHeight="13.0" prefWidth="102.0" style="-fx-background-color: c5c6d0; -fx-border-color: black;" />
+            <Text fx:id="errormessage_id" layoutX="106.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 16; -fx-fill: Red;" text="Error Input of Units...  Please Re-enter" visible="false" wrappingWidth="256.11676025390625">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Text>
+            <Rectangle fx:id="blockbackgroundrec_id" arcHeight="5.0" arcWidth="5.0" fill="#c5c6d0" height="313.0" layoutX="-99.0" opacity="0.7" stroke="BLACK" strokeType="INSIDE" visible="false" width="600.0" />
+            <Rectangle fx:id="blockrec_id" arcHeight="5.0" arcWidth="5.0" fill="#718394" height="49.0" layoutX="101.0" layoutY="114.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="246.0" />
+            <Text fx:id="blockmessage_id" layoutX="105.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 15;" text="please wait for other player to finish" visible="false" />
+            <Rectangle fx:id="winloseblockbackground_id" arcHeight="5.0" arcWidth="5.0" height="313.0" layoutX="-100.0" opacity="0.75" stroke="BLACK" strokeType="INSIDE" visible="false" width="600.0" />
+            <Text fx:id="winlosemessage_id" layoutX="28.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: Red; -fx-font-size: 25;" text="Haha~ You Lose! Leave or Stay" underline="true" visible="false" />
+            <Button fx:id="watchgame_id" layoutX="36.0" layoutY="193.0" mnemonicParsing="false" onAction="#onclick_watchgame" prefHeight="31.0" prefWidth="119.0" style="-fx-background-color: Green; -fx-text-fill: White;" text="Watch Game" visible="false" />
+            <Button fx:id="leavegame_id" layoutX="222.0" layoutY="193.0" mnemonicParsing="false" onAction="#onclick_leavegame" prefHeight="31.0" prefWidth="119.0" style="-fx-background-color: c5c6d0; -fx-text-fill: black;" text="Leave Game" visible="false" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="23.0" layoutX="85.0" layoutY="247.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: gray;" visible="false" width="290.0" />
+            <Text layoutX="108.0" layoutY="263.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Unit Type : " visible="false" wrappingWidth="120.2913589477539" />
+            <TextField fx:id="input_unit_type_id" layoutX="238.0" layoutY="251.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#onEnter_assignunit" prefHeight="13.0" prefWidth="102.0" style="-fx-background-color: c5c6d0; -fx-border-color: black;" visible="false" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="23.0" layoutX="85.0" layoutY="278.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: gray;" visible="false" width="290.0" />
+            <Text layoutX="108.0" layoutY="294.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Number : " visible="false" wrappingWidth="120.2913589477539" />
+            <TextField fx:id="input_unit_number_id" layoutX="238.0" layoutY="282.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#onEnter_assignunit" prefHeight="13.0" prefWidth="102.0" style="-fx-background-color: c5c6d0; -fx-border-color: black;" visible="false" />
+         </children>
+      </Pane>
+   </center>
+   <top>
+      <Pane BorderPane.alignment="CENTER">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dacaab" height="88.0" stroke="BLACK" strokeType="INSIDE" width="601.0" />
+            <TextArea fx:id="broadcast_id" layoutX="62.0" layoutY="9.0" prefHeight="71.0" prefWidth="487.0" style="-fx-font-size: 10; -fx-background-color: #dacaab; -fx-border-color: dacaab;" text="Please Choose which Action you want to Perform&#10;" />
+         </children>
+      </Pane>
+   </top>
+</BorderPane>

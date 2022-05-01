@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.duke.ece651.risc.common.BasicOrderTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-04-22T02:13:12" hostname="vcm-24503.vm.duke.edu" time="0.013">
+  <properties/>
+  <testcase name="test_attackOrder()" classname="edu.duke.ece651.risc.common.BasicOrderTest" time="0.001"/>
+  <testcase name="test_set_source_target()" classname="edu.duke.ece651.risc.common.BasicOrderTest" time="0.002"/>
+  <testcase name="test_set_get_sender()" classname="edu.duke.ece651.risc.common.BasicOrderTest" time="0.001"/>
+  <testcase name="test_orderMessage()" classname="edu.duke.ece651.risc.common.BasicOrderTest" time="0.001"/>
+  <testcase name="test_moveOrder()" classname="edu.duke.ece651.risc.common.BasicOrderTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

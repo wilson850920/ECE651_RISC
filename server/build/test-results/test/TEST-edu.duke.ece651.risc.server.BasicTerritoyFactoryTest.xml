@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.duke.ece651.risc.server.BasicTerritoyFactoryTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-04-22T02:13:15" hostname="vcm-24503.vm.duke.edu" time="0.002">
+  <properties/>
+  <testcase name="test_MakeTerritory()" classname="edu.duke.ece651.risc.server.BasicTerritoyFactoryTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

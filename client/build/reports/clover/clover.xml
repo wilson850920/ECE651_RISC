@@ -1,0 +1,2521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1650667927857" clover="4.4.1">
+   <project name="client" timestamp="1650667927537">
+      <metrics coveredelements="0" complexity="502" loc="4889" methods="248" classes="12" statements="2015" packages="2" coveredconditionals="0" coveredmethods="0" elements="2605" ncloc="3694" files="12" conditionals="342" coveredstatements="0"/>
+      <package name="edu.duke.ece651.risc.client">
+         <metrics coveredelements="0" complexity="294" loc="2121" methods="129" classes="7" statements="862" coveredconditionals="0" coveredmethods="0" elements="1181" ncloc="1475" files="7" conditionals="190" coveredstatements="0"/>
+         <file path="/home/wh162/651_final_project/ece651-sp22-group5-risc/client/src/main/java/edu/duke/ece651/risc/client/startgame.java" name="startgame.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="3" loc="57" coveredmethods="0" methods="2" elements="15" classes="1" ncloc="35" statements="13" conditionals="0" coveredstatements="0"/>
+            <class name="startgame">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="3" coveredmethods="0" methods="2" elements="15" statements="13" conditionals="0" coveredstatements="0"/>
+            </class>
+            <line complexity="2" visibility="public" signature="start(Stage) : void" num="21" count="0" type="method"/>
+            <line num="24" count="0" type="stmt"/>
+            <line num="26" count="0" type="stmt"/>
+            <line num="36" count="0" type="stmt"/>
+            <line num="37" count="0" type="stmt"/>
+            <line num="38" count="0" type="stmt"/>
+            <line num="40" count="0" type="stmt"/>
+            <line num="40" count="0" type="stmt"/>
+            <line num="42" count="0" type="stmt"/>
+            <line num="43" count="0" type="stmt"/>
+            <line num="45" count="0" type="stmt"/>
+            <line num="46" count="0" type="stmt"/>
+            <line num="50" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="main(String[]) : void" num="54" count="0" type="method"/>
+            <line num="55" count="0" type="stmt"/>
+         </file>
+         <file path="/home/wh162/651_final_project/ece651-sp22-group5-risc/client/src/main/java/edu/duke/ece651/risc/client/base_UI.java" name="base_UI.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="2" loc="59" coveredmethods="0" methods="2" elements="9" classes="1" ncloc="26" statements="7" conditionals="0" coveredstatements="0"/>
+            <class name="base_UI">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="2" coveredmethods="0" methods="2" elements="9" statements="7" conditionals="0" coveredstatements="0"/>
+            </class>
+            <line complexity="1" visibility="public" signature="start(Stage) : void" num="19" count="0" type="method"/>
+            <line num="21" count="0" type="stmt"/>
+            <line num="25" count="0" type="stmt"/>
+            <line num="26" count="0" type="stmt"/>
+            <line num="27" count="0" type="stmt"/>
+            <line num="28" count="0" type="stmt"/>
+            <line num="29" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="main(String[]) : void" num="36" count="0" type="method"/>
+            <line num="37" count="0" type="stmt"/>
+         </file>
+         <file path="/home/wh162/651_final_project/ece651-sp22-group5-risc/client/src/main/java/edu/duke/ece651/risc/client/NewClientController.java" name="NewClientController.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="39" loc="266" coveredmethods="0" methods="27" elements="168" classes="1" ncloc="219" statements="125" conditionals="16" coveredstatements="0"/>
+            <class name="NewClientController">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="39" coveredmethods="0" methods="27" elements="168" statements="125" conditionals="16" coveredstatements="0"/>
+            </class>
+            <line complexity="1" visibility="public" signature="NewClientController()" num="29" count="0" type="method"/>
+            <line num="30" count="0" type="stmt"/>
+            <line num="31" count="0" type="stmt"/>
+            <line num="32" count="0" type="stmt"/>
+            <line num="33" count="0" type="stmt"/>
+            <line num="35" count="0" type="stmt"/>
+            <line num="36" count="0" type="stmt"/>
+            <line num="37" count="0" type="stmt"/>
+            <line num="38" count="0" type="stmt"/>
+            <line complexity="6" visibility="public" signature="signUpOrLogin(int,String,String) : int" num="41" count="0" type="method"/>
+            <line num="42" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="42" type="cond"/>
+            <line num="43" count="0" type="stmt"/>
+            <line num="44" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="44" type="cond"/>
+            <line num="45" count="0" type="stmt"/>
+            <line num="46" count="0" type="stmt"/>
+            <line num="48" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="48" type="cond"/>
+            <line num="49" count="0" type="stmt"/>
+            <line num="50" count="0" type="stmt"/>
+            <line num="53" count="0" type="stmt"/>
+            <line num="54" count="0" type="stmt"/>
+            <line num="55" count="0" type="stmt"/>
+            <line num="56" count="0" type="stmt"/>
+            <line num="57" count="0" type="stmt"/>
+            <line num="58" count="0" type="stmt"/>
+            <line num="59" count="0" type="stmt"/>
+            <line num="60" count="0" type="stmt"/>
+            <line num="61" count="0" type="stmt"/>
+            <line num="62" count="0" type="stmt"/>
+            <line num="63" count="0" type="stmt"/>
+            <line num="64" count="0" type="stmt"/>
+            <line num="65" count="0" type="stmt"/>
+            <line num="66" count="0" type="stmt"/>
+            <line num="67" count="0" type="stmt"/>
+            <line num="69" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="areUnitsAssigned(Integer) : boolean" num="72" count="0" type="method"/>
+            <line num="73" count="0" type="stmt"/>
+            <line num="74" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="unitsAssignedSuccessfully(Integer) : void" num="77" count="0" type="method"/>
+            <line num="78" count="0" type="stmt"/>
+            <line num="79" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="clientSendOrder(Integer,OrderList) : void" num="82" count="0" type="method"/>
+            <line num="83" count="0" type="stmt"/>
+            <line num="84" count="0" type="stmt"/>
+            <line num="85" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="recieveUIDisplayInfo(Integer,ObjectInputStream) : MapDisplayInfo" num="88" count="0" type="method"/>
+            <line num="90" count="0" type="stmt"/>
+            <line num="91" count="0" type="stmt"/>
+            <line num="92" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="validateAndAssignUnits(Integer,String,String) : String" num="97" count="0" type="method"/>
+            <line num="98" count="0" type="stmt"/>
+            <line num="99" count="0" type="stmt"/>
+            <line num="100" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="createOrdersList(Integer,ArrayList&lt;Order&gt;) : OrderList" num="103" count="0" type="method"/>
+            <line num="104" count="0" type="stmt"/>
+            <line num="105" count="0" type="stmt"/>
+            <line num="106" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="createSingleMoveOrder(Integer,String,String,HashMap&lt;Integer, Integer&gt;) : Order" num="109" count="0" type="method"/>
+            <line num="111" count="0" type="stmt"/>
+            <line num="112" count="0" type="stmt"/>
+            <line num="113" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="createSingleAttackOrder(Integer,String,String,HashMap&lt;Integer, Integer&gt;) : Order" num="116" count="0" type="method"/>
+            <line num="118" count="0" type="stmt"/>
+            <line num="119" count="0" type="stmt"/>
+            <line num="120" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="createSingleUnitUpgradeOrder(Integer,String,String,String) : Order" num="123" count="0" type="method"/>
+            <line num="125" count="0" type="stmt"/>
+            <line num="126" count="0" type="stmt"/>
+            <line num="127" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="createTechnologyUpgradeOrder(Integer) : Order" num="130" count="0" type="method"/>
+            <line num="131" count="0" type="stmt"/>
+            <line num="132" count="0" type="stmt"/>
+            <line num="133" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="createUnlockCloakOrder(Integer) : Order" num="136" count="0" type="method"/>
+            <line num="137" count="0" type="stmt"/>
+            <line num="138" count="0" type="stmt"/>
+            <line num="139" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="createSingleSpyUpgradeOrder(Integer,String) : Order" num="142" count="0" type="method"/>
+            <line num="143" count="0" type="stmt"/>
+            <line num="144" count="0" type="stmt"/>
+            <line num="145" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="createSingleSpyMoveOrder(Integer,String,String) : Order" num="148" count="0" type="method"/>
+            <line num="149" count="0" type="stmt"/>
+            <line num="150" count="0" type="stmt"/>
+            <line num="151" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="createSingleCloakTerritoryOrder(Integer,String) : Order" num="154" count="0" type="method"/>
+            <line num="155" count="0" type="stmt"/>
+            <line num="156" count="0" type="stmt"/>
+            <line num="157" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="createRevolutionOrder(Integer,String,String) : Order" num="168" count="0" type="method"/>
+            <line num="169" count="0" type="stmt"/>
+            <line num="170" count="0" type="stmt"/>
+            <line num="171" count="0" type="stmt"/>
+            <line num="172" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="clientWin(Integer) : String" num="175" count="0" type="method"/>
+            <line num="176" count="0" type="stmt"/>
+            <line num="177" count="0" type="stmt"/>
+            <line num="178" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="clientReceivePlayer(Integer) : void" num="182" count="0" type="method"/>
+            <line num="183" count="0" type="stmt"/>
+            <line num="184" count="0" type="stmt"/>
+            <line num="185" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="clientsendPlayer(Integer) : void" num="188" count="0" type="method"/>
+            <line num="189" count="0" type="stmt"/>
+            <line num="190" count="0" type="stmt"/>
+            <line num="191" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="clientClose(Integer) : void" num="194" count="0" type="method"/>
+            <line num="196" count="0" type="stmt"/>
+            <line num="197" count="0" type="stmt"/>
+            <line num="198" count="0" type="stmt"/>
+            <line num="199" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="clientDisplayCommonMessage(Integer) : UIMapDisplayInfo" num="202" count="0" type="method"/>
+            <line num="204" count="0" type="stmt"/>
+            <line num="205" count="0" type="stmt"/>
+            <line num="206" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="clientReceiveCheckLoseMap(Integer) : HashMap&lt;String, Boolean&gt;" num="209" count="0" type="method"/>
+            <line num="211" count="0" type="stmt"/>
+            <line num="212" count="0" type="stmt"/>
+            <line num="213" count="0" type="stmt"/>
+            <line num="214" count="0" type="stmt"/>
+            <line complexity="4" visibility="public" signature="winOrLoseCheck(Integer,HashMap&lt;String, Boolean&gt;) : boolean" num="217" count="0" type="method"/>
+            <line num="218" count="0" type="stmt"/>
+            <line num="219" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="219" type="cond"/>
+            <line num="220" count="0" type="stmt"/>
+            <line num="221" count="0" type="stmt"/>
+            <line num="223" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="223" type="cond"/>
+            <line num="224" count="0" type="stmt"/>
+            <line num="227" count="0" type="stmt"/>
+            <line complexity="3" visibility="public" signature="informLoser(Integer,String) : String" num="230" count="0" type="method"/>
+            <line num="231" count="0" type="stmt"/>
+            <line num="232" count="0" type="stmt"/>
+            <line num="233" count="0" type="stmt"/>
+            <line num="234" count="0" type="stmt"/>
+            <line num="235" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="235" type="cond"/>
+            <line num="236" count="0" type="stmt"/>
+            <line num="237" count="0" type="stmt"/>
+            <line num="238" count="0" type="stmt"/>
+            <line num="239" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="239" type="cond"/>
+            <line num="240" count="0" type="stmt"/>
+            <line num="241" count="0" type="stmt"/>
+            <line num="243" count="0" type="stmt"/>
+            <line num="245" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="clientReceiveTurnSummary(Integer) : String" num="248" count="0" type="method"/>
+            <line num="249" count="0" type="stmt"/>
+            <line num="250" count="0" type="stmt"/>
+            <line num="251" count="0" type="stmt"/>
+            <line complexity="3" visibility="public" signature="getPositiveInteger(String) : int" num="254" count="0" type="method"/>
+            <line num="255" count="0" type="stmt"/>
+            <line num="256" count="0" type="stmt"/>
+            <line num="257" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="257" type="cond"/>
+            <line num="258" count="0" type="stmt"/>
+            <line num="260" count="0" type="stmt"/>
+            <line num="262" count="0" type="stmt"/>
+         </file>
+         <file path="/home/wh162/651_final_project/ece651-sp22-group5-risc/client/src/main/java/edu/duke/ece651/risc/client/Client2.java" name="Client2.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="51" loc="357" coveredmethods="0" methods="28" elements="200" classes="1" ncloc="228" statements="134" conditionals="38" coveredstatements="0"/>
+            <class name="Client2">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="51" coveredmethods="0" methods="28" elements="200" statements="134" conditionals="38" coveredstatements="0"/>
+            </class>
+            <line complexity="1" visibility="public" signature="Client2(Player)" num="17" count="0" type="method"/>
+            <line num="18" count="0" type="stmt"/>
+            <line num="19" count="0" type="stmt"/>
+            <line num="20" count="0" type="stmt"/>
+            <line num="21" count="0" type="stmt"/>
+            <line num="22" count="0" type="stmt"/>
+            <line num="23" count="0" type="stmt"/>
+            <line num="24" count="0" type="stmt"/>
+            <line num="25" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getPlayer() : Player" num="28" count="0" type="method"/>
+            <line num="29" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="areUnitsAssigned() : boolean" num="32" count="0" type="method"/>
+            <line num="33" count="0" type="stmt"/>
+            <line complexity="3" visibility="public" signature="unitsAssignedSuccessfully() : void" num="36" count="0" type="method"/>
+            <line num="37" count="0" type="stmt"/>
+            <line num="38" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="38" type="cond"/>
+            <line num="39" count="0" type="stmt"/>
+            <line num="40" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="40" type="cond"/>
+            <line num="41" count="0" type="stmt"/>
+            <line num="43" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="recieveUIDisplayInfo(ObjectInputStream) : UIMapDisplayInfo" num="46" count="0" type="method"/>
+            <line num="48" count="0" type="stmt"/>
+            <line num="49" count="0" type="stmt"/>
+            <line complexity="5" visibility="public" signature="validateAndAssignUnits(String,String) : String" num="53" count="0" type="method"/>
+            <line num="55" count="0" type="stmt"/>
+            <line num="56" count="0" type="stmt"/>
+            <line num="57" count="0" type="stmt"/>
+            <line num="58" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="58" type="cond"/>
+            <line num="59" count="0" type="stmt"/>
+            <line num="60" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="60" type="cond"/>
+            <line num="61" count="0" type="stmt"/>
+            <line num="62" count="0" type="stmt"/>
+            <line num="63" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="63" type="cond"/>
+            <line num="64" count="0" type="stmt"/>
+            <line num="65" count="0" type="stmt"/>
+            <line num="67" count="0" type="stmt"/>
+            <line num="68" count="0" type="stmt"/>
+            <line num="70" count="0" type="stmt"/>
+            <line num="73" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="73" type="cond"/>
+            <line num="74" count="0" type="stmt"/>
+            <line num="76" count="0" type="stmt"/>
+            <line complexity="2" visibility="public" signature="createOrdersList(ArrayList&lt;Order&gt;) : OrderList" num="79" count="0" type="method"/>
+            <line num="80" count="0" type="stmt"/>
+            <line num="81" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="81" type="cond"/>
+            <line num="82" count="0" type="stmt"/>
+            <line num="84" count="0" type="stmt"/>
+            <line num="86" count="0" type="stmt"/>
+            <line num="88" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="createSingleMoveOrder(String,String,HashMap&lt;Integer, Integer&gt;) : Order" num="97" count="0" type="method"/>
+            <line num="99" count="0" type="stmt"/>
+            <line num="100" count="0" type="stmt"/>
+            <line num="101" count="0" type="stmt"/>
+            <line num="105" count="0" type="stmt"/>
+            <line num="106" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="sendOrders(OrderList,ObjectOutputStream) : void" num="111" count="0" type="method"/>
+            <line num="112" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="createSingleAttackOrder(String,String,HashMap&lt;Integer, Integer&gt;) : Order" num="121" count="0" type="method"/>
+            <line num="122" count="0" type="stmt"/>
+            <line num="123" count="0" type="stmt"/>
+            <line num="124" count="0" type="stmt"/>
+            <line num="128" count="0" type="stmt"/>
+            <line num="129" count="0" type="stmt"/>
+            <line complexity="2" visibility="public" signature="createSingleUnitUpgradeOrder(String,String,String) : Order" num="138" count="0" type="method"/>
+            <line num="139" count="0" type="stmt"/>
+            <line num="140" count="0" type="stmt"/>
+            <line num="141" count="0" type="stmt"/>
+            <line num="142" count="0" type="stmt"/>
+            <line num="143" count="0" type="stmt"/>
+            <line num="145" count="0" type="stmt"/>
+            <line num="147" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="createTechnologyUpgradeOrder() : Order" num="154" count="0" type="method"/>
+            <line num="155" count="0" type="stmt"/>
+            <line num="156" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="createUnlockCloakOrder() : Order" num="162" count="0" type="method"/>
+            <line num="163" count="0" type="stmt"/>
+            <line num="164" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="createSingleSpyUpgradeOrder(String) : Order" num="167" count="0" type="method"/>
+            <line num="168" count="0" type="stmt"/>
+            <line num="169" count="0" type="stmt"/>
+            <line num="170" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="createSingleSpyMoveOrder(String,String) : Order" num="173" count="0" type="method"/>
+            <line num="174" count="0" type="stmt"/>
+            <line num="175" count="0" type="stmt"/>
+            <line num="176" count="0" type="stmt"/>
+            <line num="177" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="createCloakTerritoryOrder(String) : Order" num="181" count="0" type="method"/>
+            <line num="182" count="0" type="stmt"/>
+            <line num="183" count="0" type="stmt"/>
+            <line num="184" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="createRevolutionOrder(String,int) : Order" num="194" count="0" type="method"/>
+            <line num="195" count="0" type="stmt"/>
+            <line num="196" count="0" type="stmt"/>
+            <line num="197" count="0" type="stmt"/>
+            <line complexity="5" visibility="public" signature="getTerritory(String,String) : Territory" num="208" count="0" type="method"/>
+            <line num="209" count="0" type="stmt"/>
+            <line num="211" count="0" type="stmt"/>
+            <line num="212" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="212" type="cond"/>
+            <line num="213" count="0" type="stmt"/>
+            <line num="214" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="214" type="cond"/>
+            <line num="215" count="0" type="stmt"/>
+            <line num="218" count="0" type="stmt"/>
+            <line num="219" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="219" type="cond"/>
+            <line num="220" count="0" type="stmt"/>
+            <line num="221" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="221" type="cond"/>
+            <line num="222" count="0" type="stmt"/>
+            <line num="225" count="0" type="stmt"/>
+            <line num="227" count="0" type="stmt"/>
+            <line complexity="3" visibility="public" signature="winner(ObjectInputStream) : String" num="230" count="0" type="method"/>
+            <line num="232" count="0" type="stmt"/>
+            <line num="233" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="233" type="cond"/>
+            <line num="234" count="0" type="stmt"/>
+            <line num="235" count="0" type="stmt"/>
+            <line num="238" count="0" type="stmt"/>
+            <line complexity="3" visibility="public" signature="findSourceTerritory(String) : Territory" num="246" count="0" type="method"/>
+            <line num="247" count="0" type="stmt"/>
+            <line num="248" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="248" type="cond"/>
+            <line num="249" count="0" type="stmt"/>
+            <line num="250" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="250" type="cond"/>
+            <line num="251" count="0" type="stmt"/>
+            <line num="253" count="0" type="stmt"/>
+            <line complexity="6" visibility="public" signature="findTargetTerritory(String) : Territory" num="266" count="0" type="method"/>
+            <line num="267" count="0" type="stmt"/>
+            <line num="268" count="0" type="stmt"/>
+            <line num="269" count="0" type="stmt"/>
+            <line num="270" count="0" type="stmt"/>
+            <line num="271" count="0" type="stmt"/>
+            <line num="272" count="0" type="stmt"/>
+            <line num="273" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="273" type="cond"/>
+            <line num="274" count="0" type="stmt"/>
+            <line num="275" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="275" type="cond"/>
+            <line num="276" count="0" type="stmt"/>
+            <line num="278" count="0" type="stmt"/>
+            <line num="281" count="0" type="stmt"/>
+            <line num="282" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="282" type="cond"/>
+            <line num="283" count="0" type="stmt"/>
+            <line num="284" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="284" type="cond"/>
+            <line num="285" count="0" type="stmt"/>
+            <line num="289" count="0" type="stmt"/>
+            <line complexity="3" visibility="public" signature="getPositiveInteger(String) : int" num="292" count="0" type="method"/>
+            <line num="293" count="0" type="stmt"/>
+            <line num="294" count="0" type="stmt"/>
+            <line num="295" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="295" type="cond"/>
+            <line num="296" count="0" type="stmt"/>
+            <line num="298" count="0" type="stmt"/>
+            <line num="300" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="receivePlayer(ObjectInputStream) : void" num="308" count="0" type="method"/>
+            <line num="309" count="0" type="stmt"/>
+            <line num="310" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="sendPlayer(ObjectOutputStream) : void" num="316" count="0" type="method"/>
+            <line num="317" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="close(ObjectInputStream,ObjectOutputStream) : void" num="323" count="0" type="method"/>
+            <line num="324" count="0" type="stmt"/>
+            <line num="325" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="displayCommonMessage(ObjectInputStream) : UIMapDisplayInfo" num="333" count="0" type="method"/>
+            <line num="334" count="0" type="stmt"/>
+            <line num="335" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="receivechecklosemap(ObjectInputStream) : HashMap&lt;String, Boolean&gt;" num="345" count="0" type="method"/>
+            <line num="347" count="0" type="stmt"/>
+            <line num="348" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="recieveTurnSummary(ObjectInputStream) : String" num="352" count="0" type="method"/>
+            <line num="354" count="0" type="stmt"/>
+            <line num="355" count="0" type="stmt"/>
+         </file>
+         <file path="/home/wh162/651_final_project/ece651-sp22-group5-risc/client/src/main/java/edu/duke/ece651/risc/client/Client.java" name="Client.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="96" loc="659" coveredmethods="0" methods="36" elements="370" classes="1" ncloc="451" statements="266" conditionals="68" coveredstatements="0"/>
+            <class name="Client">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="96" coveredmethods="0" methods="36" elements="370" statements="266" conditionals="68" coveredstatements="0"/>
+            </class>
+            <line complexity="1" visibility="public" signature="uitest() : String" num="35" count="0" type="method"/>
+            <line num="36" count="0" type="stmt"/>
+            <line num="37" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="Client(Player,BufferedReader,PrintStream,String,int,Socket,ObjectInputStream,ObjectOutputStream)" num="50" count="0" type="method"/>
+            <line num="58" count="0" type="stmt"/>
+            <line num="59" count="0" type="stmt"/>
+            <line num="60" count="0" type="stmt"/>
+            <line num="61" count="0" type="stmt"/>
+            <line num="62" count="0" type="stmt"/>
+            <line num="63" count="0" type="stmt"/>
+            <line num="64" count="0" type="stmt"/>
+            <line num="65" count="0" type="stmt"/>
+            <line num="66" count="0" type="stmt"/>
+            <line num="67" count="0" type="stmt"/>
+            <line num="68" count="0" type="stmt"/>
+            <line num="69" count="0" type="stmt"/>
+            <line num="70" count="0" type="stmt"/>
+            <line num="71" count="0" type="stmt"/>
+            <line num="72" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setClientSocketStreams() : void" num="75" count="0" type="method"/>
+            <line num="76" count="0" type="stmt"/>
+            <line num="77" count="0" type="stmt"/>
+            <line num="78" count="0" type="stmt"/>
+            <line complexity="1" visibility="private" signature="setObjectInputStream() : void" num="81" count="0" type="method"/>
+            <line num="82" count="0" type="stmt"/>
+            <line complexity="1" visibility="private" signature="setObjectOutputStream() : void" num="85" count="0" type="method"/>
+            <line num="86" count="0" type="stmt"/>
+            <line complexity="2" visibility="private" signature="createCilentSocket() : Socket" num="89" count="0" type="method"/>
+            <line num="90" count="0" type="stmt"/>
+            <line num="91" count="0" type="stmt"/>
+            <line num="93" count="0" type="stmt"/>
+            <line num="94" count="0" type="stmt"/>
+            <line num="95" count="0" type="stmt"/>
+            <line num="97" count="0" type="stmt"/>
+            <line num="99" count="0" type="stmt"/>
+            <line complexity="1" visibility="private" signature="getHostName() : String" num="103" count="0" type="method"/>
+            <line num="104" count="0" type="stmt"/>
+            <line num="106" count="0" type="stmt"/>
+            <line num="107" count="0" type="stmt"/>
+            <line complexity="1" visibility="private" signature="getClientSocket(String,int) : Socket" num="110" count="0" type="method"/>
+            <line num="111" count="0" type="stmt"/>
+            <line num="112" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getPlayer() : Player" num="118" count="0" type="method"/>
+            <line num="119" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="close() : void" num="125" count="0" type="method"/>
+            <line num="127" count="0" type="stmt"/>
+            <line num="128" count="0" type="stmt"/>
+            <line num="129" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="sendPlayer() : void" num="136" count="0" type="method"/>
+            <line num="137" count="0" type="stmt"/>
+            <line complexity="1" visibility="private" signature="sendOrders(OrderList) : void" num="143" count="0" type="method"/>
+            <line num="144" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="receivePlayer() : void" num="150" count="0" type="method"/>
+            <line num="152" count="0" type="stmt"/>
+            <line num="153" count="0" type="stmt"/>
+            <line complexity="2" visibility="public" signature="displayBeginningInfo() : void" num="165" count="0" type="method"/>
+            <line num="166" count="0" type="stmt"/>
+            <line num="167" count="0" type="stmt"/>
+            <line num="168" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="168" type="cond"/>
+            <line num="169" count="0" type="stmt"/>
+            <line num="170" count="0" type="stmt"/>
+            <line num="173" count="0" type="stmt"/>
+            <line num="175" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="displayCommonMessage() : void" num="181" count="0" type="method"/>
+            <line num="183" count="0" type="stmt"/>
+            <line num="184" count="0" type="stmt"/>
+            <line complexity="2" visibility="public" signature="assignUnits() : void" num="190" count="0" type="method"/>
+            <line num="191" count="0" type="stmt"/>
+            <line num="192" count="0" type="stmt"/>
+            <line num="193" count="0" type="stmt"/>
+            <line num="195" count="0" type="stmt"/>
+            <line num="196" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="196" type="cond"/>
+            <line num="197" count="0" type="stmt"/>
+            <line num="198" count="0" type="stmt"/>
+            <line num="199" count="0" type="stmt"/>
+            <line complexity="2" visibility="public" signature="assignUnitsToTerritory(Territory,int,int) : int" num="210" count="0" type="method"/>
+            <line num="212" count="0" type="stmt"/>
+            <line num="216" count="0" type="stmt"/>
+            <line num="217" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="217" type="cond"/>
+            <line num="218" count="0" type="stmt"/>
+            <line num="220" count="0" type="stmt"/>
+            <line complexity="6" visibility="public" signature="validateAndAssignUnits(String,Territory,int,int) : boolean" num="230" count="0" type="method"/>
+            <line num="234" count="0" type="stmt"/>
+            <line num="235" count="0" type="stmt"/>
+            <line num="236" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="236" type="cond"/>
+            <line num="238" count="0" type="stmt"/>
+            <line num="240" count="0" type="stmt"/>
+            <line num="242" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="242" type="cond"/>
+            <line num="243" count="0" type="stmt"/>
+            <line num="244" count="0" type="stmt"/>
+            <line num="246" count="0" type="stmt"/>
+            <line num="248" count="0" type="stmt"/>
+            <line num="249" count="0" type="stmt"/>
+            <line complexity="4" visibility="public" signature="takeOrders() : OrderList" num="259" count="0" type="method"/>
+            <line num="260" count="0" type="stmt"/>
+            <line num="261" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="261" type="cond"/>
+            <line num="262" count="0" type="stmt"/>
+            <line num="264" count="0" type="stmt"/>
+            <line num="265" count="0" type="stmt"/>
+            <line num="266" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="266" type="cond"/>
+            <line num="267" count="0" type="stmt"/>
+            <line num="268" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="268" type="cond"/>
+            <line num="269" count="0" type="stmt"/>
+            <line num="271" count="0" type="stmt"/>
+            <line num="274" count="0" type="stmt"/>
+            <line complexity="7" visibility="public" signature="getSingleOrder() : Order" num="283" count="0" type="method"/>
+            <line num="284" count="0" type="stmt"/>
+            <line num="285" count="0" type="stmt"/>
+            <line num="286" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="286" type="cond"/>
+            <line num="287" count="0" type="stmt"/>
+            <line num="288" count="0" type="stmt"/>
+            <line num="289" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="289" type="cond"/>
+            <line num="290" count="0" type="stmt"/>
+            <line num="291" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="291" type="cond"/>
+            <line num="292" count="0" type="stmt"/>
+            <line num="293" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="293" type="cond"/>
+            <line num="294" count="0" type="stmt"/>
+            <line num="295" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="295" type="cond"/>
+            <line num="296" count="0" type="stmt"/>
+            <line num="298" count="0" type="stmt"/>
+            <line num="300" count="0" type="stmt"/>
+            <line complexity="2" visibility="public" signature="createSingleMoveOrder() : Order" num="309" count="0" type="method"/>
+            <line num="310" count="0" type="stmt"/>
+            <line num="311" count="0" type="stmt"/>
+            <line num="312" count="0" type="stmt"/>
+            <line num="313" count="0" type="stmt"/>
+            <line num="314" count="0" type="stmt"/>
+            <line num="315" count="0" type="stmt"/>
+            <line num="317" count="0" type="stmt"/>
+            <line complexity="2" visibility="public" signature="createSingleAttackOrder() : Order" num="326" count="0" type="method"/>
+            <line num="327" count="0" type="stmt"/>
+            <line num="328" count="0" type="stmt"/>
+            <line num="329" count="0" type="stmt"/>
+            <line num="330" count="0" type="stmt"/>
+            <line num="331" count="0" type="stmt"/>
+            <line num="332" count="0" type="stmt"/>
+            <line num="334" count="0" type="stmt"/>
+            <line complexity="2" visibility="public" signature="createSingleUnitUpgradeOrder() : Order" num="343" count="0" type="method"/>
+            <line num="344" count="0" type="stmt"/>
+            <line num="345" count="0" type="stmt"/>
+            <line num="346" count="0" type="stmt"/>
+            <line num="347" count="0" type="stmt"/>
+            <line num="348" count="0" type="stmt"/>
+            <line num="349" count="0" type="stmt"/>
+            <line num="351" count="0" type="stmt"/>
+            <line complexity="2" visibility="public" signature="createTechnologyUpgradeOrder() : Order" num="358" count="0" type="method"/>
+            <line num="359" count="0" type="stmt"/>
+            <line num="360" count="0" type="stmt"/>
+            <line num="361" count="0" type="stmt"/>
+            <line num="362" count="0" type="stmt"/>
+            <line num="364" count="0" type="stmt"/>
+            <line complexity="8" visibility="public" signature="getOrderType() : String" num="374" count="0" type="method"/>
+            <line num="375" count="0" type="stmt"/>
+            <line num="377" count="0" type="stmt"/>
+            <line num="378" count="0" type="stmt"/>
+            <line num="379" count="0" type="stmt"/>
+            <line num="380" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="380" type="cond"/>
+            <line num="382" count="0" type="stmt"/>
+            <line num="383" count="0" type="stmt"/>
+            <line num="385" count="0" type="stmt"/>
+            <line num="387" count="0" type="stmt"/>
+            <line complexity="6" visibility="public" signature="getTerritory(String) : Territory" num="399" count="0" type="method"/>
+            <line num="400" count="0" type="stmt"/>
+            <line num="402" count="0" type="stmt"/>
+            <line num="403" count="0" type="stmt"/>
+            <line num="404" count="0" type="stmt"/>
+            <line num="405" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="405" type="cond"/>
+            <line num="406" count="0" type="stmt"/>
+            <line num="407" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="407" type="cond"/>
+            <line num="408" count="0" type="stmt"/>
+            <line num="410" count="0" type="stmt"/>
+            <line num="412" count="0" type="stmt"/>
+            <line num="413" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="413" type="cond"/>
+            <line num="414" count="0" type="stmt"/>
+            <line num="415" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="415" type="cond"/>
+            <line num="416" count="0" type="stmt"/>
+            <line num="418" count="0" type="stmt"/>
+            <line num="420" count="0" type="stmt"/>
+            <line num="423" count="0" type="stmt"/>
+            <line num="424" count="0" type="stmt"/>
+            <line num="426" count="0" type="stmt"/>
+            <line complexity="3" visibility="public" signature="findSourceTerritory(String) : Territory" num="434" count="0" type="method"/>
+            <line num="435" count="0" type="stmt"/>
+            <line num="436" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="436" type="cond"/>
+            <line num="437" count="0" type="stmt"/>
+            <line num="438" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="438" type="cond"/>
+            <line num="439" count="0" type="stmt"/>
+            <line num="441" count="0" type="stmt"/>
+            <line complexity="6" visibility="public" signature="findTargetTerritory(String) : Territory" num="454" count="0" type="method"/>
+            <line num="455" count="0" type="stmt"/>
+            <line num="456" count="0" type="stmt"/>
+            <line num="457" count="0" type="stmt"/>
+            <line num="458" count="0" type="stmt"/>
+            <line num="459" count="0" type="stmt"/>
+            <line num="460" count="0" type="stmt"/>
+            <line num="461" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="461" type="cond"/>
+            <line num="462" count="0" type="stmt"/>
+            <line num="463" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="463" type="cond"/>
+            <line num="464" count="0" type="stmt"/>
+            <line num="466" count="0" type="stmt"/>
+            <line num="469" count="0" type="stmt"/>
+            <line num="470" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="470" type="cond"/>
+            <line num="471" count="0" type="stmt"/>
+            <line num="472" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="472" type="cond"/>
+            <line num="473" count="0" type="stmt"/>
+            <line num="477" count="0" type="stmt"/>
+            <line complexity="3" visibility="public" signature="getPositiveInteger(String) : int" num="480" count="0" type="method"/>
+            <line num="481" count="0" type="stmt"/>
+            <line num="482" count="0" type="stmt"/>
+            <line num="483" count="0" type="stmt"/>
+            <line num="484" count="0" type="stmt"/>
+            <line num="485" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="485" type="cond"/>
+            <line num="486" count="0" type="stmt"/>
+            <line num="487" count="0" type="stmt"/>
+            <line num="489" count="0" type="stmt"/>
+            <line num="491" count="0" type="stmt"/>
+            <line num="492" count="0" type="stmt"/>
+            <line complexity="4" visibility="public" signature="getUnitType(String) : String" num="497" count="0" type="method"/>
+            <line num="498" count="0" type="stmt"/>
+            <line num="501" count="0" type="stmt"/>
+            <line num="502" count="0" type="stmt"/>
+            <line num="503" count="0" type="stmt"/>
+            <line num="504" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="504" type="cond"/>
+            <line num="505" count="0" type="stmt"/>
+            <line num="506" count="0" type="stmt"/>
+            <line num="508" count="0" type="stmt"/>
+            <line num="510" count="0" type="stmt"/>
+            <line complexity="2" visibility="public" signature="getUnitsMap() : HashMap&lt;Integer, Integer&gt;" num="514" count="0" type="method"/>
+            <line num="515" count="0" type="stmt"/>
+            <line num="516" count="0" type="stmt"/>
+            <line num="517" count="0" type="stmt"/>
+            <line num="518" count="0" type="stmt"/>
+            <line num="519" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="519" type="cond"/>
+            <line num="520" count="0" type="stmt"/>
+            <line num="522" count="0" type="stmt"/>
+            <line num="523" count="0" type="stmt"/>
+            <line num="525" count="0" type="stmt"/>
+            <line complexity="5" visibility="public" signature="informloser() : String" num="535" count="0" type="method"/>
+            <line num="536" count="0" type="stmt"/>
+            <line num="537" count="0" type="stmt"/>
+            <line num="539" count="0" type="stmt"/>
+            <line num="540" count="0" type="stmt"/>
+            <line num="541" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="541" type="cond"/>
+            <line num="542" count="0" type="stmt"/>
+            <line num="543" count="0" type="stmt"/>
+            <line num="545" count="0" type="stmt"/>
+            <line num="547" count="0" type="stmt"/>
+            <line complexity="7" visibility="public" signature="receivechecklosemap() : void" num="561" count="0" type="method"/>
+            <line num="563" count="0" type="stmt"/>
+            <line num="564" count="0" type="stmt"/>
+            <line num="565" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="565" type="cond"/>
+            <line num="566" count="0" type="stmt"/>
+            <line num="568" count="0" type="stmt"/>
+            <line num="569" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="569" type="cond"/>
+            <line num="570" count="0" type="stmt"/>
+            <line num="572" count="0" type="stmt"/>
+            <line num="573" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="573" type="cond"/>
+            <line num="574" count="0" type="stmt"/>
+            <line num="575" count="0" type="stmt"/>
+            <line num="576" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="576" type="cond"/>
+            <line num="577" count="0" type="stmt"/>
+            <line num="578" count="0" type="stmt"/>
+            <line num="579" count="0" type="stmt"/>
+            <line num="581" count="0" type="stmt"/>
+            <line num="584" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="584" type="cond"/>
+            <line num="585" count="0" type="stmt"/>
+            <line num="587" count="0" type="stmt"/>
+            <line complexity="3" visibility="public" signature="winner() : void" num="599" count="0" type="method"/>
+            <line num="601" count="0" type="stmt"/>
+            <line num="602" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="602" type="cond"/>
+            <line num="603" count="0" type="stmt"/>
+            <line num="604" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="recieveTurnSummary() : void" num="608" count="0" type="method"/>
+            <line num="610" count="0" type="stmt"/>
+            <line num="611" count="0" type="stmt"/>
+            <line num="612" count="0" type="stmt"/>
+            <line complexity="2" visibility="public" signature="main(String[]) : void" num="622" count="0" type="method"/>
+            <line num="623" count="0" type="stmt"/>
+            <line num="624" count="0" type="stmt"/>
+            <line num="625" count="0" type="stmt"/>
+            <line num="627" count="0" type="stmt"/>
+            <line num="629" count="0" type="stmt"/>
+            <line num="630" count="0" type="stmt"/>
+            <line num="634" count="0" type="stmt"/>
+            <line num="635" count="0" type="stmt"/>
+            <line num="636" count="0" type="stmt"/>
+            <line num="637" count="0" type="stmt"/>
+            <line num="638" count="0" type="stmt"/>
+            <line num="639" count="0" type="stmt"/>
+            <line num="640" count="0" type="stmt"/>
+            <line num="642" count="0" type="stmt"/>
+            <line num="643" count="0" type="stmt"/>
+            <line num="644" count="0" type="stmt"/>
+            <line num="645" count="0" type="stmt"/>
+            <line num="646" count="0" type="stmt"/>
+            <line num="647" count="0" type="stmt"/>
+            <line num="648" count="0" type="stmt"/>
+            <line num="649" count="0" type="stmt"/>
+            <line num="650" count="0" type="stmt"/>
+            <line num="651" count="0" type="stmt"/>
+            <line num="654" count="0" type="stmt"/>
+            <line num="657" count="0" type="stmt"/>
+         </file>
+         <file path="/home/wh162/651_final_project/ece651-sp22-group5-risc/client/src/main/java/edu/duke/ece651/risc/client/ClientController.java" name="ClientController.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="16" loc="155" coveredmethods="0" methods="5" elements="106" classes="1" ncloc="143" statements="101" conditionals="0" coveredstatements="0"/>
+            <class name="ClientController">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="16" coveredmethods="0" methods="5" elements="106" statements="101" conditionals="0" coveredstatements="0"/>
+            </class>
+            <line complexity="8" visibility="public" signature="playGame(NewClient[],int,ObjectOutputStream,ObjectInputStream) : void" num="29" count="0" type="method"/>
+            <line num="31" count="0" type="stmt"/>
+            <line num="32" count="0" type="stmt"/>
+            <line num="33" count="0" type="stmt"/>
+            <line num="34" count="0" type="stmt"/>
+            <line num="35" count="0" type="stmt"/>
+            <line num="36" count="0" type="stmt"/>
+            <line num="37" count="0" type="stmt"/>
+            <line num="38" count="0" type="stmt"/>
+            <line num="39" count="0" type="stmt"/>
+            <line num="40" count="0" type="stmt"/>
+            <line num="41" count="0" type="stmt"/>
+            <line num="42" count="0" type="stmt"/>
+            <line num="43" count="0" type="stmt"/>
+            <line num="44" count="0" type="stmt"/>
+            <line num="45" count="0" type="stmt"/>
+            <line num="46" count="0" type="stmt"/>
+            <line num="47" count="0" type="stmt"/>
+            <line num="48" count="0" type="stmt"/>
+            <line num="49" count="0" type="stmt"/>
+            <line num="50" count="0" type="stmt"/>
+            <line num="51" count="0" type="stmt"/>
+            <line num="52" count="0" type="stmt"/>
+            <line num="53" count="0" type="stmt"/>
+            <line num="54" count="0" type="stmt"/>
+            <line num="55" count="0" type="stmt"/>
+            <line num="56" count="0" type="stmt"/>
+            <line num="57" count="0" type="stmt"/>
+            <line num="58" count="0" type="stmt"/>
+            <line num="59" count="0" type="stmt"/>
+            <line num="60" count="0" type="stmt"/>
+            <line num="63" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="createMap(String,int) : void" num="67" count="0" type="method"/>
+            <line num="68" count="0" type="stmt"/>
+            <line num="69" count="0" type="stmt"/>
+            <line num="70" count="0" type="stmt"/>
+            <line num="71" count="0" type="stmt"/>
+            <line num="72" count="0" type="stmt"/>
+            <line num="73" count="0" type="stmt"/>
+            <line num="74" count="0" type="stmt"/>
+            <line num="75" count="0" type="stmt"/>
+            <line num="76" count="0" type="stmt"/>
+            <line num="77" count="0" type="stmt"/>
+            <line num="78" count="0" type="stmt"/>
+            <line num="79" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getActionInput() : String" num="82" count="0" type="method"/>
+            <line num="83" count="0" type="stmt"/>
+            <line num="85" count="0" type="stmt"/>
+            <line num="86" count="0" type="stmt"/>
+            <line complexity="5" visibility="public" signature="performAction(String) : void" num="89" count="0" type="method"/>
+            <line num="90" count="0" type="stmt"/>
+            <line num="91" count="0" type="stmt"/>
+            <line num="92" count="0" type="stmt"/>
+            <line num="93" count="0" type="stmt"/>
+            <line num="94" count="0" type="stmt"/>
+            <line num="95" count="0" type="stmt"/>
+            <line num="96" count="0" type="stmt"/>
+            <line num="97" count="0" type="stmt"/>
+            <line num="98" count="0" type="stmt"/>
+            <line num="99" count="0" type="stmt"/>
+            <line num="100" count="0" type="stmt"/>
+            <line num="101" count="0" type="stmt"/>
+            <line num="102" count="0" type="stmt"/>
+            <line num="103" count="0" type="stmt"/>
+            <line num="104" count="0" type="stmt"/>
+            <line num="105" count="0" type="stmt"/>
+            <line num="106" count="0" type="stmt"/>
+            <line num="107" count="0" type="stmt"/>
+            <line num="109" count="0" type="stmt"/>
+            <line num="110" count="0" type="stmt"/>
+            <line num="111" count="0" type="stmt"/>
+            <line num="112" count="0" type="stmt"/>
+            <line num="113" count="0" type="stmt"/>
+            <line num="114" count="0" type="stmt"/>
+            <line num="115" count="0" type="stmt"/>
+            <line num="116" count="0" type="stmt"/>
+            <line num="117" count="0" type="stmt"/>
+            <line num="118" count="0" type="stmt"/>
+            <line num="119" count="0" type="stmt"/>
+            <line num="120" count="0" type="stmt"/>
+            <line num="121" count="0" type="stmt"/>
+            <line num="122" count="0" type="stmt"/>
+            <line num="124" count="0" type="stmt"/>
+            <line num="125" count="0" type="stmt"/>
+            <line num="126" count="0" type="stmt"/>
+            <line num="127" count="0" type="stmt"/>
+            <line num="128" count="0" type="stmt"/>
+            <line num="129" count="0" type="stmt"/>
+            <line num="130" count="0" type="stmt"/>
+            <line num="131" count="0" type="stmt"/>
+            <line num="132" count="0" type="stmt"/>
+            <line num="133" count="0" type="stmt"/>
+            <line num="134" count="0" type="stmt"/>
+            <line num="135" count="0" type="stmt"/>
+            <line num="136" count="0" type="stmt"/>
+            <line num="137" count="0" type="stmt"/>
+            <line num="139" count="0" type="stmt"/>
+            <line num="140" count="0" type="stmt"/>
+            <line num="141" count="0" type="stmt"/>
+            <line num="142" count="0" type="stmt"/>
+            <line num="143" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="main(String[]) : void" num="148" count="0" type="method"/>
+            <line num="149" count="0" type="stmt"/>
+            <line num="150" count="0" type="stmt"/>
+            <line num="151" count="0" type="stmt"/>
+            <line num="152" count="0" type="stmt"/>
+         </file>
+         <file path="/home/wh162/651_final_project/ece651-sp22-group5-risc/client/src/main/java/edu/duke/ece651/risc/client/NewClient.java" name="NewClient.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="87" loc="568" coveredmethods="0" methods="29" elements="313" classes="1" ncloc="373" statements="216" conditionals="68" coveredstatements="0"/>
+            <class name="NewClient">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="87" coveredmethods="0" methods="29" elements="313" statements="216" conditionals="68" coveredstatements="0"/>
+            </class>
+            <line complexity="1" visibility="public" signature="NewClient(Player,BufferedReader,PrintStream)" num="36" count="0" type="method"/>
+            <line num="39" count="0" type="stmt"/>
+            <line num="40" count="0" type="stmt"/>
+            <line num="41" count="0" type="stmt"/>
+            <line num="42" count="0" type="stmt"/>
+            <line num="43" count="0" type="stmt"/>
+            <line num="44" count="0" type="stmt"/>
+            <line num="45" count="0" type="stmt"/>
+            <line num="46" count="0" type="stmt"/>
+            <line num="47" count="0" type="stmt"/>
+            <line num="48" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getPlayer() : Player" num="54" count="0" type="method"/>
+            <line num="55" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="close(ObjectInputStream,ObjectOutputStream) : void" num="61" count="0" type="method"/>
+            <line num="62" count="0" type="stmt"/>
+            <line num="63" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="sendPlayer(ObjectOutputStream) : void" num="69" count="0" type="method"/>
+            <line num="70" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="sendOrders(OrderList,ObjectOutputStream) : void" num="76" count="0" type="method"/>
+            <line num="77" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="receivePlayer(ObjectInputStream) : void" num="83" count="0" type="method"/>
+            <line num="84" count="0" type="stmt"/>
+            <line num="85" count="0" type="stmt"/>
+            <line complexity="2" visibility="public" signature="displayBeginningInfo() : void" num="97" count="0" type="method"/>
+            <line num="98" count="0" type="stmt"/>
+            <line num="99" count="0" type="stmt"/>
+            <line num="100" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="100" type="cond"/>
+            <line num="101" count="0" type="stmt"/>
+            <line num="102" count="0" type="stmt"/>
+            <line num="105" count="0" type="stmt"/>
+            <line num="107" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="displayCommonMessage(ObjectInputStream) : void" num="115" count="0" type="method"/>
+            <line num="117" count="0" type="stmt"/>
+            <line num="118" count="0" type="stmt"/>
+            <line complexity="2" visibility="public" signature="assignUnits() : void" num="125" count="0" type="method"/>
+            <line num="126" count="0" type="stmt"/>
+            <line num="127" count="0" type="stmt"/>
+            <line num="128" count="0" type="stmt"/>
+            <line num="130" count="0" type="stmt"/>
+            <line num="131" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="131" type="cond"/>
+            <line num="132" count="0" type="stmt"/>
+            <line num="133" count="0" type="stmt"/>
+            <line num="134" count="0" type="stmt"/>
+            <line complexity="2" visibility="public" signature="assignUnitsToTerritory(Territory,int,int) : int" num="145" count="0" type="method"/>
+            <line num="147" count="0" type="stmt"/>
+            <line num="151" count="0" type="stmt"/>
+            <line num="152" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="152" type="cond"/>
+            <line num="153" count="0" type="stmt"/>
+            <line num="155" count="0" type="stmt"/>
+            <line complexity="6" visibility="public" signature="validateAndAssignUnits(String,Territory,int,int) : boolean" num="165" count="0" type="method"/>
+            <line num="169" count="0" type="stmt"/>
+            <line num="170" count="0" type="stmt"/>
+            <line num="171" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="171" type="cond"/>
+            <line num="174" count="0" type="stmt"/>
+            <line num="176" count="0" type="stmt"/>
+            <line num="180" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="180" type="cond"/>
+            <line num="181" count="0" type="stmt"/>
+            <line num="182" count="0" type="stmt"/>
+            <line num="183" count="0" type="stmt"/>
+            <line num="185" count="0" type="stmt"/>
+            <line num="187" count="0" type="stmt"/>
+            <line num="188" count="0" type="stmt"/>
+            <line complexity="4" visibility="public" signature="takeOrders() : OrderList" num="198" count="0" type="method"/>
+            <line num="199" count="0" type="stmt"/>
+            <line num="200" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="200" type="cond"/>
+            <line num="201" count="0" type="stmt"/>
+            <line num="203" count="0" type="stmt"/>
+            <line num="204" count="0" type="stmt"/>
+            <line num="205" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="205" type="cond"/>
+            <line num="206" count="0" type="stmt"/>
+            <line num="207" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="207" type="cond"/>
+            <line num="208" count="0" type="stmt"/>
+            <line num="210" count="0" type="stmt"/>
+            <line num="213" count="0" type="stmt"/>
+            <line complexity="7" visibility="public" signature="getSingleOrder() : Order" num="222" count="0" type="method"/>
+            <line num="223" count="0" type="stmt"/>
+            <line num="224" count="0" type="stmt"/>
+            <line num="225" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="225" type="cond"/>
+            <line num="226" count="0" type="stmt"/>
+            <line num="227" count="0" type="stmt"/>
+            <line num="228" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="228" type="cond"/>
+            <line num="229" count="0" type="stmt"/>
+            <line num="230" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="230" type="cond"/>
+            <line num="231" count="0" type="stmt"/>
+            <line num="232" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="232" type="cond"/>
+            <line num="233" count="0" type="stmt"/>
+            <line num="234" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="234" type="cond"/>
+            <line num="235" count="0" type="stmt"/>
+            <line num="237" count="0" type="stmt"/>
+            <line num="239" count="0" type="stmt"/>
+            <line complexity="2" visibility="public" signature="createSingleMoveOrder() : Order" num="249" count="0" type="method"/>
+            <line num="250" count="0" type="stmt"/>
+            <line num="251" count="0" type="stmt"/>
+            <line num="252" count="0" type="stmt"/>
+            <line num="253" count="0" type="stmt"/>
+            <line num="254" count="0" type="stmt"/>
+            <line num="255" count="0" type="stmt"/>
+            <line num="257" count="0" type="stmt"/>
+            <line complexity="2" visibility="public" signature="createSingleAttackOrder() : Order" num="267" count="0" type="method"/>
+            <line num="268" count="0" type="stmt"/>
+            <line num="269" count="0" type="stmt"/>
+            <line num="270" count="0" type="stmt"/>
+            <line num="271" count="0" type="stmt"/>
+            <line num="272" count="0" type="stmt"/>
+            <line num="273" count="0" type="stmt"/>
+            <line num="275" count="0" type="stmt"/>
+            <line complexity="2" visibility="public" signature="createSingleUnitUpgradeOrder() : Order" num="285" count="0" type="method"/>
+            <line num="286" count="0" type="stmt"/>
+            <line num="287" count="0" type="stmt"/>
+            <line num="288" count="0" type="stmt"/>
+            <line num="289" count="0" type="stmt"/>
+            <line num="290" count="0" type="stmt"/>
+            <line num="292" count="0" type="stmt"/>
+            <line num="294" count="0" type="stmt"/>
+            <line complexity="2" visibility="public" signature="createTechnologyUpgradeOrder() : Order" num="301" count="0" type="method"/>
+            <line num="302" count="0" type="stmt"/>
+            <line num="303" count="0" type="stmt"/>
+            <line num="304" count="0" type="stmt"/>
+            <line num="305" count="0" type="stmt"/>
+            <line num="307" count="0" type="stmt"/>
+            <line complexity="8" visibility="public" signature="getOrderType() : String" num="317" count="0" type="method"/>
+            <line num="318" count="0" type="stmt"/>
+            <line num="320" count="0" type="stmt"/>
+            <line num="321" count="0" type="stmt"/>
+            <line num="322" count="0" type="stmt"/>
+            <line num="323" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="323" type="cond"/>
+            <line num="326" count="0" type="stmt"/>
+            <line num="327" count="0" type="stmt"/>
+            <line num="329" count="0" type="stmt"/>
+            <line num="331" count="0" type="stmt"/>
+            <line complexity="6" visibility="public" signature="getTerritory(String) : Territory" num="343" count="0" type="method"/>
+            <line num="344" count="0" type="stmt"/>
+            <line num="346" count="0" type="stmt"/>
+            <line num="347" count="0" type="stmt"/>
+            <line num="348" count="0" type="stmt"/>
+            <line num="349" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="349" type="cond"/>
+            <line num="350" count="0" type="stmt"/>
+            <line num="351" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="351" type="cond"/>
+            <line num="352" count="0" type="stmt"/>
+            <line num="354" count="0" type="stmt"/>
+            <line num="356" count="0" type="stmt"/>
+            <line num="357" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="357" type="cond"/>
+            <line num="358" count="0" type="stmt"/>
+            <line num="359" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="359" type="cond"/>
+            <line num="360" count="0" type="stmt"/>
+            <line num="362" count="0" type="stmt"/>
+            <line num="364" count="0" type="stmt"/>
+            <line num="367" count="0" type="stmt"/>
+            <line num="368" count="0" type="stmt"/>
+            <line num="370" count="0" type="stmt"/>
+            <line complexity="3" visibility="public" signature="findSourceTerritory(String) : Territory" num="378" count="0" type="method"/>
+            <line num="379" count="0" type="stmt"/>
+            <line num="380" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="380" type="cond"/>
+            <line num="381" count="0" type="stmt"/>
+            <line num="382" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="382" type="cond"/>
+            <line num="383" count="0" type="stmt"/>
+            <line num="385" count="0" type="stmt"/>
+            <line complexity="6" visibility="public" signature="findTargetTerritory(String) : Territory" num="398" count="0" type="method"/>
+            <line num="399" count="0" type="stmt"/>
+            <line num="400" count="0" type="stmt"/>
+            <line num="401" count="0" type="stmt"/>
+            <line num="402" count="0" type="stmt"/>
+            <line num="403" count="0" type="stmt"/>
+            <line num="404" count="0" type="stmt"/>
+            <line num="405" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="405" type="cond"/>
+            <line num="406" count="0" type="stmt"/>
+            <line num="407" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="407" type="cond"/>
+            <line num="408" count="0" type="stmt"/>
+            <line num="410" count="0" type="stmt"/>
+            <line num="413" count="0" type="stmt"/>
+            <line num="414" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="414" type="cond"/>
+            <line num="415" count="0" type="stmt"/>
+            <line num="416" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="416" type="cond"/>
+            <line num="417" count="0" type="stmt"/>
+            <line num="421" count="0" type="stmt"/>
+            <line complexity="3" visibility="public" signature="getPositiveInteger(String) : int" num="424" count="0" type="method"/>
+            <line num="425" count="0" type="stmt"/>
+            <line num="426" count="0" type="stmt"/>
+            <line num="427" count="0" type="stmt"/>
+            <line num="428" count="0" type="stmt"/>
+            <line num="429" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="429" type="cond"/>
+            <line num="430" count="0" type="stmt"/>
+            <line num="431" count="0" type="stmt"/>
+            <line num="433" count="0" type="stmt"/>
+            <line num="435" count="0" type="stmt"/>
+            <line num="436" count="0" type="stmt"/>
+            <line complexity="4" visibility="public" signature="getUnitType(String) : String" num="440" count="0" type="method"/>
+            <line num="441" count="0" type="stmt"/>
+            <line num="444" count="0" type="stmt"/>
+            <line num="445" count="0" type="stmt"/>
+            <line num="446" count="0" type="stmt"/>
+            <line num="447" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="447" type="cond"/>
+            <line num="448" count="0" type="stmt"/>
+            <line num="449" count="0" type="stmt"/>
+            <line num="451" count="0" type="stmt"/>
+            <line num="453" count="0" type="stmt"/>
+            <line complexity="2" visibility="public" signature="getUnitsMap() : HashMap&lt;Integer, Integer&gt;" num="457" count="0" type="method"/>
+            <line num="458" count="0" type="stmt"/>
+            <line num="459" count="0" type="stmt"/>
+            <line num="460" count="0" type="stmt"/>
+            <line num="461" count="0" type="stmt"/>
+            <line num="463" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="463" type="cond"/>
+            <line num="464" count="0" type="stmt"/>
+            <line num="466" count="0" type="stmt"/>
+            <line num="467" count="0" type="stmt"/>
+            <line num="469" count="0" type="stmt"/>
+            <line complexity="5" visibility="public" signature="informloser() : String" num="479" count="0" type="method"/>
+            <line num="480" count="0" type="stmt"/>
+            <line num="481" count="0" type="stmt"/>
+            <line num="483" count="0" type="stmt"/>
+            <line num="484" count="0" type="stmt"/>
+            <line num="485" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="485" type="cond"/>
+            <line num="486" count="0" type="stmt"/>
+            <line num="487" count="0" type="stmt"/>
+            <line num="489" count="0" type="stmt"/>
+            <line num="491" count="0" type="stmt"/>
+            <line complexity="7" visibility="public" signature="receivechecklosemap(ObjectInputStream,ObjectOutputStream) : void" num="505" count="0" type="method"/>
+            <line num="508" count="0" type="stmt"/>
+            <line num="509" count="0" type="stmt"/>
+            <line num="510" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="510" type="cond"/>
+            <line num="511" count="0" type="stmt"/>
+            <line num="513" count="0" type="stmt"/>
+            <line num="514" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="514" type="cond"/>
+            <line num="515" count="0" type="stmt"/>
+            <line num="517" count="0" type="stmt"/>
+            <line num="518" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="518" type="cond"/>
+            <line num="519" count="0" type="stmt"/>
+            <line num="520" count="0" type="stmt"/>
+            <line num="521" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="521" type="cond"/>
+            <line num="522" count="0" type="stmt"/>
+            <line num="523" count="0" type="stmt"/>
+            <line num="524" count="0" type="stmt"/>
+            <line num="526" count="0" type="stmt"/>
+            <line num="529" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="529" type="cond"/>
+            <line num="530" count="0" type="stmt"/>
+            <line num="532" count="0" type="stmt"/>
+            <line complexity="3" visibility="public" signature="winner(ObjectInputStream) : void" num="543" count="0" type="method"/>
+            <line num="545" count="0" type="stmt"/>
+            <line num="546" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="546" type="cond"/>
+            <line num="547" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="recieveTurnSummary(ObjectInputStream) : void" num="552" count="0" type="method"/>
+            <line num="554" count="0" type="stmt"/>
+            <line num="555" count="0" type="stmt"/>
+            <line num="556" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="main(String[]) : void" num="565" count="0" type="method"/>
+         </file>
+      </package>
+      <package name="edu.duke.ece651.risc.client.controller">
+         <metrics coveredelements="0" complexity="208" loc="2768" methods="119" classes="5" statements="1153" coveredconditionals="0" coveredmethods="0" elements="1424" ncloc="2219" files="5" conditionals="152" coveredstatements="0"/>
+         <file path="/home/wh162/651_final_project/ece651-sp22-group5-risc/client/src/main/java/edu/duke/ece651/risc/client/controller/swicth_startToAssignUnits.java" name="swicth_startToAssignUnits.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="2" loc="25" coveredmethods="0" methods="2" elements="2" classes="1" ncloc="16" statements="0" conditionals="0" coveredstatements="0"/>
+            <class name="swicth_startToAssignUnits">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="2" coveredmethods="0" methods="2" elements="2" statements="0" conditionals="0" coveredstatements="0"/>
+            </class>
+            <line complexity="1" visibility="package" signature="onclick_newgame(ActionEvent) : void" num="15" count="0" type="method"/>
+            <line complexity="1" visibility="package" signature="onclick_resumegame(ActionEvent) : void" num="20" count="0" type="method"/>
+         </file>
+         <file path="/home/wh162/651_final_project/ece651-sp22-group5-risc/client/src/main/java/edu/duke/ece651/risc/client/controller/assign_unitsController.java" name="assign_unitsController.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="55" loc="860" coveredmethods="0" methods="36" elements="383" classes="1" ncloc="684" statements="311" conditionals="36" coveredstatements="0"/>
+            <class name="assign_unitsController">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="55" coveredmethods="0" methods="36" elements="383" statements="311" conditionals="36" coveredstatements="0"/>
+            </class>
+            <line complexity="1" visibility="public" signature="invisible_whiteT() : void" num="376" count="0" type="method"/>
+            <line num="377" count="0" type="stmt"/>
+            <line num="378" count="0" type="stmt"/>
+            <line num="379" count="0" type="stmt"/>
+            <line num="380" count="0" type="stmt"/>
+            <line num="381" count="0" type="stmt"/>
+            <line num="382" count="0" type="stmt"/>
+            <line num="383" count="0" type="stmt"/>
+            <line num="384" count="0" type="stmt"/>
+            <line num="385" count="0" type="stmt"/>
+            <line num="386" count="0" type="stmt"/>
+            <line num="387" count="0" type="stmt"/>
+            <line num="388" count="0" type="stmt"/>
+            <line num="389" count="0" type="stmt"/>
+            <line num="390" count="0" type="stmt"/>
+            <line num="391" count="0" type="stmt"/>
+            <line num="392" count="0" type="stmt"/>
+            <line num="393" count="0" type="stmt"/>
+            <line num="394" count="0" type="stmt"/>
+            <line num="395" count="0" type="stmt"/>
+            <line num="396" count="0" type="stmt"/>
+            <line num="397" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="invisible_orangeT() : void" num="399" count="0" type="method"/>
+            <line num="400" count="0" type="stmt"/>
+            <line num="401" count="0" type="stmt"/>
+            <line num="402" count="0" type="stmt"/>
+            <line num="403" count="0" type="stmt"/>
+            <line num="404" count="0" type="stmt"/>
+            <line num="405" count="0" type="stmt"/>
+            <line num="406" count="0" type="stmt"/>
+            <line num="407" count="0" type="stmt"/>
+            <line num="408" count="0" type="stmt"/>
+            <line num="409" count="0" type="stmt"/>
+            <line num="410" count="0" type="stmt"/>
+            <line num="411" count="0" type="stmt"/>
+            <line num="412" count="0" type="stmt"/>
+            <line num="413" count="0" type="stmt"/>
+            <line num="414" count="0" type="stmt"/>
+            <line num="415" count="0" type="stmt"/>
+            <line num="416" count="0" type="stmt"/>
+            <line num="417" count="0" type="stmt"/>
+            <line num="418" count="0" type="stmt"/>
+            <line num="419" count="0" type="stmt"/>
+            <line num="420" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="invisible_greenT() : void" num="422" count="0" type="method"/>
+            <line num="423" count="0" type="stmt"/>
+            <line num="424" count="0" type="stmt"/>
+            <line num="425" count="0" type="stmt"/>
+            <line num="426" count="0" type="stmt"/>
+            <line num="427" count="0" type="stmt"/>
+            <line num="428" count="0" type="stmt"/>
+            <line num="429" count="0" type="stmt"/>
+            <line num="430" count="0" type="stmt"/>
+            <line num="431" count="0" type="stmt"/>
+            <line num="432" count="0" type="stmt"/>
+            <line num="433" count="0" type="stmt"/>
+            <line num="434" count="0" type="stmt"/>
+            <line num="435" count="0" type="stmt"/>
+            <line num="436" count="0" type="stmt"/>
+            <line num="437" count="0" type="stmt"/>
+            <line num="438" count="0" type="stmt"/>
+            <line num="439" count="0" type="stmt"/>
+            <line num="440" count="0" type="stmt"/>
+            <line num="441" count="0" type="stmt"/>
+            <line complexity="12" visibility="public" signature="setplayerInfor() : void" num="445" count="0" type="method"/>
+            <line num="446" count="0" type="stmt"/>
+            <line num="447" count="0" type="stmt"/>
+            <line num="449" count="0" type="stmt"/>
+            <line num="450" count="0" type="stmt"/>
+            <line num="451" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="451" type="cond"/>
+            <line num="452" count="0" type="stmt"/>
+            <line num="456" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="456" type="cond"/>
+            <line num="458" count="0" type="stmt"/>
+            <line num="459" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="459" type="cond"/>
+            <line num="461" count="0" type="stmt"/>
+            <line num="464" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="464" type="cond"/>
+            <line num="465" count="0" type="stmt"/>
+            <line num="466" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="466" type="cond"/>
+            <line num="468" count="0" type="stmt"/>
+            <line num="471" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="471" type="cond"/>
+            <line num="472" count="0" type="stmt"/>
+            <line num="473" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="473" type="cond"/>
+            <line num="475" count="0" type="stmt"/>
+            <line num="478" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="478" type="cond"/>
+            <line num="479" count="0" type="stmt"/>
+            <line num="480" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="480" type="cond"/>
+            <line num="482" count="0" type="stmt"/>
+            <line num="485" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="485" type="cond"/>
+            <line num="486" count="0" type="stmt"/>
+            <line num="487" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="487" type="cond"/>
+            <line num="489" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="init_UI_territory_map() : void" num="496" count="0" type="method"/>
+            <line num="497" count="0" type="stmt"/>
+            <line num="498" count="0" type="stmt"/>
+            <line num="499" count="0" type="stmt"/>
+            <line num="500" count="0" type="stmt"/>
+            <line num="501" count="0" type="stmt"/>
+            <line num="502" count="0" type="stmt"/>
+            <line num="503" count="0" type="stmt"/>
+            <line num="504" count="0" type="stmt"/>
+            <line num="505" count="0" type="stmt"/>
+            <line num="506" count="0" type="stmt"/>
+            <line num="507" count="0" type="stmt"/>
+            <line num="508" count="0" type="stmt"/>
+            <line num="509" count="0" type="stmt"/>
+            <line num="510" count="0" type="stmt"/>
+            <line num="511" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="init_UI_unit_map() : void" num="514" count="0" type="method"/>
+            <line num="515" count="0" type="stmt"/>
+            <line num="516" count="0" type="stmt"/>
+            <line num="517" count="0" type="stmt"/>
+            <line num="518" count="0" type="stmt"/>
+            <line num="519" count="0" type="stmt"/>
+            <line num="520" count="0" type="stmt"/>
+            <line num="521" count="0" type="stmt"/>
+            <line num="522" count="0" type="stmt"/>
+            <line num="523" count="0" type="stmt"/>
+            <line num="524" count="0" type="stmt"/>
+            <line num="525" count="0" type="stmt"/>
+            <line num="526" count="0" type="stmt"/>
+            <line num="527" count="0" type="stmt"/>
+            <line num="528" count="0" type="stmt"/>
+            <line num="529" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="init_UI_circle_map() : void" num="532" count="0" type="method"/>
+            <line num="533" count="0" type="stmt"/>
+            <line num="534" count="0" type="stmt"/>
+            <line num="535" count="0" type="stmt"/>
+            <line num="536" count="0" type="stmt"/>
+            <line num="537" count="0" type="stmt"/>
+            <line num="538" count="0" type="stmt"/>
+            <line num="539" count="0" type="stmt"/>
+            <line num="540" count="0" type="stmt"/>
+            <line num="541" count="0" type="stmt"/>
+            <line num="542" count="0" type="stmt"/>
+            <line num="543" count="0" type="stmt"/>
+            <line num="544" count="0" type="stmt"/>
+            <line num="545" count="0" type="stmt"/>
+            <line num="546" count="0" type="stmt"/>
+            <line num="547" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="init_UI_size_map() : void" num="550" count="0" type="method"/>
+            <line num="551" count="0" type="stmt"/>
+            <line num="552" count="0" type="stmt"/>
+            <line num="553" count="0" type="stmt"/>
+            <line num="554" count="0" type="stmt"/>
+            <line num="555" count="0" type="stmt"/>
+            <line num="556" count="0" type="stmt"/>
+            <line num="557" count="0" type="stmt"/>
+            <line num="558" count="0" type="stmt"/>
+            <line num="559" count="0" type="stmt"/>
+            <line num="560" count="0" type="stmt"/>
+            <line num="561" count="0" type="stmt"/>
+            <line num="562" count="0" type="stmt"/>
+            <line num="563" count="0" type="stmt"/>
+            <line num="564" count="0" type="stmt"/>
+            <line num="565" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="buildcombobox() : void" num="568" count="0" type="method"/>
+            <line num="569" count="0" type="stmt"/>
+            <line num="570" count="0" type="stmt"/>
+            <line num="571" count="0" type="stmt"/>
+            <line num="572" count="0" type="stmt"/>
+            <line num="573" count="0" type="stmt"/>
+            <line num="574" count="0" type="stmt"/>
+            <line num="575" count="0" type="stmt"/>
+            <line num="576" count="0" type="stmt"/>
+            <line num="577" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="init_territory_image() : void" num="580" count="0" type="method"/>
+            <line num="581" count="0" type="stmt"/>
+            <line num="582" count="0" type="stmt"/>
+            <line num="583" count="0" type="stmt"/>
+            <line num="584" count="0" type="stmt"/>
+            <line num="585" count="0" type="stmt"/>
+            <line num="586" count="0" type="stmt"/>
+            <line num="587" count="0" type="stmt"/>
+            <line num="588" count="0" type="stmt"/>
+            <line num="589" count="0" type="stmt"/>
+            <line num="590" count="0" type="stmt"/>
+            <line num="591" count="0" type="stmt"/>
+            <line num="592" count="0" type="stmt"/>
+            <line num="593" count="0" type="stmt"/>
+            <line num="594" count="0" type="stmt"/>
+            <line num="595" count="0" type="stmt"/>
+            <line num="597" count="0" type="stmt"/>
+            <line num="598" count="0" type="stmt"/>
+            <line num="599" count="0" type="stmt"/>
+            <line num="600" count="0" type="stmt"/>
+            <line num="601" count="0" type="stmt"/>
+            <line num="602" count="0" type="stmt"/>
+            <line num="603" count="0" type="stmt"/>
+            <line num="604" count="0" type="stmt"/>
+            <line num="605" count="0" type="stmt"/>
+            <line num="606" count="0" type="stmt"/>
+            <line num="607" count="0" type="stmt"/>
+            <line num="608" count="0" type="stmt"/>
+            <line num="609" count="0" type="stmt"/>
+            <line num="610" count="0" type="stmt"/>
+            <line num="611" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="invisible_size() : void" num="614" count="0" type="method"/>
+            <line num="615" count="0" type="stmt"/>
+            <line num="616" count="0" type="stmt"/>
+            <line num="617" count="0" type="stmt"/>
+            <line num="618" count="0" type="stmt"/>
+            <line num="619" count="0" type="stmt"/>
+            <line num="620" count="0" type="stmt"/>
+            <line num="621" count="0" type="stmt"/>
+            <line num="622" count="0" type="stmt"/>
+            <line num="623" count="0" type="stmt"/>
+            <line num="624" count="0" type="stmt"/>
+            <line num="625" count="0" type="stmt"/>
+            <line num="626" count="0" type="stmt"/>
+            <line num="627" count="0" type="stmt"/>
+            <line num="628" count="0" type="stmt"/>
+            <line num="629" count="0" type="stmt"/>
+            <line complexity="4" visibility="public" signature="initialize() : void" num="632" count="0" type="method"/>
+            <line num="634" count="0" type="stmt"/>
+            <line num="635" count="0" type="stmt"/>
+            <line num="636" count="0" type="stmt"/>
+            <line num="640" count="0" type="stmt"/>
+            <line num="641" count="0" type="stmt"/>
+            <line num="642" count="0" type="stmt"/>
+            <line num="643" count="0" type="stmt"/>
+            <line num="644" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="644" type="cond"/>
+            <line num="645" count="0" type="stmt"/>
+            <line num="646" count="0" type="stmt"/>
+            <line num="647" count="0" type="stmt"/>
+            <line num="648" count="0" type="stmt"/>
+            <line num="650" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="650" type="cond"/>
+            <line num="651" count="0" type="stmt"/>
+            <line num="652" count="0" type="stmt"/>
+            <line num="653" count="0" type="stmt"/>
+            <line num="655" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="655" type="cond"/>
+            <line num="656" count="0" type="stmt"/>
+            <line num="657" count="0" type="stmt"/>
+            <line num="660" count="0" type="stmt"/>
+            <line num="662" count="0" type="stmt"/>
+            <line num="663" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="assign_unitsController(Client,int)" num="666" count="0" type="method"/>
+            <line num="667" count="0" type="stmt"/>
+            <line num="668" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="assign_unitsController(NewClientController,int)" num="671" count="0" type="method"/>
+            <line num="672" count="0" type="stmt"/>
+            <line num="673" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="selectTerritoryToAssign(String) : void" num="676" count="0" type="method"/>
+            <line num="677" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="choose_unit(ActionEvent) : void" num="680" count="0" type="method"/>
+            <line complexity="1" visibility="package" signature="click_abcd(ActionEvent) : void" num="685" count="0" type="method"/>
+            <line num="687" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="click_bagel(ActionEvent) : void" num="690" count="0" type="method"/>
+            <line num="692" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="click_coffeeland(ActionEvent) : void" num="695" count="0" type="method"/>
+            <line num="697" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="click_duke(ActionEvent) : void" num="700" count="0" type="method"/>
+            <line num="702" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="click_elantris(ActionEvent) : void" num="705" count="0" type="method"/>
+            <line num="707" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="click_gondor(ActionEvent) : void" num="710" count="0" type="method"/>
+            <line num="712" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="click_hogwarts(ActionEvent) : void" num="715" count="0" type="method"/>
+            <line num="717" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="click_lookout(ActionEvent) : void" num="720" count="0" type="method"/>
+            <line num="722" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="click_midkemia(ActionEvent) : void" num="725" count="0" type="method"/>
+            <line num="727" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="click_mordor(ActionEvent) : void" num="730" count="0" type="method"/>
+            <line num="732" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="click_narnia(ActionEvent) : void" num="735" count="0" type="method"/>
+            <line num="737" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="click_outlook(ActionEvent) : void" num="740" count="0" type="method"/>
+            <line num="742" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="click_oz(ActionEvent) : void" num="745" count="0" type="method"/>
+            <line num="747" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="click_roshar(ActionEvent) : void" num="750" count="0" type="method"/>
+            <line num="752" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="click_scadrial(ActionEvent) : void" num="755" count="0" type="method"/>
+            <line num="757" count="0" type="stmt"/>
+            <line complexity="4" visibility="public" signature="testJSON(JSONObject) : void" num="760" count="0" type="method"/>
+            <line num="761" count="0" type="stmt"/>
+            <line num="762" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="762" type="cond"/>
+            <line num="763" count="0" type="stmt"/>
+            <line num="764" count="0" type="stmt"/>
+            <line num="765" count="0" type="stmt"/>
+            <line num="766" count="0" type="stmt"/>
+            <line num="767" count="0" type="stmt"/>
+            <line num="768" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="768" type="cond"/>
+            <line num="769" count="0" type="stmt"/>
+            <line num="770" count="0" type="stmt"/>
+            <line num="771" count="0" type="stmt"/>
+            <line num="773" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="773" type="cond"/>
+            <line num="774" count="0" type="stmt"/>
+            <line num="776" count="0" type="stmt"/>
+            <line num="777" count="0" type="stmt"/>
+            <line num="779" count="0" type="stmt"/>
+            <line num="780" count="0" type="stmt"/>
+            <line complexity="2" visibility="package" signature="onclick_endplace(ActionEvent) : void" num="786" count="0" type="method"/>
+            <line num="788" count="0" type="stmt"/>
+            <line num="789" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="789" type="cond"/>
+            <line num="790" count="0" type="stmt"/>
+            <line num="791" count="0" type="stmt"/>
+            <line num="793" count="0" type="stmt"/>
+            <line num="794" count="0" type="stmt"/>
+            <line num="795" count="0" type="stmt"/>
+            <line num="796" count="0" type="stmt"/>
+            <line num="797" count="0" type="stmt"/>
+            <line num="799" count="0" type="stmt"/>
+            <line num="800" count="0" type="stmt"/>
+            <line num="801" count="0" type="stmt"/>
+            <line num="802" count="0" type="stmt"/>
+            <line num="802" count="0" type="stmt"/>
+            <line num="804" count="0" type="stmt"/>
+            <line num="805" count="0" type="stmt"/>
+            <line num="806" count="0" type="stmt"/>
+            <line num="807" count="0" type="stmt"/>
+            <line num="808" count="0" type="stmt"/>
+            <line complexity="2" visibility="package" signature="onclick_enter(ActionEvent) : void" num="811" count="0" type="method"/>
+            <line num="816" count="0" type="stmt"/>
+            <line num="817" count="0" type="stmt"/>
+            <line num="818" count="0" type="stmt"/>
+            <line num="819" count="0" type="stmt"/>
+            <line num="820" count="0" type="stmt"/>
+            <line num="821" count="0" type="stmt"/>
+            <line num="822" count="0" type="stmt"/>
+            <line num="824" count="0" type="stmt"/>
+            <line num="825" count="0" type="stmt"/>
+            <line num="826" count="0" type="stmt"/>
+            <line num="827" count="0" type="stmt"/>
+            <line num="828" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="onclick_exit(ActionEvent) : void" num="832" count="0" type="method"/>
+            <line num="834" count="0" type="stmt"/>
+            <line num="835" count="0" type="stmt"/>
+            <line num="836" count="0" type="stmt"/>
+            <line num="837" count="0" type="stmt"/>
+            <line num="837" count="0" type="stmt"/>
+            <line num="838" count="0" type="stmt"/>
+            <line num="839" count="0" type="stmt"/>
+            <line num="840" count="0" type="stmt"/>
+            <line num="841" count="0" type="stmt"/>
+            <line num="842" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="onclick_switchgame(ActionEvent) : void" num="846" count="0" type="method"/>
+            <line num="848" count="0" type="stmt"/>
+            <line num="850" count="0" type="stmt"/>
+            <line num="851" count="0" type="stmt"/>
+            <line num="852" count="0" type="stmt"/>
+            <line num="852" count="0" type="stmt"/>
+            <line num="853" count="0" type="stmt"/>
+            <line num="854" count="0" type="stmt"/>
+            <line num="855" count="0" type="stmt"/>
+            <line num="856" count="0" type="stmt"/>
+            <line num="857" count="0" type="stmt"/>
+         </file>
+         <file path="/home/wh162/651_final_project/ece651-sp22-group5-risc/client/src/main/java/edu/duke/ece651/risc/client/controller/choose_game_room.java" name="choose_game_room.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="12" loc="142" coveredmethods="0" methods="8" elements="56" classes="1" ncloc="111" statements="40" conditionals="8" coveredstatements="0"/>
+            <class name="choose_game_room">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="12" coveredmethods="0" methods="8" elements="56" statements="40" conditionals="8" coveredstatements="0"/>
+            </class>
+            <line complexity="1" visibility="public" signature="initialize() : void" num="54" count="0" type="method"/>
+            <line num="56" count="0" type="stmt"/>
+            <line num="57" count="0" type="stmt"/>
+            <line num="58" count="0" type="stmt"/>
+            <line num="59" count="0" type="stmt"/>
+            <line num="60" count="0" type="stmt"/>
+            <line num="61" count="0" type="stmt"/>
+            <line num="62" count="0" type="stmt"/>
+            <line num="63" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="choose_game_room(Client)" num="66" count="0" type="method"/>
+            <line num="67" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="choose_game_room(NewClientController)" num="71" count="0" type="method"/>
+            <line num="72" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="switch_to_login(ActionEvent,int) : void" num="76" count="0" type="method"/>
+            <line num="77" count="0" type="stmt"/>
+            <line num="79" count="0" type="stmt"/>
+            <line num="80" count="0" type="stmt"/>
+            <line num="82" count="0" type="stmt"/>
+            <line num="83" count="0" type="stmt"/>
+            <line num="86" count="0" type="stmt"/>
+            <line num="87" count="0" type="stmt"/>
+            <line num="88" count="0" type="stmt"/>
+            <line num="89" count="0" type="stmt"/>
+            <line num="90" count="0" type="stmt"/>
+            <line complexity="2" visibility="package" signature="onclick_fiveP(ActionEvent) : void" num="93" count="0" type="method"/>
+            <line num="95" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="95" type="cond"/>
+            <line num="96" count="0" type="stmt"/>
+            <line num="98" count="0" type="stmt"/>
+            <line num="99" count="0" type="stmt"/>
+            <line num="100" count="0" type="stmt"/>
+            <line complexity="2" visibility="package" signature="onclick_fourP(ActionEvent) : void" num="106" count="0" type="method"/>
+            <line num="108" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="108" type="cond"/>
+            <line num="109" count="0" type="stmt"/>
+            <line num="111" count="0" type="stmt"/>
+            <line num="112" count="0" type="stmt"/>
+            <line num="113" count="0" type="stmt"/>
+            <line complexity="2" visibility="package" signature="onclick_threeP(ActionEvent) : void" num="118" count="0" type="method"/>
+            <line num="120" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="120" type="cond"/>
+            <line num="121" count="0" type="stmt"/>
+            <line num="123" count="0" type="stmt"/>
+            <line num="124" count="0" type="stmt"/>
+            <line num="125" count="0" type="stmt"/>
+            <line complexity="2" visibility="package" signature="onclick_twoP(ActionEvent) : void" num="130" count="0" type="method"/>
+            <line num="132" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="132" type="cond"/>
+            <line num="133" count="0" type="stmt"/>
+            <line num="135" count="0" type="stmt"/>
+            <line num="136" count="0" type="stmt"/>
+            <line num="137" count="0" type="stmt"/>
+         </file>
+         <file path="/home/wh162/651_final_project/ece651-sp22-group5-risc/client/src/main/java/edu/duke/ece651/risc/client/controller/turn_action_controller.java" name="turn_action_controller.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="129" loc="1611" coveredmethods="0" methods="67" elements="924" classes="1" ncloc="1302" statements="753" conditionals="104" coveredstatements="0"/>
+            <class name="turn_action_controller">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="129" coveredmethods="0" methods="67" elements="924" statements="753" conditionals="104" coveredstatements="0"/>
+            </class>
+            <line complexity="1" visibility="public" signature="turn_action_controller(NewClientController,UIMapDisplayInfo,int,boolean)" num="76" count="0" type="method"/>
+            <line num="78" count="0" type="stmt"/>
+            <line num="79" count="0" type="stmt"/>
+            <line num="80" count="0" type="stmt"/>
+            <line num="81" count="0" type="stmt"/>
+            <line num="82" count="0" type="stmt"/>
+            <line num="83" count="0" type="stmt"/>
+            <line num="84" count="0" type="stmt"/>
+            <line num="85" count="0" type="stmt"/>
+            <line num="86" count="0" type="stmt"/>
+            <line num="87" count="0" type="stmt"/>
+            <line num="88" count="0" type="stmt"/>
+            <line num="89" count="0" type="stmt"/>
+            <line num="90" count="0" type="stmt"/>
+            <line num="91" count="0" type="stmt"/>
+            <line num="92" count="0" type="stmt"/>
+            <line num="93" count="0" type="stmt"/>
+            <line num="94" count="0" type="stmt"/>
+            <line num="95" count="0" type="stmt"/>
+            <line num="96" count="0" type="stmt"/>
+            <line num="97" count="0" type="stmt"/>
+            <line num="98" count="0" type="stmt"/>
+            <line num="99" count="0" type="stmt"/>
+            <line num="100" count="0" type="stmt"/>
+            <line num="101" count="0" type="stmt"/>
+            <line num="102" count="0" type="stmt"/>
+            <line num="104" count="0" type="stmt"/>
+            <line num="105" count="0" type="stmt"/>
+            <line num="106" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="turn_action_controller(NewClientController,int,boolean)" num="109" count="0" type="method"/>
+            <line num="111" count="0" type="stmt"/>
+            <line num="112" count="0" type="stmt"/>
+            <line num="113" count="0" type="stmt"/>
+            <line num="114" count="0" type="stmt"/>
+            <line num="115" count="0" type="stmt"/>
+            <line num="116" count="0" type="stmt"/>
+            <line num="117" count="0" type="stmt"/>
+            <line num="118" count="0" type="stmt"/>
+            <line num="119" count="0" type="stmt"/>
+            <line num="120" count="0" type="stmt"/>
+            <line num="121" count="0" type="stmt"/>
+            <line num="122" count="0" type="stmt"/>
+            <line num="123" count="0" type="stmt"/>
+            <line num="124" count="0" type="stmt"/>
+            <line num="125" count="0" type="stmt"/>
+            <line num="126" count="0" type="stmt"/>
+            <line num="127" count="0" type="stmt"/>
+            <line num="128" count="0" type="stmt"/>
+            <line num="129" count="0" type="stmt"/>
+            <line num="130" count="0" type="stmt"/>
+            <line num="131" count="0" type="stmt"/>
+            <line num="132" count="0" type="stmt"/>
+            <line num="133" count="0" type="stmt"/>
+            <line num="134" count="0" type="stmt"/>
+            <line num="135" count="0" type="stmt"/>
+            <line num="137" count="0" type="stmt"/>
+            <line num="138" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="invisible_whiteT() : void" num="513" count="0" type="method"/>
+            <line num="514" count="0" type="stmt"/>
+            <line num="515" count="0" type="stmt"/>
+            <line num="516" count="0" type="stmt"/>
+            <line num="517" count="0" type="stmt"/>
+            <line num="518" count="0" type="stmt"/>
+            <line num="519" count="0" type="stmt"/>
+            <line num="520" count="0" type="stmt"/>
+            <line num="521" count="0" type="stmt"/>
+            <line num="522" count="0" type="stmt"/>
+            <line num="523" count="0" type="stmt"/>
+            <line num="524" count="0" type="stmt"/>
+            <line num="525" count="0" type="stmt"/>
+            <line num="526" count="0" type="stmt"/>
+            <line num="527" count="0" type="stmt"/>
+            <line num="528" count="0" type="stmt"/>
+            <line num="529" count="0" type="stmt"/>
+            <line num="530" count="0" type="stmt"/>
+            <line num="531" count="0" type="stmt"/>
+            <line num="532" count="0" type="stmt"/>
+            <line num="533" count="0" type="stmt"/>
+            <line num="534" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="invisible_orangeT() : void" num="537" count="0" type="method"/>
+            <line num="538" count="0" type="stmt"/>
+            <line num="539" count="0" type="stmt"/>
+            <line num="540" count="0" type="stmt"/>
+            <line num="541" count="0" type="stmt"/>
+            <line num="542" count="0" type="stmt"/>
+            <line num="543" count="0" type="stmt"/>
+            <line num="544" count="0" type="stmt"/>
+            <line num="545" count="0" type="stmt"/>
+            <line num="546" count="0" type="stmt"/>
+            <line num="547" count="0" type="stmt"/>
+            <line num="548" count="0" type="stmt"/>
+            <line num="549" count="0" type="stmt"/>
+            <line num="550" count="0" type="stmt"/>
+            <line num="551" count="0" type="stmt"/>
+            <line num="552" count="0" type="stmt"/>
+            <line num="553" count="0" type="stmt"/>
+            <line num="554" count="0" type="stmt"/>
+            <line num="555" count="0" type="stmt"/>
+            <line num="556" count="0" type="stmt"/>
+            <line num="557" count="0" type="stmt"/>
+            <line num="558" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="invisible_greenT() : void" num="561" count="0" type="method"/>
+            <line num="562" count="0" type="stmt"/>
+            <line num="563" count="0" type="stmt"/>
+            <line num="564" count="0" type="stmt"/>
+            <line num="565" count="0" type="stmt"/>
+            <line num="566" count="0" type="stmt"/>
+            <line num="567" count="0" type="stmt"/>
+            <line num="568" count="0" type="stmt"/>
+            <line num="569" count="0" type="stmt"/>
+            <line num="570" count="0" type="stmt"/>
+            <line num="571" count="0" type="stmt"/>
+            <line num="572" count="0" type="stmt"/>
+            <line num="573" count="0" type="stmt"/>
+            <line num="574" count="0" type="stmt"/>
+            <line num="575" count="0" type="stmt"/>
+            <line num="576" count="0" type="stmt"/>
+            <line num="577" count="0" type="stmt"/>
+            <line num="578" count="0" type="stmt"/>
+            <line num="579" count="0" type="stmt"/>
+            <line num="580" count="0" type="stmt"/>
+            <line complexity="6" visibility="public" signature="setplayerInfor() : void" num="583" count="0" type="method"/>
+            <line num="584" count="0" type="stmt"/>
+            <line num="585" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="585" type="cond"/>
+            <line num="586" count="0" type="stmt"/>
+            <line num="587" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="587" type="cond"/>
+            <line num="588" count="0" type="stmt"/>
+            <line num="589" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="589" type="cond"/>
+            <line num="590" count="0" type="stmt"/>
+            <line num="591" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="591" type="cond"/>
+            <line num="592" count="0" type="stmt"/>
+            <line num="593" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="593" type="cond"/>
+            <line num="594" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="init_UI_territory_map() : void" num="598" count="0" type="method"/>
+            <line num="599" count="0" type="stmt"/>
+            <line num="600" count="0" type="stmt"/>
+            <line num="601" count="0" type="stmt"/>
+            <line num="602" count="0" type="stmt"/>
+            <line num="603" count="0" type="stmt"/>
+            <line num="604" count="0" type="stmt"/>
+            <line num="605" count="0" type="stmt"/>
+            <line num="606" count="0" type="stmt"/>
+            <line num="607" count="0" type="stmt"/>
+            <line num="608" count="0" type="stmt"/>
+            <line num="609" count="0" type="stmt"/>
+            <line num="610" count="0" type="stmt"/>
+            <line num="611" count="0" type="stmt"/>
+            <line num="612" count="0" type="stmt"/>
+            <line num="613" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="init_UI_unit_map() : void" num="616" count="0" type="method"/>
+            <line num="617" count="0" type="stmt"/>
+            <line num="618" count="0" type="stmt"/>
+            <line num="619" count="0" type="stmt"/>
+            <line num="620" count="0" type="stmt"/>
+            <line num="621" count="0" type="stmt"/>
+            <line num="622" count="0" type="stmt"/>
+            <line num="623" count="0" type="stmt"/>
+            <line num="624" count="0" type="stmt"/>
+            <line num="625" count="0" type="stmt"/>
+            <line num="626" count="0" type="stmt"/>
+            <line num="627" count="0" type="stmt"/>
+            <line num="628" count="0" type="stmt"/>
+            <line num="629" count="0" type="stmt"/>
+            <line num="630" count="0" type="stmt"/>
+            <line num="631" count="0" type="stmt"/>
+            <line num="632" count="0" type="stmt"/>
+            <line num="633" count="0" type="stmt"/>
+            <line num="634" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="init_UI_circle_map() : void" num="638" count="0" type="method"/>
+            <line num="639" count="0" type="stmt"/>
+            <line num="640" count="0" type="stmt"/>
+            <line num="641" count="0" type="stmt"/>
+            <line num="642" count="0" type="stmt"/>
+            <line num="643" count="0" type="stmt"/>
+            <line num="644" count="0" type="stmt"/>
+            <line num="645" count="0" type="stmt"/>
+            <line num="646" count="0" type="stmt"/>
+            <line num="647" count="0" type="stmt"/>
+            <line num="648" count="0" type="stmt"/>
+            <line num="649" count="0" type="stmt"/>
+            <line num="650" count="0" type="stmt"/>
+            <line num="651" count="0" type="stmt"/>
+            <line num="652" count="0" type="stmt"/>
+            <line num="653" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="init_UI_size_map() : void" num="656" count="0" type="method"/>
+            <line num="657" count="0" type="stmt"/>
+            <line num="658" count="0" type="stmt"/>
+            <line num="659" count="0" type="stmt"/>
+            <line num="660" count="0" type="stmt"/>
+            <line num="661" count="0" type="stmt"/>
+            <line num="662" count="0" type="stmt"/>
+            <line num="663" count="0" type="stmt"/>
+            <line num="664" count="0" type="stmt"/>
+            <line num="665" count="0" type="stmt"/>
+            <line num="666" count="0" type="stmt"/>
+            <line num="667" count="0" type="stmt"/>
+            <line num="668" count="0" type="stmt"/>
+            <line num="669" count="0" type="stmt"/>
+            <line num="670" count="0" type="stmt"/>
+            <line num="671" count="0" type="stmt"/>
+            <line num="672" count="0" type="stmt"/>
+            <line num="673" count="0" type="stmt"/>
+            <line num="674" count="0" type="stmt"/>
+            <line complexity="1" visibility="protected" signature="initHoverInfoMap() : void" num="679" count="0" type="method"/>
+            <line num="680" count="0" type="stmt"/>
+            <line num="681" count="0" type="stmt"/>
+            <line num="682" count="0" type="stmt"/>
+            <line num="683" count="0" type="stmt"/>
+            <line num="684" count="0" type="stmt"/>
+            <line num="685" count="0" type="stmt"/>
+            <line num="686" count="0" type="stmt"/>
+            <line num="687" count="0" type="stmt"/>
+            <line num="688" count="0" type="stmt"/>
+            <line num="689" count="0" type="stmt"/>
+            <line num="690" count="0" type="stmt"/>
+            <line num="691" count="0" type="stmt"/>
+            <line num="692" count="0" type="stmt"/>
+            <line num="693" count="0" type="stmt"/>
+            <line num="694" count="0" type="stmt"/>
+            <line num="695" count="0" type="stmt"/>
+            <line complexity="3" visibility="public" signature="getUnitTypeNumber(JSONArray,int,String) : int" num="698" count="0" type="method"/>
+            <line num="699" count="0" type="stmt"/>
+            <line num="700" count="0" type="stmt"/>
+            <line num="701" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="701" type="cond"/>
+            <line num="702" count="0" type="stmt"/>
+            <line num="704" count="0" type="stmt"/>
+            <line num="707" count="0" type="stmt"/>
+            <line num="709" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setTerritoryTotalUnit(String,JSONArray) : void" num="712" count="0" type="method"/>
+            <line num="713" count="0" type="stmt"/>
+            <line num="714" count="0" type="stmt"/>
+            <line num="715" count="0" type="stmt"/>
+            <line num="716" count="0" type="stmt"/>
+            <line num="717" count="0" type="stmt"/>
+            <line num="718" count="0" type="stmt"/>
+            <line num="719" count="0" type="stmt"/>
+            <line num="720" count="0" type="stmt"/>
+            <line num="721" count="0" type="stmt"/>
+            <line num="723" count="0" type="stmt"/>
+            <line num="724" count="0" type="stmt"/>
+            <line complexity="5" visibility="protected" signature="collectOwnedAndAdjacentTerritories(Player,JSONArray) : Set&lt;String&gt;" num="736" count="0" type="method"/>
+            <line num="737" count="0" type="stmt"/>
+            <line num="738" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="738" type="cond"/>
+            <line num="739" count="0" type="stmt"/>
+            <line num="740" count="0" type="stmt"/>
+            <line num="741" count="0" type="stmt"/>
+            <line num="742" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="742" type="cond"/>
+            <line num="743" count="0" type="stmt"/>
+            <line num="744" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="744" type="cond"/>
+            <line num="745" count="0" type="stmt"/>
+            <line num="746" count="0" type="stmt"/>
+            <line num="747" count="0" type="stmt"/>
+            <line num="748" count="0" type="stmt"/>
+            <line num="749" count="0" type="stmt"/>
+            <line num="750" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="750" type="cond"/>
+            <line num="751" count="0" type="stmt"/>
+            <line num="752" count="0" type="stmt"/>
+            <line num="757" count="0" type="stmt"/>
+            <line complexity="2" visibility="protected" signature="collectSpyLocations(Player) : Set&lt;String&gt;" num="767" count="0" type="method"/>
+            <line num="768" count="0" type="stmt"/>
+            <line num="769" count="0" type="stmt"/>
+            <line num="770" count="0" type="stmt"/>
+            <line num="771" count="0" type="stmt"/>
+            <line num="772" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="772" type="cond"/>
+            <line num="773" count="0" type="stmt"/>
+            <line num="774" count="0" type="stmt"/>
+            <line num="775" count="0" type="stmt"/>
+            <line num="777" count="0" type="stmt"/>
+            <line num="778" count="0" type="stmt"/>
+            <line complexity="1" visibility="protected" signature="collectVisibleTerritories(Player,JSONArray) : Set&lt;String&gt;" num="789" count="0" type="method"/>
+            <line num="790" count="0" type="stmt"/>
+            <line num="791" count="0" type="stmt"/>
+            <line num="792" count="0" type="stmt"/>
+            <line num="793" count="0" type="stmt"/>
+            <line complexity="1" visibility="protected" signature="updateTerritoryDisplayInfo(JSONObject) : void" num="803" count="0" type="method"/>
+            <line num="804" count="0" type="stmt"/>
+            <line num="805" count="0" type="stmt"/>
+            <line num="806" count="0" type="stmt"/>
+            <line num="807" count="0" type="stmt"/>
+            <line num="808" count="0" type="stmt"/>
+            <line num="809" count="0" type="stmt"/>
+            <line num="810" count="0" type="stmt"/>
+            <line num="811" count="0" type="stmt"/>
+            <line num="812" count="0" type="stmt"/>
+            <line num="813" count="0" type="stmt"/>
+            <line complexity="5" visibility="public" signature="updateMapDisplay() : void" num="820" count="0" type="method"/>
+            <line num="821" count="0" type="stmt"/>
+            <line num="822" count="0" type="stmt"/>
+            <line num="823" count="0" type="stmt"/>
+            <line num="824" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="824" type="cond"/>
+            <line num="825" count="0" type="stmt"/>
+            <line num="826" count="0" type="stmt"/>
+            <line num="827" count="0" type="stmt"/>
+            <line num="828" count="0" type="stmt"/>
+            <line num="830" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="830" type="cond"/>
+            <line num="831" count="0" type="stmt"/>
+            <line num="832" count="0" type="stmt"/>
+            <line num="833" count="0" type="stmt"/>
+            <line num="834" count="0" type="stmt"/>
+            <line num="835" count="0" type="stmt"/>
+            <line num="838" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="838" type="cond"/>
+            <line num="839" count="0" type="stmt"/>
+            <line num="840" count="0" type="stmt"/>
+            <line num="841" count="0" type="stmt"/>
+            <line num="843" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="843" type="cond"/>
+            <line num="844" count="0" type="stmt"/>
+            <line num="846" count="0" type="stmt"/>
+            <line num="847" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="init_territory_image() : void" num="853" count="0" type="method"/>
+            <line num="854" count="0" type="stmt"/>
+            <line num="855" count="0" type="stmt"/>
+            <line num="856" count="0" type="stmt"/>
+            <line num="857" count="0" type="stmt"/>
+            <line num="858" count="0" type="stmt"/>
+            <line num="859" count="0" type="stmt"/>
+            <line num="860" count="0" type="stmt"/>
+            <line num="861" count="0" type="stmt"/>
+            <line num="862" count="0" type="stmt"/>
+            <line num="863" count="0" type="stmt"/>
+            <line num="864" count="0" type="stmt"/>
+            <line num="865" count="0" type="stmt"/>
+            <line num="866" count="0" type="stmt"/>
+            <line num="867" count="0" type="stmt"/>
+            <line num="868" count="0" type="stmt"/>
+            <line num="870" count="0" type="stmt"/>
+            <line num="871" count="0" type="stmt"/>
+            <line num="872" count="0" type="stmt"/>
+            <line num="873" count="0" type="stmt"/>
+            <line num="874" count="0" type="stmt"/>
+            <line num="875" count="0" type="stmt"/>
+            <line num="876" count="0" type="stmt"/>
+            <line num="877" count="0" type="stmt"/>
+            <line num="878" count="0" type="stmt"/>
+            <line num="879" count="0" type="stmt"/>
+            <line num="880" count="0" type="stmt"/>
+            <line num="881" count="0" type="stmt"/>
+            <line num="882" count="0" type="stmt"/>
+            <line num="883" count="0" type="stmt"/>
+            <line num="884" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="buildcombobox() : void" num="887" count="0" type="method"/>
+            <line num="888" count="0" type="stmt"/>
+            <line num="889" count="0" type="stmt"/>
+            <line num="891" count="0" type="stmt"/>
+            <line num="892" count="0" type="stmt"/>
+            <line num="893" count="0" type="stmt"/>
+            <line num="894" count="0" type="stmt"/>
+            <line num="895" count="0" type="stmt"/>
+            <line num="896" count="0" type="stmt"/>
+            <line num="897" count="0" type="stmt"/>
+            <line num="899" count="0" type="stmt"/>
+            <line num="900" count="0" type="stmt"/>
+            <line num="901" count="0" type="stmt"/>
+            <line num="902" count="0" type="stmt"/>
+            <line num="903" count="0" type="stmt"/>
+            <line num="904" count="0" type="stmt"/>
+            <line num="905" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="invisible_actions(boolean) : void" num="908" count="0" type="method"/>
+            <line num="909" count="0" type="stmt"/>
+            <line num="910" count="0" type="stmt"/>
+            <line num="911" count="0" type="stmt"/>
+            <line num="912" count="0" type="stmt"/>
+            <line num="913" count="0" type="stmt"/>
+            <line num="914" count="0" type="stmt"/>
+            <line num="915" count="0" type="stmt"/>
+            <line num="916" count="0" type="stmt"/>
+            <line num="917" count="0" type="stmt"/>
+            <line num="918" count="0" type="stmt"/>
+            <line num="919" count="0" type="stmt"/>
+            <line num="920" count="0" type="stmt"/>
+            <line num="922" count="0" type="stmt"/>
+            <line num="923" count="0" type="stmt"/>
+            <line num="924" count="0" type="stmt"/>
+            <line num="925" count="0" type="stmt"/>
+            <line complexity="5" visibility="public" signature="initialize() : void" num="928" count="0" type="method"/>
+            <line num="930" count="0" type="stmt"/>
+            <line num="931" count="0" type="stmt"/>
+            <line num="932" count="0" type="stmt"/>
+            <line num="933" count="0" type="stmt"/>
+            <line num="934" count="0" type="stmt"/>
+            <line num="935" count="0" type="stmt"/>
+            <line num="936" count="0" type="stmt"/>
+            <line num="937" count="0" type="stmt"/>
+            <line num="938" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="938" type="cond"/>
+            <line num="939" count="0" type="stmt"/>
+            <line num="940" count="0" type="stmt"/>
+            <line num="941" count="0" type="stmt"/>
+            <line num="942" count="0" type="stmt"/>
+            <line num="943" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="943" type="cond"/>
+            <line num="944" count="0" type="stmt"/>
+            <line num="945" count="0" type="stmt"/>
+            <line num="946" count="0" type="stmt"/>
+            <line num="947" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="947" type="cond"/>
+            <line num="948" count="0" type="stmt"/>
+            <line num="949" count="0" type="stmt"/>
+            <line num="951" count="0" type="stmt"/>
+            <line num="953" count="0" type="stmt"/>
+            <line num="954" count="0" type="stmt"/>
+            <line num="955" count="0" type="stmt"/>
+            <line num="956" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="956" type="cond"/>
+            <line num="958" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="selectSourceTerritory(String) : void" num="961" count="0" type="method"/>
+            <line num="962" count="0" type="stmt"/>
+            <line num="963" count="0" type="stmt"/>
+            <line num="964" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="selectTargetTerritory(String) : void" num="968" count="0" type="method"/>
+            <line num="969" count="0" type="stmt"/>
+            <line num="970" count="0" type="stmt"/>
+            <line num="971" count="0" type="stmt"/>
+            <line complexity="8" visibility="public" signature="source_or_target(String) : void" num="975" count="0" type="method"/>
+            <line num="976" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="976" type="cond"/>
+            <line num="977" count="0" type="stmt"/>
+            <line num="978" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="978" type="cond"/>
+            <line num="979" count="0" type="stmt"/>
+            <line complexity="2" visibility="package" signature="click_appear(ActionEvent) : void" num="983" count="0" type="method"/>
+            <line num="985" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="985" type="cond"/>
+            <line num="986" count="0" type="stmt"/>
+            <line num="987" count="0" type="stmt"/>
+            <line num="989" count="0" type="stmt"/>
+            <line num="990" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="click_abcd(ActionEvent) : void" num="994" count="0" type="method"/>
+            <line num="996" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="click_bagel(ActionEvent) : void" num="999" count="0" type="method"/>
+            <line num="1001" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="click_coffeeland(ActionEvent) : void" num="1004" count="0" type="method"/>
+            <line num="1006" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="click_duke(ActionEvent) : void" num="1009" count="0" type="method"/>
+            <line num="1011" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="click_elantris(ActionEvent) : void" num="1014" count="0" type="method"/>
+            <line num="1016" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="click_gondor(ActionEvent) : void" num="1019" count="0" type="method"/>
+            <line num="1021" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="click_hogwarts(ActionEvent) : void" num="1024" count="0" type="method"/>
+            <line num="1026" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="click_lookout(ActionEvent) : void" num="1029" count="0" type="method"/>
+            <line num="1031" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="click_midkemia(ActionEvent) : void" num="1034" count="0" type="method"/>
+            <line num="1036" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="click_mordor(ActionEvent) : void" num="1039" count="0" type="method"/>
+            <line num="1041" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="click_narnia(ActionEvent) : void" num="1044" count="0" type="method"/>
+            <line num="1046" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="click_outlook(ActionEvent) : void" num="1049" count="0" type="method"/>
+            <line num="1051" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="click_oz(ActionEvent) : void" num="1054" count="0" type="method"/>
+            <line num="1056" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="click_roshar(ActionEvent) : void" num="1059" count="0" type="method"/>
+            <line num="1061" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="click_scadrial(ActionEvent) : void" num="1064" count="0" type="method"/>
+            <line num="1066" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getmap(NewClientController,int) : void" num="1069" count="0" type="method"/>
+            <line num="1070" count="0" type="stmt"/>
+            <line num="1071" count="0" type="stmt"/>
+            <line complexity="5" visibility="package" signature="onclick_done(ActionEvent) : void" num="1074" count="0" type="method"/>
+            <line num="1077" count="0" type="stmt"/>
+            <line num="1078" count="0" type="stmt"/>
+            <line num="1079" count="0" type="stmt"/>
+            <line num="1080" count="0" type="stmt"/>
+            <line num="1082" count="0" type="stmt"/>
+            <line num="1083" count="0" type="stmt"/>
+            <line num="1084" count="0" type="stmt"/>
+            <line num="1085" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="1085" type="cond"/>
+            <line num="1086" count="0" type="stmt"/>
+            <line num="1087" count="0" type="stmt"/>
+            <line num="1089" count="0" type="stmt"/>
+            <line num="1090" count="0" type="stmt"/>
+            <line num="1091" count="0" type="stmt"/>
+            <line num="1092" count="0" type="stmt"/>
+            <line num="1093" count="0" type="stmt"/>
+            <line num="1094" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="1094" type="cond"/>
+            <line num="1095" count="0" type="stmt"/>
+            <line num="1097" count="0" type="stmt"/>
+            <line num="1098" count="0" type="stmt"/>
+            <line num="1099" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="1099" type="cond"/>
+            <line num="1101" count="0" type="stmt"/>
+            <line num="1102" count="0" type="stmt"/>
+            <line num="1104" count="0" type="stmt"/>
+            <line num="1105" count="0" type="stmt"/>
+            <line num="1106" count="0" type="stmt"/>
+            <line num="1109" count="0" type="stmt"/>
+            <line num="1112" count="0" type="stmt"/>
+            <line num="1113" count="0" type="stmt"/>
+            <line num="1114" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="1114" type="cond"/>
+            <line num="1115" count="0" type="stmt"/>
+            <line num="1117" count="0" type="stmt"/>
+            <line num="1119" count="0" type="stmt"/>
+            <line num="1120" count="0" type="stmt"/>
+            <line num="1121" count="0" type="stmt"/>
+            <line num="1122" count="0" type="stmt"/>
+            <line num="1123" count="0" type="stmt"/>
+            <line complexity="2" visibility="package" signature="onclick_conti_watch(ActionEvent) : void" num="1127" count="0" type="method"/>
+            <line num="1129" count="0" type="stmt"/>
+            <line num="1130" count="0" type="stmt"/>
+            <line num="1131" count="0" type="stmt"/>
+            <line num="1132" count="0" type="stmt"/>
+            <line num="1133" count="0" type="stmt"/>
+            <line num="1134" count="0" type="stmt"/>
+            <line num="1135" count="0" type="stmt"/>
+            <line num="1137" count="0" type="stmt"/>
+            <line num="1138" count="0" type="stmt"/>
+            <line num="1139" count="0" type="stmt"/>
+            <line num="1140" count="0" type="stmt"/>
+            <line num="1141" count="0" type="stmt"/>
+            <line num="1142" count="0" type="stmt"/>
+            <line num="1143" count="0" type="stmt"/>
+            <line num="1144" count="0" type="stmt"/>
+            <line num="1145" count="0" type="stmt"/>
+            <line num="1146" count="0" type="stmt"/>
+            <line num="1147" count="0" type="stmt"/>
+            <line num="1149" count="0" type="stmt"/>
+            <line num="1150" count="0" type="stmt"/>
+            <line num="1151" count="0" type="stmt"/>
+            <line num="1152" count="0" type="stmt"/>
+            <line num="1153" count="0" type="stmt"/>
+            <line num="1154" count="0" type="stmt"/>
+            <line num="1156" count="0" type="stmt"/>
+            <line num="1157" count="0" type="stmt"/>
+            <line num="1159" count="0" type="stmt"/>
+            <line num="1160" count="0" type="stmt"/>
+            <line num="1161" count="0" type="stmt"/>
+            <line num="1163" count="0" type="stmt"/>
+            <line num="1165" count="0" type="stmt"/>
+            <line num="1166" count="0" type="stmt"/>
+            <line num="1169" count="0" type="stmt"/>
+            <line num="1170" count="0" type="stmt"/>
+            <line num="1171" count="0" type="stmt"/>
+            <line num="1172" count="0" type="stmt"/>
+            <line num="1173" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="onclick_loseswitchgame(ActionEvent) : void" num="1179" count="0" type="method"/>
+            <line num="1181" count="0" type="stmt"/>
+            <line num="1183" count="0" type="stmt"/>
+            <line num="1184" count="0" type="stmt"/>
+            <line num="1185" count="0" type="stmt"/>
+            <line num="1186" count="0" type="stmt"/>
+            <line num="1187" count="0" type="stmt"/>
+            <line num="1188" count="0" type="stmt"/>
+            <line num="1192" count="0" type="stmt"/>
+            <line num="1194" count="0" type="stmt"/>
+            <line num="1196" count="0" type="stmt"/>
+            <line num="1197" count="0" type="stmt"/>
+            <line num="1200" count="0" type="stmt"/>
+            <line num="1201" count="0" type="stmt"/>
+            <line num="1202" count="0" type="stmt"/>
+            <line num="1203" count="0" type="stmt"/>
+            <line num="1204" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="onclick_exit(ActionEvent) : void" num="1208" count="0" type="method"/>
+            <line num="1210" count="0" type="stmt"/>
+            <line num="1211" count="0" type="stmt"/>
+            <line num="1212" count="0" type="stmt"/>
+            <line num="1213" count="0" type="stmt"/>
+            <line num="1214" count="0" type="stmt"/>
+            <line num="1215" count="0" type="stmt"/>
+            <line num="1219" count="0" type="stmt"/>
+            <line num="1221" count="0" type="stmt"/>
+            <line num="1223" count="0" type="stmt"/>
+            <line num="1224" count="0" type="stmt"/>
+            <line num="1227" count="0" type="stmt"/>
+            <line num="1228" count="0" type="stmt"/>
+            <line num="1229" count="0" type="stmt"/>
+            <line num="1230" count="0" type="stmt"/>
+            <line num="1231" count="0" type="stmt"/>
+            <line complexity="11" visibility="package" signature="onclick_more_action(ActionEvent) : void" num="1235" count="0" type="method"/>
+            <line num="1239" count="0" type="stmt"/>
+            <line num="1241" count="0" type="stmt"/>
+            <line num="1242" count="0" type="stmt"/>
+            <line num="1243" count="0" type="stmt"/>
+            <line num="1244" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="1244" type="cond"/>
+            <line num="1245" count="0" type="stmt"/>
+            <line num="1246" count="0" type="stmt"/>
+            <line num="1247" count="0" type="stmt"/>
+            <line num="1248" count="0" type="stmt"/>
+            <line num="1249" count="0" type="stmt"/>
+            <line num="1250" count="0" type="stmt"/>
+            <line num="1251" count="0" type="stmt"/>
+            <line num="1252" count="0" type="stmt"/>
+            <line num="1253" count="0" type="stmt"/>
+            <line num="1254" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="1254" type="cond"/>
+            <line num="1255" count="0" type="stmt"/>
+            <line num="1256" count="0" type="stmt"/>
+            <line num="1257" count="0" type="stmt"/>
+            <line num="1258" count="0" type="stmt"/>
+            <line num="1259" count="0" type="stmt"/>
+            <line num="1260" count="0" type="stmt"/>
+            <line num="1261" count="0" type="stmt"/>
+            <line num="1262" count="0" type="stmt"/>
+            <line num="1263" count="0" type="stmt"/>
+            <line num="1264" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="1264" type="cond"/>
+            <line num="1265" count="0" type="stmt"/>
+            <line num="1266" count="0" type="stmt"/>
+            <line num="1267" count="0" type="stmt"/>
+            <line num="1268" count="0" type="stmt"/>
+            <line num="1269" count="0" type="stmt"/>
+            <line num="1270" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="1270" type="cond"/>
+            <line num="1271" count="0" type="stmt"/>
+            <line num="1272" count="0" type="stmt"/>
+            <line num="1273" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="1273" type="cond"/>
+            <line num="1274" count="0" type="stmt"/>
+            <line num="1275" count="0" type="stmt"/>
+            <line num="1276" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="1276" type="cond"/>
+            <line num="1277" count="0" type="stmt"/>
+            <line num="1278" count="0" type="stmt"/>
+            <line num="1279" count="0" type="stmt"/>
+            <line num="1280" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="1280" type="cond"/>
+            <line num="1281" count="0" type="stmt"/>
+            <line num="1283" count="0" type="stmt"/>
+            <line num="1284" count="0" type="stmt"/>
+            <line num="1285" count="0" type="stmt"/>
+            <line num="1286" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="1286" type="cond"/>
+            <line num="1287" count="0" type="stmt"/>
+            <line num="1288" count="0" type="stmt"/>
+            <line num="1289" count="0" type="stmt"/>
+            <line num="1290" count="0" type="stmt"/>
+            <line num="1291" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="1291" type="cond"/>
+            <line num="1292" count="0" type="stmt"/>
+            <line num="1293" count="0" type="stmt"/>
+            <line num="1294" count="0" type="stmt"/>
+            <line num="1296" count="0" type="stmt"/>
+            <line num="1297" count="0" type="stmt"/>
+            <line num="1298" count="0" type="stmt"/>
+            <line num="1299" count="0" type="stmt"/>
+            <line num="1300" count="0" type="stmt"/>
+            <line num="1302" count="0" type="stmt"/>
+            <line num="1303" count="0" type="stmt"/>
+            <line num="1304" count="0" type="stmt"/>
+            <line num="1305" count="0" type="stmt"/>
+            <line num="1306" count="0" type="stmt"/>
+            <line num="1307" count="0" type="stmt"/>
+            <line num="1309" count="0" type="stmt"/>
+            <line num="1310" count="0" type="stmt"/>
+            <line num="1312" count="0" type="stmt"/>
+            <line num="1313" count="0" type="stmt"/>
+            <line num="1314" count="0" type="stmt"/>
+            <line num="1315" count="0" type="stmt"/>
+            <line num="1316" count="0" type="stmt"/>
+            <line num="1317" count="0" type="stmt"/>
+            <line num="1318" count="0" type="stmt"/>
+            <line num="1319" count="0" type="stmt"/>
+            <line num="1320" count="0" type="stmt"/>
+            <line num="1321" count="0" type="stmt"/>
+            <line num="1323" count="0" type="stmt"/>
+            <line complexity="4" visibility="package" signature="onclick_more_unit(ActionEvent) : void" num="1327" count="0" type="method"/>
+            <line num="1333" count="0" type="stmt"/>
+            <line num="1334" count="0" type="stmt"/>
+            <line num="1336" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="1336" type="cond"/>
+            <line num="1337" count="0" type="stmt"/>
+            <line num="1339" count="0" type="stmt"/>
+            <line num="1340" count="0" type="stmt"/>
+            <line num="1341" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="1341" type="cond"/>
+            <line num="1342" count="0" type="stmt"/>
+            <line num="1343" count="0" type="stmt"/>
+            <line num="1344" count="0" type="stmt"/>
+            <line num="1346" count="0" type="stmt"/>
+            <line num="1347" count="0" type="stmt"/>
+            <line num="1348" count="0" type="stmt"/>
+            <line num="1349" count="0" type="stmt"/>
+            <line num="1351" count="0" type="stmt"/>
+            <line complexity="11" visibility="package" signature="onclick_ok(ActionEvent) : void" num="1357" count="0" type="method"/>
+            <line num="1359" count="0" type="stmt"/>
+            <line num="1360" count="0" type="stmt"/>
+            <line num="1361" count="0" type="stmt"/>
+            <line num="1362" count="0" type="stmt"/>
+            <line num="1364" count="0" type="stmt"/>
+            <line num="1365" count="0" type="stmt"/>
+            <line num="1366" count="0" type="stmt"/>
+            <line num="1367" count="0" type="stmt"/>
+            <line num="1368" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="1368" type="cond"/>
+            <line num="1369" count="0" type="stmt"/>
+            <line num="1370" count="0" type="stmt"/>
+            <line num="1371" count="0" type="stmt"/>
+            <line num="1372" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="1372" type="cond"/>
+            <line num="1373" count="0" type="stmt"/>
+            <line num="1375" count="0" type="stmt"/>
+            <line num="1377" count="0" type="stmt"/>
+            <line num="1378" count="0" type="stmt"/>
+            <line num="1379" count="0" type="stmt"/>
+            <line num="1380" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="1380" type="cond"/>
+            <line num="1381" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="1381" type="cond"/>
+            <line num="1382" count="0" type="stmt"/>
+            <line num="1383" count="0" type="stmt"/>
+            <line num="1384" count="0" type="stmt"/>
+            <line num="1385" count="0" type="stmt"/>
+            <line num="1387" count="0" type="stmt"/>
+            <line num="1388" count="0" type="stmt"/>
+            <line num="1389" count="0" type="stmt"/>
+            <line num="1390" count="0" type="stmt"/>
+            <line num="1391" count="0" type="stmt"/>
+            <line num="1392" count="0" type="stmt"/>
+            <line num="1394" count="0" type="stmt"/>
+            <line num="1395" count="0" type="stmt"/>
+            <line num="1397" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="1397" type="cond"/>
+            <line num="1398" count="0" type="stmt"/>
+            <line num="1399" count="0" type="stmt"/>
+            <line num="1400" count="0" type="stmt"/>
+            <line num="1401" count="0" type="stmt"/>
+            <line num="1402" count="0" type="stmt"/>
+            <line num="1404" count="0" type="stmt"/>
+            <line num="1405" count="0" type="stmt"/>
+            <line num="1406" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="1406" type="cond"/>
+            <line num="1407" count="0" type="stmt"/>
+            <line num="1408" count="0" type="stmt"/>
+            <line num="1409" count="0" type="stmt"/>
+            <line num="1410" count="0" type="stmt"/>
+            <line num="1412" count="0" type="stmt"/>
+            <line num="1413" count="0" type="stmt"/>
+            <line num="1414" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="1414" type="cond"/>
+            <line num="1415" count="0" type="stmt"/>
+            <line num="1417" count="0" type="stmt"/>
+            <line num="1418" count="0" type="stmt"/>
+            <line num="1419" count="0" type="stmt"/>
+            <line num="1420" count="0" type="stmt"/>
+            <line num="1422" count="0" type="stmt"/>
+            <line num="1423" count="0" type="stmt"/>
+            <line num="1424" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="1424" type="cond"/>
+            <line num="1425" count="0" type="stmt"/>
+            <line num="1426" count="0" type="stmt"/>
+            <line num="1427" count="0" type="stmt"/>
+            <line num="1428" count="0" type="stmt"/>
+            <line num="1429" count="0" type="stmt"/>
+            <line num="1430" count="0" type="stmt"/>
+            <line num="1432" count="0" type="stmt"/>
+            <line num="1433" count="0" type="stmt"/>
+            <line num="1434" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="1434" type="cond"/>
+            <line num="1435" count="0" type="stmt"/>
+            <line num="1437" count="0" type="stmt"/>
+            <line num="1438" count="0" type="stmt"/>
+            <line num="1439" count="0" type="stmt"/>
+            <line num="1440" count="0" type="stmt"/>
+            <line num="1441" count="0" type="stmt"/>
+            <line num="1443" count="0" type="stmt"/>
+            <line num="1445" count="0" type="stmt"/>
+            <line num="1446" count="0" type="stmt"/>
+            <line num="1447" count="0" type="stmt"/>
+            <line num="1448" count="0" type="stmt"/>
+            <line num="1450" count="0" type="stmt"/>
+            <line num="1451" count="0" type="stmt"/>
+            <line num="1452" count="0" type="stmt"/>
+            <line num="1453" count="0" type="stmt"/>
+            <line num="1455" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="onclick_switchgame(ActionEvent) : void" num="1458" count="0" type="method"/>
+            <line num="1460" count="0" type="stmt"/>
+            <line num="1461" count="0" type="stmt"/>
+            <line num="1463" count="0" type="stmt"/>
+            <line num="1465" count="0" type="stmt"/>
+            <line num="1466" count="0" type="stmt"/>
+            <line num="1469" count="0" type="stmt"/>
+            <line num="1470" count="0" type="stmt"/>
+            <line num="1471" count="0" type="stmt"/>
+            <line num="1472" count="0" type="stmt"/>
+            <line num="1473" count="0" type="stmt"/>
+            <line complexity="2" visibility="public" signature="getDifferentUnitTypeNum(Map&lt;Integer, Long&gt;,int) : long" num="1476" count="0" type="method"/>
+            <line num="1477" count="0" type="stmt"/>
+            <line num="1478" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="1478" type="cond"/>
+            <line num="1479" count="0" type="stmt"/>
+            <line num="1481" count="0" type="stmt"/>
+            <line num="1483" count="0" type="stmt"/>
+            <line complexity="6" visibility="public" signature="updateHoverMessage(String) : void" num="1493" count="0" type="method"/>
+            <line num="1494" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="1494" type="cond"/>
+            <line num="1495" count="0" type="stmt"/>
+            <line num="1497" count="0" type="stmt"/>
+            <line num="1498" count="0" type="stmt"/>
+            <line num="1499" count="0" type="stmt"/>
+            <line num="1500" count="0" type="stmt"/>
+            <line num="1501" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="1501" type="cond"/>
+            <line num="1502" count="0" type="stmt"/>
+            <line num="1503" count="0" type="stmt"/>
+            <line num="1504" count="0" type="stmt"/>
+            <line num="1505" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="1505" type="cond"/>
+            <line num="1506" count="0" type="stmt"/>
+            <line num="1507" count="0" type="stmt"/>
+            <line num="1508" count="0" type="stmt"/>
+            <line num="1509" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="1509" type="cond"/>
+            <line num="1510" count="0" type="stmt"/>
+            <line num="1511" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="1511" type="cond"/>
+            <line num="1512" count="0" type="stmt"/>
+            <line num="1513" count="0" type="stmt"/>
+            <line num="1515" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="hover_abcd(MouseEvent) : void" num="1521" count="0" type="method"/>
+            <line num="1523" count="0" type="stmt"/>
+            <line num="1524" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="hover_bagel(MouseEvent) : void" num="1527" count="0" type="method"/>
+            <line num="1529" count="0" type="stmt"/>
+            <line num="1530" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="hover_coffeeland(MouseEvent) : void" num="1533" count="0" type="method"/>
+            <line num="1535" count="0" type="stmt"/>
+            <line num="1536" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="hover_duke(MouseEvent) : void" num="1539" count="0" type="method"/>
+            <line num="1541" count="0" type="stmt"/>
+            <line num="1542" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="hover_elantris(MouseEvent) : void" num="1545" count="0" type="method"/>
+            <line num="1547" count="0" type="stmt"/>
+            <line num="1548" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="hover_gondor(MouseEvent) : void" num="1551" count="0" type="method"/>
+            <line num="1553" count="0" type="stmt"/>
+            <line num="1554" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="hover_hogwarts(MouseEvent) : void" num="1557" count="0" type="method"/>
+            <line num="1559" count="0" type="stmt"/>
+            <line num="1560" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="hover_lookout(MouseEvent) : void" num="1563" count="0" type="method"/>
+            <line num="1565" count="0" type="stmt"/>
+            <line num="1566" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="hover_midkemia(MouseEvent) : void" num="1569" count="0" type="method"/>
+            <line num="1571" count="0" type="stmt"/>
+            <line num="1572" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="hover_mordor(MouseEvent) : void" num="1575" count="0" type="method"/>
+            <line num="1577" count="0" type="stmt"/>
+            <line num="1578" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="hover_narnia(MouseEvent) : void" num="1581" count="0" type="method"/>
+            <line num="1583" count="0" type="stmt"/>
+            <line num="1584" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="hover_outlook(MouseEvent) : void" num="1587" count="0" type="method"/>
+            <line num="1589" count="0" type="stmt"/>
+            <line num="1590" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="hover_oz(MouseEvent) : void" num="1593" count="0" type="method"/>
+            <line num="1595" count="0" type="stmt"/>
+            <line num="1596" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="hover_roshar(MouseEvent) : void" num="1599" count="0" type="method"/>
+            <line num="1601" count="0" type="stmt"/>
+            <line num="1602" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="hover_scadrial(MouseEvent) : void" num="1605" count="0" type="method"/>
+            <line num="1607" count="0" type="stmt"/>
+            <line num="1608" count="0" type="stmt"/>
+         </file>
+         <file path="/home/wh162/651_final_project/ece651-sp22-group5-risc/client/src/main/java/edu/duke/ece651/risc/client/controller/switch_loginTostart_Controller.java" name="switch_loginTostart_Controller.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="10" loc="130" coveredmethods="0" methods="6" elements="59" classes="1" ncloc="106" statements="49" conditionals="4" coveredstatements="0"/>
+            <class name="switch_loginTostart_Controller">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="10" coveredmethods="0" methods="6" elements="59" statements="49" conditionals="4" coveredstatements="0"/>
+            </class>
+            <line complexity="1" visibility="public" signature="switch_loginTostart_Controller(Client,int)" num="35" count="0" type="method"/>
+            <line num="36" count="0" type="stmt"/>
+            <line num="37" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="switch_loginTostart_Controller(NewClientController,int)" num="39" count="0" type="method"/>
+            <line num="41" count="0" type="stmt"/>
+            <line num="42" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="switchToAssign(ActionEvent) : void" num="57" count="0" type="method"/>
+            <line num="58" count="0" type="stmt"/>
+            <line num="59" count="0" type="stmt"/>
+            <line num="60" count="0" type="stmt"/>
+            <line num="61" count="0" type="stmt"/>
+            <line num="62" count="0" type="stmt"/>
+            <line num="62" count="0" type="stmt"/>
+            <line num="64" count="0" type="stmt"/>
+            <line num="66" count="0" type="stmt"/>
+            <line num="67" count="0" type="stmt"/>
+            <line num="68" count="0" type="stmt"/>
+            <line num="69" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="switchToTurn(ActionEvent) : void" num="72" count="0" type="method"/>
+            <line num="73" count="0" type="stmt"/>
+            <line num="75" count="0" type="stmt"/>
+            <line num="76" count="0" type="stmt"/>
+            <line num="77" count="0" type="stmt"/>
+            <line num="77" count="0" type="stmt"/>
+            <line num="79" count="0" type="stmt"/>
+            <line num="81" count="0" type="stmt"/>
+            <line num="82" count="0" type="stmt"/>
+            <line num="83" count="0" type="stmt"/>
+            <line num="84" count="0" type="stmt"/>
+            <line complexity="3" visibility="package" signature="onclick_login(ActionEvent) : void" num="87" count="0" type="method"/>
+            <line num="91" count="0" type="stmt"/>
+            <line num="92" count="0" type="stmt"/>
+            <line num="93" count="0" type="stmt"/>
+            <line num="94" count="0" type="stmt"/>
+            <line num="95" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="95" type="cond"/>
+            <line num="96" count="0" type="stmt"/>
+            <line num="98" count="0" type="stmt"/>
+            <line num="101" count="0" type="stmt"/>
+            <line num="102" count="0" type="stmt"/>
+            <line num="103" count="0" type="stmt"/>
+            <line num="104" count="0" type="stmt"/>
+            <line num="105" count="0" type="stmt"/>
+            <line complexity="3" visibility="package" signature="onclick_signup(ActionEvent) : void" num="110" count="0" type="method"/>
+            <line num="112" count="0" type="stmt"/>
+            <line num="113" count="0" type="stmt"/>
+            <line num="114" count="0" type="stmt"/>
+            <line num="115" count="0" type="stmt"/>
+            <line num="116" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="116" type="cond"/>
+            <line num="117" count="0" type="stmt"/>
+            <line num="119" count="0" type="stmt"/>
+            <line num="123" count="0" type="stmt"/>
+            <line num="124" count="0" type="stmt"/>
+            <line num="125" count="0" type="stmt"/>
+            <line num="126" count="0" type="stmt"/>
+            <line num="127" count="0" type="stmt"/>
+         </file>
+      </package>
+   </project>
+   <testproject name="client" timestamp="1650667927537">
+      <metrics coveredelements="0" complexity="0" loc="0" methods="0" classes="0" statements="0" packages="0" coveredconditionals="0" coveredmethods="0" elements="0" ncloc="0" files="0" conditionals="0" coveredstatements="0"/>
+   </testproject>
+</coverage>

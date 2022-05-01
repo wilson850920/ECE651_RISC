@@ -1,0 +1,168 @@
+CVader attacked from Hoth into Tatooine but the defense held strong
+"	Attacking Units Lost: A A A A A 
+	Defending Units Lost: 
+NM
+NM#----------------------------------
+NM{"Player": {
+NM    "Technology Level": "1",
+NM    "Resources": "0",
+NM    "Spies": [],
+NM    "Territories": [
+NM        {"Territory": {
+NM             "Cloaking Turn": 0,
+NM            "Neighbors": [
+NM                "Kamino",
+NM                "Coruscant",
+NM                "Hoth"
+NM            ],
+NM            "Cloaked": false,
+NM            "Units": [],
+NM            "Name": "Tatooine"
+NM        }},
+NM        {"Territory": {
+NM             "Cloaking Turn": 0,
+NM            "Neighbors": [
+NM                "Kamino",
+NM                "Coruscant"
+NM            ],
+NM            "Cloaked": false,
+NM            "Units": [],
+NM            "Name": "Hoth"
+NM        }}
+NM    ],
+NM    "Name": "Vader"
+NM}}
+NM#----------------------------------
+POPlayer: Yoda
+PO	Max Technology Level: 1
+PO	Current Resources: 1337
+POTerritories Owned:
+RQ,Tatooine (next to: Kamino, Coruscant, Hoth)
+RQ		Size: 1
+RQ#	Resource Production (per-turn): 7
+RQ	Units:
+RQ		: 10
+RQ		: 3
+RQ		: 1
+WV{"game_Map": [
+WV    {"Player": {
+WV!        "Technology Level": "1",
+WV        "Resources": "1337",
+WV        "Spies": [],
+WV        "Territories": [
+WV            {"Territory": {
+WV$                "Cloaking Turn": 0,
+WV                "Neighbors": [
+WV                     "Alderaan",
+WV                     "Tatooine",
+WV                    "Mustafar"
+WV                ],
+WV"                "Cloaked": false,
+WV                "Units": [
+WV                    {"A": 9},
+WV                    {"C": 6},
+WV                    {"F": 3}
+WV                ],
+WV                "Name": "Hoth"
+WV            }},
+WV            {"Territory": {
+WV$                "Cloaking Turn": 0,
+WV'                "Neighbors": ["Hoth"],
+WV"                "Cloaked": false,
+WV                "Units": [
+WV                    {"A": 3},
+WV                    {"D": 3},
+WV                    {"E": 3}
+WV                ],
+WV#                "Name": "Mustafar"
+WV            }}
+WV        ],
+WV        "Name": "Vader"
+WV    }},
+WV    {"Player": {
+WV!        "Technology Level": "1",
+WV        "Resources": "1337",
+WV        "Spies": [],
+WV(        "Territories": [{"Territory": {
+WV             "Cloaking Turn": 0,
+WV            "Neighbors": [
+WV                "Hoth",
+WV                "Tatooine"
+WV            ],
+WV            "Cloaked": false,
+WV            "Units": [
+WV                {"E": 3},
+WV                {"G": 3}
+WV            ],
+WV            "Name": "Alderaan"
+WV        }}],
+WV        "Name": "Vader"
+WV    }},
+WV    {"Player": {
+WV!        "Technology Level": "1",
+WV        "Resources": "1337",
+WV        "Spies": [],
+WV(        "Territories": [{"Territory": {
+WV             "Cloaking Turn": 0,
+WV            "Neighbors": [
+WV                "Hoth",
+WV                "Alderaan"
+WV            ],
+WV            "Cloaked": false,
+WV            "Units": [
+WV                {"C": 3},
+WV                {"D": 3}
+WV            ],
+WV            "Name": "Tatooine"
+WV        }}],
+WV        "Name": "Luke"
+WV    }}
+WV]}
+YX{"Player": {
+YX    "Technology Level": "1",
+YX    "Resources": "1337",
+YX    "Spies": [],
+YX    "Territories": [
+YX        {"Territory": {
+YX             "Cloaking Turn": 0,
+YX            "Neighbors": [
+YX                "Mustafar",
+YX                "Tatooine",
+YX                "Alderaan"
+YX            ],
+YX            "Cloaked": false,
+YX            "Units": [
+YX                {"A": 9},
+YX                {"C": 6},
+YX                {"F": 3}
+YX            ],
+YX            "Name": "Hoth"
+YX        }},
+YX        {"Territory": {
+YX             "Cloaking Turn": 0,
+YX#            "Neighbors": ["Hoth"],
+YX            "Cloaked": false,
+YX            "Units": [
+YX                {"A": 3},
+YX                {"D": 3},
+YX                {"E": 3}
+YX            ],
+YX            "Name": "Mustafar"
+YX        }}
+YX    ],
+YX    "Name": "Vader"
+YX}}
+[Z{"Territory": {
+[Z    "Cloaking Turn": 0,
+[Z    "Neighbors": [
+[Z        "Alderaan",
+[Z        "Tatooine"
+[Z    ],
+[Z    "Cloaked": false,
+[Z    "Units": [
+[Z        {"A": 9},
+[Z        {"C": 6},
+[Z        {"F": 3}
+[Z    ],
+[Z    "Name": "Hoth"
+[Z}}

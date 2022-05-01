@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.effect.BoxBlur?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.duke.ece651.risc.client.controller.assign_unitsController">
+   <children>
+      <ImageView fitHeight="720.0" fitWidth="1280.0" layoutY="-1.0" pickOnBounds="true">
+         <image>
+		 <Image url="/images/galaxy_background.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dacaab" height="89.0" opacity="0.49" stroke="BLACK" strokeType="INSIDE" width="1280.0" />
+      <TextArea fx:id="broadcast_id" layoutX="264.0" layoutY="7.0" prefHeight="76.0" prefWidth="775.0" style="-fx-font-size: 14; -fx-background-color: #dacaab; -fx-border-color: dacaab; -fx-font-family: BM KIRANGHAERANG OTF;" text="Befor We Start&#10;Let's assign the units to our Territories&#10;You have 9 units in total&#10;Make goos use of them!">
+         <font>
+            <Font name="Lao Sangam MN" size="18.0" />
+         </font>
+      </TextArea>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="633.0" layoutX="-1.0" layoutY="88.0" stroke="BLACK" strokeType="INSIDE" width="111.0">
+         <fill>
+            <LinearGradient endX="0.5428571428571429" endY="0.13333333333333333" startY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+         <effect>
+            <BoxBlur width="32.32" />
+         </effect>
+      </Rectangle>
+      <Text fill="WHITE" layoutX="13.0" layoutY="409.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Information" textAlignment="CENTER" underline="true">
+         <font>
+            <Font name="BM KIRANGHAERANG OTF" size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="food_id" fill="WHITE" layoutX="36.0" layoutY="626.0" strokeType="OUTSIDE" strokeWidth="0.0" text="500">
+         <font>
+            <Font name="BM KIRANGHAERANG OTF" size="18.0" />
+         </font>
+      </Text>
+      <Label alignment="CENTER" layoutX="15.0" layoutY="433.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="29.0" prefWidth="71.0" text="Player:" textFill="WHITE">
+         <font>
+            <Font name="BM KIRANGHAERANG OTF" size="18.0" />
+         </font>
+      </Label>
+      <Text fx:id="player_id" fill="WHITE" layoutX="36.0" layoutY="484.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Blue">
+         <font>
+            <Font name="BM KIRANGHAERANG OTF" size="18.0" />
+         </font>
+      </Text>
+      <Label alignment="CENTER" layoutX="18.0" layoutY="494.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="41.0" prefWidth="61.0" text="Level:" textFill="WHITE">
+         <font>
+            <Font name="BM KIRANGHAERANG OTF" size="18.0" />
+         </font>
+      </Label>
+      <Text fx:id="level_id" fill="WHITE" layoutX="44.0" layoutY="555.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+         <font>
+            <Font name="BM KIRANGHAERANG OTF" size="18.0" />
+         </font>
+      </Text>
+      <Label alignment="CENTER" layoutX="10.0" layoutY="642.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="29.0" prefWidth="83.0" text="Server : " textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="BM KIRANGHAERANG OTF" size="18.0" />
+         </font>
+      </Label>
+      <Text fx:id="server_id" fill="WHITE" layoutX="33.0" layoutY="696.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1641">
+         <font>
+            <Font name="BM KIRANGHAERANG OTF" size="18.0" />
+         </font>
+      </Text>
+      <Label alignment="CENTER" layoutX="11.0" layoutY="563.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="41.0" prefWidth="83.0" text="Resource" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="BM KIRANGHAERANG OTF" size="18.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="633.0" layoutX="1168.0" layoutY="87.0" stroke="BLACK" strokeType="INSIDE" width="111.0">
+         <fill>
+            <LinearGradient endX="0.5238095238095238" endY="0.1380952380952381" startY="0.9142857142857143">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+         <effect>
+            <BoxBlur width="32.32" />
+         </effect>
+      </Rectangle>
+      <Button fx:id="exit_game_id" layoutX="1155.0" layoutY="24.0" mnemonicParsing="false" onAction="#onclick_exit" prefHeight="43.0" prefWidth="99.0" style="-fx-background-color: d21404; -fx-text-fill: black; -fx-font-size: 14;" text="Exit Game" textAlignment="CENTER" textOverrun="LEADING_ELLIPSIS">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="switch_game_id" layoutX="1186.0" layoutY="671.0" mnemonicParsing="false" onAction="#onclick_switchgame" prefHeight="35.0" prefWidth="89.0" style="-fx-background-color: d21404; -fx-text-fill: black; -fx-font-size: 10;" text="Switch Game" textAlignment="CENTER" textOverrun="LEADING_ELLIPSIS">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="terri_info" layoutX="17.0" layoutY="174.0" prefHeight="178.0" prefWidth="74.0" style="-fx-border-color: white;">
+         <effect>
+            <BoxBlur iterations="0" width="0.0">
+               <input>
+                  <InnerShadow />
+               </input>
+            </BoxBlur>
+         </effect>
+      </TextArea>
+      <Text layoutX="4.0" layoutY="124.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Territory Info" textAlignment="CENTER" underline="true" wrappingWidth="102.45600128173828">
+         <font>
+            <Font name="BM KIRANGHAERANG OTF" size="18.0" />
+         </font>
+      </Text>
+      <Line fx:id="line_nar_mid_id" endX="197.0" endY="-20.8331298828125" layoutX="324.0" layoutY="352.0" startX="67.02432250976562" startY="-56.3079833984375" stroke="WHITE" strokeWidth="3.0" />
+      <Line fx:id="line_nar_ela_id" endX="76.73208618164062" endY="38.59783935546875" layoutX="334.0" layoutY="362.0" startX="24.302490234375" startY="-15.496185302734375" stroke="WHITE" strokeWidth="3.0" />
+      <Line fx:id="line_nar_duke_id" endX="39.282379150390625" endY="-157.80508422851562" layoutX="334.0" layoutY="362.0" startX="17.644775390625" startY="-117.02651977539062" stroke="WHITE" strokeWidth="3.0" />
+      <Line fx:id="line_mid_oz_id" endX="387.1485595703125" endY="-56.3079833984375" layoutX="334.0" layoutY="362.0" startX="294.77264404296875" startY="-32.1405029296875" stroke="WHITE" strokeWidth="3.0" />
+      <Line fx:id="line_mid_duke_id" endX="205.72552490234375" endY="-66.2613525390625" layoutX="334.0" layoutY="362.0" startX="92.544189453125" startY="-164.4628143310547" stroke="WHITE" strokeWidth="3.0" />
+      <Line fx:id="line_mid_elan_id" endX="199.06781005859375" endY="5.3092041015625" layoutX="334.0" layoutY="362.0" startX="149.13485717773438" startY="41.92669677734375" stroke="WHITE" strokeWidth="3.0" />
+      <Line fx:id="line_mid_sca_id" endX="319.73907470703125" endY="88.53079223632812" layoutX="334.0" layoutY="362.0" startX="268.1417236328125" startY="18.624664306640625" stroke="WHITE" strokeWidth="3.0" />
+      <Line fx:id="line_oz_duke_id" endX="391.30963134765625" endY="-86.23452758789062" layoutX="334.0" layoutY="362.0" startX="109.18850708007812" startY="-196.08702087402344" stroke="WHITE" strokeWidth="3.0" />
+      <Line fx:id="line_duke_coffee_id" endX="267.30950927734375" endY="-206.90582275390625" layoutX="334.0" layoutY="362.0" startX="106.69186401367188" startY="-226.87899780273438" stroke="WHITE" strokeWidth="3.0" />
+      <Line fx:id="line_oz_sca_id" endX="384.65191650390625" endY="67.72537231445312" layoutX="334.0" layoutY="362.0" startX="423.76605224609375" startY="-14.663970947265625" stroke="WHITE" strokeWidth="3.0" />
+      <Line fx:id="line_oz_coffee_id" endX="413.77947998046875" endY="-111.20100402832031" layoutX="334.0" layoutY="362.0" startX="363.8465576171875" startY="-163.63059997558594" stroke="WHITE" strokeWidth="3.0" />
+      <Line fx:id="line_coffee_bag_id" endX="675.9274291992188" endY="-215.2279815673828" layoutX="334.0" layoutY="362.0" startX="371.33648681640625" startY="-215.2279815673828" stroke="WHITE" strokeWidth="3.0" />
+      <Line fx:id="line_oz_gon_id" endX="548.5984497070312" endY="-95.388916015625" layoutX="334.0" layoutY="362.0" startX="492.8399658203125" startY="-77.08016967773438" stroke="WHITE" strokeWidth="3.0" />
+      <Line fx:id="line_oz_mor_id" endX="596.866943359375" endY="17.792449951171875" layoutX="334.0" layoutY="362.0" startX="487.01446533203125" startY="-42.959320068359375" stroke="WHITE" strokeWidth="3.0" />
+      <Line fx:id="line_gon_coffee_id" endX="544.0" endY="-126.19430541992188" layoutX="344.0" layoutY="372.0" startX="361.33648681640625" startY="-188.61048889160156" stroke="WHITE" strokeWidth="3.0" />
+      <Line fx:id="line_gon_bag_id" endX="676.7462768554688" endY="-186.11383056640625" layoutX="344.0" layoutY="372.0" startX="628.4777221679688" startY="-148.66412353515625" stroke="WHITE" strokeWidth="3.0" />
+      <Line fx:id="line_gon_mor_id" endX="615.9945068359375" endY="-3.0263671875" layoutX="344.0" layoutY="372.0" startX="601.0146484375" startY="-55.455963134765625" stroke="WHITE" strokeWidth="3.0" />
+      <Line fx:id="line_mor_bag_id" endX="711.6993408203125" endY="-169.4695281982422" layoutX="344.0" layoutY="372.0" startX="645.9542846679688" startY="3.0" stroke="WHITE" strokeWidth="3.0" />
+      <Line fx:id="line_mor_abcd_id" endX="695.88720703125" endY="228.32965087890625" layoutX="344.0" layoutY="372.0" startX="640.1287841796875" startY="96.83953857421875" stroke="WHITE" strokeWidth="3.0" />
+      <Line fx:id="line_bag_abcd_id" endX="754.142333984375" endY="226.6651611328125" layoutX="344.0" layoutY="372.0" startX="737.498046875" startY="-170.30174255371094" stroke="WHITE" strokeWidth="3.0" />
+      <Line fx:id="line_mor_hog_id" endX="584.3703002929688" endY="89.34957885742188" layoutX="344.0" layoutY="372.0" startX="553.5783081054688" startY="145.1080322265625" stroke="WHITE" strokeWidth="3.0" />
+      <Line fx:id="line_elan_look_id" endX="54.000030517578125" endY="85.18850708007812" layoutX="344.0" layoutY="372.0" startX="-103.0399169921875" startY="124.30264282226562" stroke="WHITE" strokeWidth="3.0" />
+      <Line fx:id="line_ela_sca_id" endX="303.91357421875" endY="103.49725341796875" layoutX="344.0" layoutY="372.0" startX="154.11474609375" startY="74.36968994140625" stroke="WHITE" strokeWidth="3.0" />
+      <Line fx:id="line_ela_ros_id" endX="191.564453125" endY="165.08123779296875" layoutX="344.0" layoutY="372.0" startX="136.63821411132812" startY="109.32275390625" stroke="WHITE" strokeWidth="3.0" />
+      <Line fx:id="line_sca_ros_id" endX="322.22235107421875" endY="148.4368896484375" layoutX="344.0" layoutY="372.0" startX="277.28271484375" startY="177.564453125" stroke="WHITE" strokeWidth="3.0" />
+      <Line fx:id="line_sca_mor_id" endX="566.893798828125" endY="54.396514892578125" layoutX="344.0" layoutY="372.0" startX="406.276123046875" startY="87.68515014648438" stroke="WHITE" strokeWidth="3.0" />
+      <Line fx:id="line_sca_hog_id" endX="496.9876708984375" endY="178.39666748046875" layoutX="344.0" layoutY="372.0" startX="405.44390869140625" startY="131.7926025390625" stroke="WHITE" strokeWidth="3.0" />
+      <Line fx:id="line_look_out_id" endX="31.779022216796875" endY="272.43707275390625" layoutX="344.0" layoutY="372.0" startX="-120.51644897460938" startY="173.40338134765625" stroke="WHITE" strokeWidth="3.0" />
+      <Line fx:id="line_out_abcd_id" endX="685.900634765625" endY="301.56463623046875" layoutX="344.0" layoutY="372.0" startX="132.47714233398438" startY="291.5780029296875" stroke="WHITE" strokeWidth="3.0" />
+      <Line fx:id="line_ros_out_id" endX="181.577880859375" endY="226.6651611328125" layoutX="344.0" layoutY="372.0" startX="134.14157104492188" startY="254.1282958984375" stroke="WHITE" strokeWidth="3.0" />
+      <Line fx:id="line_ros_look_id" endX="164.08795166015625" endY="179.2154541015625" layoutX="354.0" layoutY="382.0" startX="-111.37548828125" startY="135.1080322265625" stroke="WHITE" strokeWidth="3.0" />
+      <Line fx:id="line_ros_hog_id" endX="485.3232421875" endY="200.85308837890625" layoutX="354.0" layoutY="382.0" startX="271.44378662109375" startY="192.53094482421875" stroke="WHITE" strokeWidth="3.0" />
+      <Line fx:id="line_hog_abcd_id" endX="665.0818481445312" endY="244.96051025390625" layoutX="354.0" layoutY="382.0" startX="583.524658203125" startY="207.51080322265625" stroke="WHITE" strokeWidth="3.0" />
+      <Line fx:id="line_hog_out_id" endX="488.638671875" endY="215.819580078125" layoutX="364.0" layoutY="392.0" startX="117.47042846679688" startY="254.9337158203125" stroke="WHITE" strokeWidth="3.0" />
+      <Circle fx:id="circle_narnia_id" fill="DODGERBLUE" layoutX="337.0" layoutY="296.0" radius="54.0" stroke="BLACK" strokeType="INSIDE" style="-fx-stroke-width: 3;" />
+      <Circle fx:id="circle_lookout_id" fill="DODGERBLUE" layoutX="191.0" layoutY="505.0" radius="54.0" stroke="BLACK" strokeType="INSIDE" style="-fx-stroke-width: 3;" />
+      <Circle fx:id="circle_outlook_id" fill="DODGERBLUE" layoutX="428.0" layoutY="647.0" radius="54.0" stroke="BLACK" strokeType="INSIDE" style="-fx-stroke-width: 3;" />
+      <Circle fx:id="circle_abcd_id" fill="DODGERBLUE" layoutX="1068.0" layoutY="642.0" radius="54.0" stroke="BLACK" strokeType="INSIDE" style="-fx-stroke-width: 3;" />
+      <Circle fx:id="circle_bagel_id" fill="DODGERBLUE" layoutX="1062.0" layoutY="152.0" radius="54.0" stroke="BLACK" strokeType="INSIDE" style="-fx-stroke-width: 3;" />
+      <Circle fx:id="circle_coffeeland_id" fill="DODGERBLUE" layoutX="655.0" layoutY="164.0" radius="54.0" stroke="BLACK" strokeType="INSIDE" style="-fx-stroke-width: 3;" />
+      <Circle fx:id="circle_duke_id" fill="DODGERBLUE" layoutX="391.0" layoutY="155.0" radius="54.0" stroke="BLACK" strokeType="INSIDE" style="-fx-stroke-width: 3;" />
+      <Circle fx:id="circle_hogwarts_id" fill="DODGERBLUE" layoutX="889.0" layoutY="570.0" radius="54.0" stroke="BLACK" strokeType="INSIDE" style="-fx-stroke-width: 3;" />
+      <Circle fx:id="circle_mordor_id" fill="DODGERBLUE" layoutX="963.0" layoutY="422.0" radius="54.0" stroke="BLACK" strokeType="INSIDE" style="-fx-stroke-width: 3;" />
+      <Circle fx:id="circle_gondor_id" fill="DODGERBLUE" layoutX="937.0" layoutY="265.0" radius="54.0" stroke="BLACK" strokeType="INSIDE" style="-fx-stroke-width: 3;" />
+      <Circle fx:id="circle_roshar_id" fill="DODGERBLUE" layoutX="573.0" layoutY="572.0" radius="54.0" stroke="BLACK" strokeType="INSIDE" style="-fx-stroke-width: 3;" />
+      <Circle fx:id="circle_scadrial_id" fill="DODGERBLUE" layoutX="700.0" layoutY="479.0" radius="54.0" stroke="BLACK" strokeType="INSIDE" style="-fx-stroke-width: 3;" />
+      <Circle fx:id="circle_elantris_id" fill="DODGERBLUE" layoutX="446.0" layoutY="441.0" radius="54.0" stroke="BLACK" strokeType="INSIDE" style="-fx-stroke-width: 3;" />
+      <Circle fx:id="circle_oz_id" fill="DODGERBLUE" layoutX="773.0" layoutY="297.0" radius="54.0" stroke="BLACK" strokeType="INSIDE" style="-fx-stroke-width: 3;" />
+      <Circle fx:id="circle_midkemia_id" fill="DODGERBLUE" layoutX="575.0" layoutY="335.0" radius="54.0" stroke="BLACK" strokeType="INSIDE" style="-fx-stroke-width: 3;" />
+      <Button fx:id="narnia_id" layoutX="288.0" layoutY="249.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#click_narnia" prefHeight="93.0" prefWidth="98.0" style="-fx-background-color: TRANSPARENT;" text="Korriban" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="coffeeland_id" layoutX="600.0" layoutY="118.0" minWidth="53.0" mnemonicParsing="false" onAction="#click_coffeeland" prefHeight="93.0" prefWidth="109.0" style="-fx-background-color: transparent;" text="Naboo" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="duke_id" layoutX="342.0" layoutY="108.0" minWidth="53.0" mnemonicParsing="false" onAction="#click_duke" prefHeight="93.0" prefWidth="98.0" style="-fx-background-color: transparent;" text="Kamino" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="midkemia_id" layoutX="526.0" layoutY="288.0" mnemonicParsing="false" onAction="#click_midkemia" prefHeight="93.0" prefWidth="98.0" style="-fx-background-color: transparant;" text="Mustafar" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="oz_id" layoutX="724.0" layoutY="250.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="33.0" mnemonicParsing="false" onAction="#click_oz" prefHeight="93.0" prefWidth="98.0" style="-fx-background-color: transparent;" text="Death Star" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="elantris_id" layoutX="398.0" layoutY="394.0" minWidth="53.0" mnemonicParsing="false" onAction="#click_elantris" prefHeight="93.0" prefWidth="98.0" style="-fx-background-color: transparent;" text="Dagobah" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="scadrial_id" layoutX="651.0" layoutY="434.0" minWidth="53.0" mnemonicParsing="false" onAction="#click_scadrial" prefHeight="93.0" prefWidth="98.0" style="-fx-background-color: transparent;" text="Hoth" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="roshar_id" layoutX="524.0" layoutY="525.0" minWidth="53.0" mnemonicParsing="false" onAction="#click_roshar" prefHeight="93.0" prefWidth="98.0" style="-fx-background-color: transparent;" text="Tatooine" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="gondor_id" layoutX="888.0" layoutY="219.0" minWidth="53.0" mnemonicParsing="false" onAction="#click_gondor" prefHeight="93.0" prefWidth="98.0" style="-fx-background-color: transparent;" text="Alderaan" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="mordor_id" layoutX="915.0" layoutY="375.0" minWidth="53.0" mnemonicParsing="false" onAction="#click_mordor" prefHeight="93.0" prefWidth="98.0" style="-fx-background-color: transparent;" text="Coruscant" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="hogwarts_id1" layoutX="840.0" layoutY="522.0" minWidth="53.0" mnemonicParsing="false" onAction="#click_hogwarts" prefHeight="93.0" prefWidth="98.0" style="-fx-background-color: transparent;" text="Yavin4" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="bagel_id" layoutX="1013.0" layoutY="107.0" minWidth="53.0" mnemonicParsing="false" onAction="#click_bagel" prefHeight="93.0" prefWidth="98.0" style="-fx-background-color: transparent;" text="Kashyyyk" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="abcd_id" layoutX="1019.0" layoutY="594.0" minWidth="53.0" mnemonicParsing="false" onAction="#click_abcd" prefHeight="93.0" prefWidth="98.0" style="-fx-background-color: transparent;" text="Felucia" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="outlook_id" layoutX="379.0" layoutY="600.0" minWidth="53.0" mnemonicParsing="false" onAction="#click_outlook" prefHeight="93.0" prefWidth="98.0" style="-fx-background-color: transparent;" text="Dantoowin" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="lookout_id" layoutX="142.0" layoutY="458.0" minWidth="53.0" mnemonicParsing="false" onAction="#click_lookout" prefHeight="93.0" prefWidth="98.0" style="-fx-background-color: transparent;" text="Bespin" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Text fx:id="abcd_size" fill="#f8f6f6" layoutX="1105.0" layoutY="698.0" strokeType="OUTSIDE" strokeWidth="5.0" text="50">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="outlook_size" fill="#f8f6f6" layoutX="471.0" layoutY="702.0" strokeType="OUTSIDE" strokeWidth="5.0" text="40">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="lookout_size" fill="#f8f6f6" layoutX="245.0" layoutY="539.0" strokeType="OUTSIDE" strokeWidth="5.0" text="30">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="hogwarts_size" fill="#f8f6f6" layoutX="930.0" layoutY="618.0" strokeType="OUTSIDE" strokeWidth="5.0" text="50">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="gondor_size" fill="#f8f6f6" layoutX="980.0" layoutY="317.0" strokeType="OUTSIDE" strokeWidth="5.0" text="30">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="mordor_size" fill="#f8f6f6" layoutX="1005.0" layoutY="471.0" strokeType="OUTSIDE" strokeWidth="5.0" text="40">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="roshar_size" fill="#f8f6f6" layoutX="618.0" layoutY="615.0" strokeType="OUTSIDE" strokeWidth="5.0" text="50">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="scadrial_size" fill="#f8f6f6" layoutX="730.0" layoutY="536.0" strokeType="OUTSIDE" strokeWidth="5.0" text="40">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="elantris_size" fill="#f8f6f6" layoutX="490.0" layoutY="486.0" strokeType="OUTSIDE" strokeWidth="5.0" text="30">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="bagel_size" fill="#f8f6f6" layoutX="1104.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="5.0" text="50">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="coffeeland_size" fill="#f8f6f6" layoutX="679.0" layoutY="224.0" strokeType="OUTSIDE" strokeWidth="5.0" text="40">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="duke_size" fill="#f8f6f6" layoutX="437.0" layoutY="198.0" strokeType="OUTSIDE" strokeWidth="5.0" text="30">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="oz_size" fill="#f8f6f6" layoutX="807.0" layoutY="355.0" strokeType="OUTSIDE" strokeWidth="5.0" text="50">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="midkemia_size" fill="#f8f6f6" layoutX="618.0" layoutY="384.0" strokeType="OUTSIDE" strokeWidth="5.0" text="40">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="narnia_size" fill="#f8f6f6" layoutX="369.0" layoutY="351.0" strokeType="OUTSIDE" strokeWidth="5.0" text="30">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="narnia_unit" fill="#f8f6f6" layoutX="287.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="5.0" text="0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="gondor_unit" fill="#f8f6f6" layoutX="883.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="5.0" text="0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="abcd_unit" fill="#f8f6f6" layoutX="1014.0" layoutY="608.0" strokeType="OUTSIDE" strokeWidth="5.0" text="0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="outlook_unit" fill="#f8f6f6" layoutX="374.0" layoutY="611.0" strokeType="OUTSIDE" strokeWidth="5.0" text="0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="hogwarts_unit" fill="#f8f6f6" layoutX="829.0" layoutY="534.0" strokeType="OUTSIDE" strokeWidth="5.0" text="0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="bagel_unit" fill="#f8f6f6" layoutX="1008.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="5.0" text="0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="mordor_unit" fill="#f8f6f6" layoutX="903.0" layoutY="391.0" strokeType="OUTSIDE" strokeWidth="5.0" text="0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="roshar_unit" fill="#f8f6f6" layoutX="513.0" layoutY="547.0" strokeType="OUTSIDE" strokeWidth="5.0" text="0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="scadrial_unit" fill="#f8f6f6" layoutX="655.0" layoutY="437.0" strokeType="OUTSIDE" strokeWidth="5.0" text="0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="oz_unit" fill="#f8f6f6" layoutX="720.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="5.0" text="0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="coffeeland_unit" fill="#f8f6f6" layoutX="602.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="5.0" text="0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="lookout_unit" fill="#f8f6f6" layoutX="131.0" layoutY="471.0" strokeType="OUTSIDE" strokeWidth="5.0" text="0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="midkemia_unit" fill="#f8f6f6" layoutX="516.0" layoutY="304.0" strokeType="OUTSIDE" strokeWidth="5.0" text="0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="duke_unit" fill="#f8f6f6" layoutX="336.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="5.0" text="0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="elantris_unit" fill="#f8f6f6" layoutX="387.0" layoutY="414.0" strokeType="OUTSIDE" strokeWidth="5.0" text="0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="terri_name_id" alignment="CENTER" disable="true" layoutX="1180.0" layoutY="179.0" prefHeight="26.0" prefWidth="92.0" promptText="Name" />
+      <Text layoutX="1205.0" layoutY="162.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Territory" />
+      <ComboBox fx:id="select_unit_id" layoutX="1185.0" layoutY="253.0" onAction="#choose_unit" prefHeight="25.0" prefWidth="83.0" promptText="Units" />
+      <Text layoutX="1212.0" layoutY="234.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Units" />
+      <Button fx:id="enter_id" layoutX="1190.0" layoutY="300.0" mnemonicParsing="false" onAction="#onclick_enter" prefHeight="26.0" prefWidth="75.0" text="Enter" />
+      <Button fx:id="endplacement_id" layoutX="1190.0" layoutY="417.0" mnemonicParsing="false" onAction="#onclick_endplace" prefHeight="28.0" prefWidth="75.0" text="Done" />
+   </children>
+</Pane>

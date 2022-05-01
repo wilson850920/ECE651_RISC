@@ -1,0 +1,61 @@
+import java.io.IOException;
+
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.scene.control.Button;
+
+public class choose_game_room {
+
+    private Stage stage;
+    private Scene scene;
+    private Parent root;
+
+    @FXML
+    private Button fiveplayergame_id;
+
+    @FXML
+    private Button fourplayergame_id;
+
+    @FXML
+    private Button threeplayergame_id;
+
+    @FXML
+    private Button twoplayergame_id;
+
+    @FXML
+    void onclick_fiveP(ActionEvent event) throws IOException {
+	root = FXMLLoader.load(getClass().getResource("/ui/5players.fxml"));
+	stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+	scene = new Scene(root);
+	stage.setScene(scene);
+	stage.show();
+    }
+
+    @FXML
+    void onclick_fourP(ActionEvent event) throws IOException {
+	root = FXMLLoader.load(getClass().getResource("/ui/4players.fxml"));
+      	stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+	scene = new Scene(root);
+	stage.setScene(scene);
+	stage.show();
+    }
+
+    @FXML
+    void onclick_threeP(ActionEvent event) throws IOException {
+	root = FXMLLoader.load(getClass().getResource("/ui/3Players.fxml"));
+	stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+	scene = new Scene(root);
+	stage.setScene(scene);
+	stage.show();
+    }
+
+    @FXML
+    void onclick_twoP(ActionEvent event) throws IOException {
+	root = FXMLLoader.load(getClass().getResource("/ui/2Players.fxml"));
+	stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+	scene = new Scene(root);
+	stage.setScene(scene);
+	stage.show();
+    }
+
+}

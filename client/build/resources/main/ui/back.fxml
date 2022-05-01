@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.duke.ece651.risc.client.controller.choose_game_room">
+   <children>
+      <ImageView fitHeight="414.0" fitWidth="600.0" layoutY="-8.0" pickOnBounds="true">
+         <image>
+            <Image url="/images/background.jpg" />
+         </image>
+      </ImageView>
+      <Circle fx:id="circle_id" fill="#1f93ff" layoutX="112.0" layoutY="143.0" radius="70.0" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="3.0" />
+      <Circle fx:id="circle_5p_id" fill="#1f93ff" layoutX="226.0" layoutY="299.0" radius="70.0" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="3.0" />
+      <Circle fx:id="circle_4p_id" fill="#1f93ff" layoutX="377.0" layoutY="299.0" radius="70.0" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="3.0" />
+      <Circle fx:id="circle_3p_id" fill="#1f93ff" layoutX="489.0" layoutY="141.0" radius="70.0" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="3.0" />
+      <Button fx:id="twoplayergame_id" blendMode="HARD_LIGHT" layoutX="47.0" layoutY="78.0" mnemonicParsing="false" onAction="#onclick_twoP" prefHeight="126.0" prefWidth="126.0" style="-fx-background-color: transparent;" text="2 Player Game" textFill="#ffee00">
+         <font>
+            <Font name="Zapfino" size="11.0" />
+         </font>
+      </Button>
+      <Button fx:id="fourplayergame_id" blendMode="HARD_LIGHT" layoutX="163.0" layoutY="236.0" mnemonicParsing="false" onAction="#onclick_fourP" prefHeight="126.0" prefWidth="126.0" style="-fx-background-color: transparent;" text="4 Player Game" textFill="#ffee00">
+         <font>
+            <Font name="Zapfino" size="11.0" />
+         </font></Button>
+      <Button fx:id="fiveplayergame_id" blendMode="HARD_LIGHT" layoutX="314.0" layoutY="236.0" mnemonicParsing="false" onAction="#onclick_fiveP" prefHeight="126.0" prefWidth="126.0" style="-fx-background-color: transparent;" text="5 Player Game" textFill="#ffee00">
+         <font>
+            <Font name="Zapfino" size="11.0" />
+         </font></Button>
+      <Button fx:id="threeplayergame_id" blendMode="HARD_LIGHT" layoutX="426.0" layoutY="78.0" mnemonicParsing="false" onAction="#onclick_threeP" prefHeight="126.0" prefWidth="126.0" style="-fx-background-color: transparent;" text="3 Player Game" textFill="#ffee00">
+         <font>
+            <Font name="Zapfino" size="11.0" />
+         </font></Button>
+      <Text fill="#c61515" layoutX="210.0" layoutY="86.0" stroke="#ffee01" strokeType="OUTSIDE" strokeWidth="2.0" text="RISC">
+         <font>
+            <Font name="Comic Sans MS Bold" size="78.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>

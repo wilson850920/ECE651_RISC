@@ -1,0 +1,28 @@
+package edu.duke.ece651.risc.common;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+public class BasicOrderListTest {
+  @Test
+  public void test_addOrder() {
+    Player p = new BasicPlayer("wilson");
+    Territory t1 = new BasicTerritory("duke", "wilson");
+    Territory t2 = new BasicTerritory("chapel", "wilson");
+    int add = 8;
+    while (add > 0) {
+      t1.addUnit(1);
+      t2.addUnit(1);
+      add--;
+    }
+    //BasicOrderList bol = new BasicOrderList(order1);
+    MoveOrder order1 = new MoveOrder(p, t1, t2, 3);
+    BasicOrderList bol = new BasicOrderList(order1); 
+    MoveOrder order2 = new MoveOrder(p, t1, t2, 3);
+    assertTrue(bol.addOrder(order2));
+    assertNotNull(bol.getOrders());
+  }
+
+
+}
